@@ -62,7 +62,7 @@ export function AuriPage() {
               />
             </motion.div>
             <motion.h1
-              className="mb-8 text-4xl font-bold tracking-tight sm:text-6xl bg-gradient-to-r from-auri-teal via-auri-lavender to-auri-softPink bg-clip-text text-transparent"
+              className="mb-8 text-4xl font-bold tracking-wider sm:text-6xl bg-gradient-to-r from-auri-teal via-auri-lavender to-auri-softPink bg-clip-text text-transparent"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
             >
@@ -89,9 +89,9 @@ export function AuriPage() {
                 {t('auri.hero.cta_primary')}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              <Button size="lg" variant="outline" className="w-full sm:w-auto">
+              {/* <Button size="lg" variant="outline" className="w-full sm:w-auto">
                 {t('auri.hero.cta_secondary')}
-              </Button>
+              </Button> */}
             </motion.div>
           </div>
         </div>

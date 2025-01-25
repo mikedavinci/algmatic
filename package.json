@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Auri.ai/",
+  "homepage": "https://AlgoMaticTrader.com/",
   "scripts": {
     "dev": "vite",
     "build": "vite build && cp dist/index.html dist/200.html",

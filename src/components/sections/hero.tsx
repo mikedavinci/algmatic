@@ -14,7 +14,11 @@ export function Hero() {
       id="hero"
       className="relative overflow-hidden bg-background/50 pt-24 pb-20 min-h-[80vh] flex items-center"
     >
-      <div className="container relative z-10">
+      <div className="absolute inset-0 z-0">
+        <CandlestickBackground />
+      </div>
+      <div className="absolute inset-0 z-10 bg-gradient-to-b from-background via-background/20 to-background" />
+      <div className="container relative z-20">
         <div className="mx-auto max-w-3xl text-center">
           <div className="flex items-center justify-center mb-12">
             <motion.img
@@ -44,10 +48,6 @@ export function Hero() {
           </div>
         </div>
       </div>
-      <div className="absolute inset-0 z-10">
-        <CandlestickBackground />
-      </div>
-      <div className="absolute inset-0 z-0 bg-gradient-to-b from-background via-background/20 to-background" />
     </section>
   );
 }

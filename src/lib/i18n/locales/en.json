@@ -87,7 +87,7 @@
     ]
   },
   "footer": {
-    "copyright": "© 2023 Auri.ai. All rights reserved.",
+    "copyright": "© 2023 AlgoMaticTrader.com. All rights reserved.",
     "sections": {
       "about": {
         "title": "About Us",
@@ -95,19 +95,19 @@
         "links": [
           {
             "title": "About Us",
-            "url": "https://Auri.ai/about"
+            "url": "https://AlgoMaticTrader.com/about"
           },
           {
             "title": "Careers",
-            "url": "https://Auri.ai/careers"
+            "url": "https://AlgoMaticTrader.com/careers"
           },
           {
             "title": "Blog",
-            "url": "https://Auri.ai/blog"
+            "url": "https://AlgoMaticTrader.com/blog"
           },
           {
             "title": "Contact Us",
-            "url": "https://Auri.ai/contact-us"
+            "url": "https://AlgoMaticTrader.com/contact-us"
           }
         ]
       },
@@ -117,16 +117,16 @@
         "links": [
           {
             "title": "Download",
-            "url": "https://Auri.ai/download"
+            "url": "https://AlgoMaticTrader.com/download"
           },
 
           {
             "title": "Help Center",
-            "url": "https://Auri.ai/help-center"
+            "url": "https://AlgoMaticTrader.com/help-center"
           },
           {
             "title": "Affiliate Partners",
-            "url": "https://Auri.ai/faq"
+            "url": "https://AlgoMaticTrader.com/faq"
           }
         ]
       },
@@ -135,16 +135,16 @@
         "links": [
           {
             "title": "Facebook",
-            "url": "https://Auri.ai/download"
+            "url": "https://AlgoMaticTrader.com/download"
           },
 
           {
             "title": "YouTube",
-            "url": "https://Auri.ai/help-center"
+            "url": "https://AlgoMaticTrader.com/help-center"
           },
           {
             "title": "Instagram",
-            "url": "https://Auri.ai/faq"
+            "url": "https://AlgoMaticTrader.com/faq"
           }
         ]
       },
@@ -168,7 +168,7 @@
         "links": [
           {
             "title": "Contact Us",
-            "url": "https://Auri.ai/support"
+            "url": "https://AlgoMaticTrader.com/support"
           }
         ]
       },
@@ -178,15 +178,15 @@
         "links": [
           {
             "title": "Privacy Policy",
-            "url": "https://Auri.ai/privacy-policy"
+            "url": "https://AlgoMaticTrader.com/privacy-policy"
           },
           {
             "title": "Terms of Service",
-            "url": "https://Auri.ai/terms-of-service"
+            "url": "https://AlgoMaticTrader.com/terms-of-service"
           },
           {
             "title": "Disclaimer",
-            "url": "https://Auri.ai/disclaimer"
+            "url": "https://AlgoMaticTrader.com/disclaimer"
           }
         ]
       }
@@ -256,7 +256,7 @@
   ],
   "ReadyToGetStarted": {
     "Title": "Ready to Elevate Your Trading Journey?",
-    "Description": "Join Auri.ai today and unlock the tools, insights, and community you need to succeed. Start your path to smarter trading now!",
+    "Description": "Join AlgoMaticTrader.com today and unlock the tools, insights, and community you need to succeed. Start your path to smarter trading now!",
     "Button": "Get Started Now"
   },
   "howItWorks": {
@@ -353,8 +353,8 @@
     "DataPrivacyOfficer": {
       "title": "Data Privacy Officer and Security Policy",
       "content": "For questions about Auri's processing of your Personal Information or this Policy, please contact our Data Privacy Officer as follows:",
-      "name": "support@Auri.ai",
-      "email": "support@Auri.ai",
+      "name": "support@AlgoMaticTrader.com",
+      "email": "support@AlgoMaticTrader.com",
       "address": ""
     },
     "PersonalInformation": {
@@ -420,8 +420,8 @@
     "QuestionsConcerns": {
       "title": "Questions or Concerns",
       "content": "For questions or concerns, please contact our Data Privacy Officer as follows:",
-      "name": "support@Auri.ai",
-      "email": "support@Auri.ai",
+      "name": "support@AlgoMaticTrader.com",
+      "email": "support@AlgoMaticTrader.com",
       "lastUpdated": "Last Updated: September 4th, 2024"
     }
   },
@@ -470,13 +470,13 @@
       "ctaButton": "Get Started Now"
     },
     "heroSection": {
-      "title": "Master Trading with Auri.ai",
+      "title": "Master Trading with Auri",
       "subtitle": "Your AI-powered partner for smarter trading decisions.",
       "description": "Join thousands of traders who rely on Auri for real-time signals, market insights, and risk management tools. Start your journey to consistent profits today.",
       "ctaButton": "Get Started Now"
     },
     "formSection": {
-      "title": "Get Started with Auri.ai",
+      "title": "Get Started with Auri",
       "description": "Fill out the form below to join our platform and unlock the tools you need for smarter, more confident trading.",
       "fields": {
         "name": {
@@ -548,7 +548,7 @@
     "success": {
       "title": "Thank you for contacting us!",
       "message": "We've received your support request and will get back to you within 24-48 hours.",
-      "urgentHelp": "If you need immediate assistance, please email us directly at support@Auri.ai"
+      "urgentHelp": "If you need immediate assistance, please email us directly at support@AlgoMaticTrader.com"
     },
     "toast": {
       "success": {

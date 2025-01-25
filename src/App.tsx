@@ -50,7 +50,7 @@ function HomePage() {
 function App() {
   const location = useLocation();
   const currentPath = location.pathname === '/' ? '' : location.pathname;
-  const currentUrl = `https://Auri.ai/#${currentPath}`;
+  const currentUrl = `https://AlgoMaticTrader.com/#${currentPath}`;
 
   return (
     <HelmetProvider>
