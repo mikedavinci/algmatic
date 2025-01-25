@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - AlgoMaticTrader</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 600px;
+            text-align: center;
+            padding: 2rem;
+        }
+        .error-code {
+            font-size: 5rem;
+            font-weight: bold;
+            color: #0ea5e9;
+            margin: 0;
+        }
+        .title {
+            font-size: 2rem;
+            margin: 1rem 0;
+        }
+        .message {
+            color: #94a3b8;
+            margin-bottom: 2rem;
+        }
+        .button {
+            display: inline-block;
+            background-color: #0ea5e9;
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.375rem;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+        .button:hover {
+            background-color: #0284c7;
+        }
+    </style>
+    <script>
+        // Function to convert a regular URL to a hash URL
+        function convertToHashUrl() {
+            const currentPath = window.location.pathname;
+            if (currentPath !== '/' && currentPath !== '/404.html') {
+                const hashUrl = 'https://AlgoMaticTrader.ai/#' + currentPath;
+                const container = document.querySelector('.container');
+                const message = document.querySelector('.message');
+                message.innerHTML = `It looks like you're trying to access: <br><strong>${window.location.href}</strong><br><br>This page should be accessed using a hash (#) in the URL.<br>You will be redirected to the correct URL in 5 seconds.`;
+                
+                // Redirect after 5 seconds
+                setTimeout(() => {
+                    window.location.href = hashUrl;
+                }, 5000);
+            }
+        }
+        
+        // Run when the page loads
+        window.onload = convertToHashUrl;
+    </script>
+</head>
+<body>
+    <div class="container">
+        <p class="error-code">404</p>
+        <h1 class="title">Page Not Found</h1>
+        <p class="message">Sorry, we couldn't find the page you're looking for.</p>
+        <a href="https://AlgoMaticTrader.ai" class="button">Go to Home Page</a>
+    </div>
+</body>
+</html>

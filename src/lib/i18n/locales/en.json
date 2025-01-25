@@ -1,0 +1,610 @@
+{
+  "pageTitle": "Trade Smarter, Not Harder – Experience Automated Trading",
+  "pageSubtitle": "Advanced trading automation, risk management, and 24/7 reliability—all delivered seamlessly with AlgoMaticTrader.",
+  "behindTheScenesTitle": "Behind the Scenes: How AlgoMaticTrader Works",
+  "behindTheScenesDescription": "AlgoMaticTrader provides a fully automated trading experience. Every component is designed to handle complex trading tasks effortlessly, delivering consistent results while you focus on other priorities.",
+  "orchestrator": {
+    "title": "The Orchestrator",
+    "whatItDoesTitle": "What AlgoMaticTrader Provides",
+    "whatItDoesDescription": "The Orchestrator serves as the central hub, taking care of everything from the initial setup to real-time monitoring and secure shutdowns. It ensures the system operates flawlessly around the clock.",
+    "benefitsTitle": "Why It Matters",
+    "benefit1": "Effortless Integration: AlgoMaticTrader ensures everything is set up and managed seamlessly from start to finish.",
+    "benefit2": "Real-Time Monitoring: A built-in 'heartbeat' constantly tracks market conditions to maintain system efficiency."
+  },
+  "signalGuru": {
+    "title": "SignalGuru",
+    "whatItDoesTitle": "How It Powers Your Trading",
+    "whatItDoesDescription": "SignalGuru is your intelligent signal processor. It captures trading signals, validates them, and converts them into actionable trades—all automatically.",
+    "benefitsTitle": "Why It Matters",
+    "benefit1": "Smart Signal Processing: AlgoMaticTrader ensures every trade signal is optimized for reliable outcomes.",
+    "benefit2": "Built-In Verification: Only high-quality signals that meet strict criteria are executed."
+  },
+  "tradeNavigator": {
+    "title": "TradeNavigator",
+    "whatItDoesTitle": "What AlgoMaticTrader Does for You",
+    "whatItDoesDescription": "TradeNavigator handles all trade executions, adjustments, and closures with precision. It takes the guesswork out of trading by automating these tasks.",
+    "benefitsTitle": "Why It Matters",
+    "benefit1": "Automated Execution: Trades are opened and closed automatically based on defined strategies.",
+    "benefit2": "Enhanced Risk Control: Built-in safeguards like trailing stops and emergency stops protect your investments."
+  },
+  "marketVision": {
+    "title": "MarketVision",
+    "whatItDoesTitle": "How AlgoMaticTrader Keeps You Informed",
+    "whatItDoesDescription": "MarketVision analyzes every trading symbol in real time, capturing bid/ask prices, spreads, and other key data to ensure accurate trading decisions.",
+    "benefitsTitle": "Why It Matters",
+    "benefit1": "Accurate Market Insights: AlgoMaticTrader ensures that pip values, tick sizes, and stop levels are calculated with precision.",
+    "benefit2": "Real-Time Data Access: Always stay informed with up-to-the-minute market snapshots."
+  },
+  "riskGuard": {
+    "title": "RiskGuard",
+    "whatItDoesTitle": "How AlgoMaticTrader Manages Risk",
+    "whatItDoesDescription": "RiskGuard calculates and enforces optimal position sizes to ensure your trading stays within safe limits.",
+    "benefitsTitle": "Why It Matters",
+    "benefit1": "Dynamic Adjustments: AlgoMaticTrader tailors position sizes to match your risk preferences automatically.",
+    "benefit2": "Protection You Can Count On: Over-leveraging is prevented with real-time margin checks."
+  },
+  "sessionGuardian": {
+    "title": "SessionGuardian",
+    "whatItDoesTitle": "How AlgoMaticTrader Optimizes Trading Hours",
+    "whatItDoesDescription": "SessionGuardian automates trading activity based on market session timings, focusing on the most profitable windows.",
+    "benefitsTitle": "Why It Matters",
+    "benefit1": "Optimized Trading Windows: AlgoMaticTrader executes trades during the busiest and most liquid sessions.",
+    "benefit2": "Global Flexibility: Trade in multiple sessions like Asian, London, or New York, or all three."
+  },
+  "navbar": {
+    "brand": "AlgoMaticTrader",
+    "items": {
+      "home": "Home",
+      "features": "Features",
+      "faq": "FAQs",
+      "contact": "Contact"
+    },
+    "ctaButton": "Get Started"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "How do I get started?",
+        "answer": "To get started, simply fill out the registration form on our website and create an account with Vantage. This will allow you to access AlgoMaticTrader's exclusive trading signals and tools."
+      },
+      {
+        "question": "How do I set up an account with Vantage?",
+        "answer": "Setting up an account with Vantage is straightforward. Visit the Vantage website or mobile app, complete their registration process, and verify your account. Once approved, you'll be ready to integrate with AlgoMaticTrader."
+      },
+      {
+        "question": "I've set up an account with Vantage. What do I do next?",
+        "answer": "After setting up your account with Vantage, download the Vantage Social app. Search for 'AlgoMaticTrader' within the app and subscribe to our signals to start receiving expert trading insights and alerts."
+      },
+      {
+        "question": "How can I monitor the performance of trades?",
+        "answer": "Log into Vantage Social to see all trades taken by AlgoMaticTrader. Additionally, you can monitor performance directly by logging into your Vantage account, where your account balance reflects the results of all executed trades."
+      },
+      {
+        "question": "Does AlgoMaticTrader follow crypto and forex?",
+        "answer": "Yes, AlgoMaticTrader monitors crypto price action for Bitcoin, Ethereum, Litecoin, XRP, and more to come. It also tracks forex price action for major pairs like EUR/USD, GBP/USD, AUD/USD, USD/JPY, and others, with more being added regularly."
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 AlgoMaticTrader.ai. All rights reserved.",
+    "sections": {
+      "about": {
+        "title": "About Us",
+        "description": "We are a team of expert traders dedicated to helping you succeed in the world of finance.",
+        "links": [
+          {
+            "title": "About Us",
+            "url": "https://AlgoMaticTrader.ai/about"
+          },
+          {
+            "title": "Careers",
+            "url": "https://AlgoMaticTrader.ai/careers"
+          },
+          {
+            "title": "Blog",
+            "url": "https://AlgoMaticTrader.ai/blog"
+          },
+          {
+            "title": "Contact Us",
+            "url": "https://AlgoMaticTrader.ai/contact-us"
+          }
+        ]
+      },
+      "resources": {
+        "title": "Resources",
+        "description": "Dive into our comprehensive library of educational content, including articles, videos, and webinars.",
+        "links": [
+          {
+            "title": "Download",
+            "url": "https://AlgoMaticTrader.ai/download"
+          },
+
+          {
+            "title": "Help Center",
+            "url": "https://AlgoMaticTrader.ai/help-center"
+          },
+          {
+            "title": "Affiliate Partners",
+            "url": "https://AlgoMaticTrader.ai/faq"
+          }
+        ]
+      },
+      "followus": {
+        "title": "Follow us",
+        "links": [
+          {
+            "title": "Facebook",
+            "url": "https://AlgoMaticTrader.ai/download"
+          },
+
+          {
+            "title": "YouTube",
+            "url": "https://AlgoMaticTrader.ai/help-center"
+          },
+          {
+            "title": "Instagram",
+            "url": "https://AlgoMaticTrader.ai/faq"
+          }
+        ]
+      },
+      "trade": {
+        "title": "Brokers",
+        "description": "Get help with your account, subscription, or any other issues.",
+        "links": [
+          {
+            "title": "Vantage",
+            "url": "https://go.vantagefx.com/visit/?bta=53199&nci=5645"
+          },
+          {
+            "title": "Coinbase",
+            "url": "https://coinbase.com/join/U3F6ZTZ?src=referral-link"
+          }
+        ]
+      },
+      "support": {
+        "title": "Support",
+        "description": "Get help with your account, subscription, or any other issues.",
+        "links": [
+          {
+            "title": "Contact Us",
+            "url": "https://AlgoMaticTrader.ai/support"
+          }
+        ]
+      },
+      "legal": {
+        "title": "Legal",
+        "description": "Read our terms of service and privacy policy.",
+        "links": [
+          {
+            "title": "Privacy Policy",
+            "url": "https://AlgoMaticTrader.ai/privacy"
+          },
+          {
+            "title": "Terms of Service",
+            "url": "https://AlgoMaticTrader.ai/terms"
+          },
+          {
+            "title": "Disclaimer",
+            "url": "https://AlgoMaticTrader.ai/disclaimer"
+          }
+        ]
+      }
+    }
+  },
+  "AlgoMaticTraderDisclaimer": {
+    "title": "AlgoMaticTrader Disclaimer",
+    "subtitle": "We are not liable for any losses incurred by our customers or clients as a result of the use of our services.",
+    "paragraph1": "Trading is risky and many will lose money in connection with trading activities. All content on this site is not intended to, and should not be, construed as financial advice. Decisions to buy, sell, hold or trade in securities, commodities and other markets involve risk and are best made based on the advice of qualified financial professionals. Past performance does not guarantee future results.",
+    "paragraph2": "Hypothetical or Simulated performance results have certain limitations. Unlike an actual performance record, simulated results do not represent actual trading. Also, since the trades have not been executed, the results may have under-or-over compensated for the impact, if any, of certain market factors, including, but not limited to, lack of liquidity. Simulated trading programs in general are designed with the benefit of hindsight, and are based on historical information. No representation is being made that any account will or is likely to achieve profit or losses similar to those shown.",
+    "paragraph3": "Testimonials appearing on this website may not be representative of other clients or customers and is not a guarantee of future performance or success.",
+    "paragraph4": "As a provider of technical analysis tools for charting platforms, we do not have access to the personal trading accounts or brokerage statements of our customers. As a result, we have no reason to believe our customers perform better or worse than traders as a whole based on any content or tool we provide.",
+    "paragraph5": "Charts used on this site are by TradingView in which the majority of our tools are built on. TradingView is a registered trademark of TradingView, Inc. www.TradingView.com.",
+    "paragraph6": "TradingView has no affiliation with the owner, developer, or provider of the Services described herein.",
+    "paragraph7": "This does not represent our full Disclaimer. Please read our full disclaimer.",
+    "footer": " 2024 AlgoMaticTrader"
+  },
+  "Testimonials": [
+    {
+      "MainTitle": "Empowering My Trading Journey",
+      "Description": "AlgoMaticTrader has transformed how I trade. The platform's insights and AI-driven signals have significantly boosted my confidence.",
+      "Title": "Highly Recommend!",
+      "Name": "Gabriela Garza",
+      "Position": "San Diego, California, USA",
+      "Testimonial": "As a beginner, I found AlgoMaticTrader’s educational resources incredibly valuable. Now, I feel more equipped to make informed trading decisions."
+    },
+    {
+      "MainTitle": "A Game Changer for Traders",
+      "Description": "The platform's real-time alerts have helped me make profitable trades, and the risk management tools are top-notch.",
+      "Title": "Exceptional Features!",
+      "Name": "Mario Salazar",
+      "Position": "Houston, Texas, USA",
+      "Testimonial": "I’ve been trading for years, but AlgoMaticTrader’s AI-powered tools and community support have taken my strategies to the next level."
+    },
+    {
+      "MainTitle": "Excellent Platform for Crypto Enthusiasts",
+      "Description": "AlgoMaticTrader’s integration with major exchanges makes trading seamless and efficient. I can manage all my trades in one place.",
+      "Title": "Highly Efficient!",
+      "Name": "Andrea Martinez",
+      "Position": "Miami, Florida, USA",
+      "Testimonial": "I love how easy it is to use AlgoMaticTrader. The platform’s real-time alerts and analytics have improved my trading outcomes dramatically."
+    },
+    {
+      "MainTitle": "Made Trading Simple and Profitable",
+      "Description": "The AI-driven trading signals are incredibly accurate. I’ve seen consistent profits and gained confidence in my trading decisions.",
+      "Title": "Incredible Accuracy!",
+      "Name": "Luis Fernandez",
+      "Position": "New York, New York, USA",
+      "Testimonial": "I never thought trading could be this straightforward. AlgoMaticTrader’s real-time insights have turned my portfolio around."
+    },
+    {
+      "MainTitle": "Great Support and Resources",
+      "Description": "The customer support team is fantastic, and the educational materials are perfect for traders of all levels.",
+      "Title": "Excellent Guidance!",
+      "Name": "Carlos Mendes",
+      "Position": "Los Angeles, California, USA",
+      "Testimonial": "As someone new to trading, I felt overwhelmed. AlgoMaticTrader’s team and resources made the learning curve much easier."
+    },
+    {
+      "MainTitle": "One-Stop Solution for All Traders",
+      "Description": "AlgoMaticTrader offers everything I need, from real-time alerts to risk management tools. It’s truly a comprehensive platform.",
+      "Title": "All-in-One Platform!",
+      "Name": "David Gonzalez",
+      "Position": "Chicago, Illinois, USA",
+      "Testimonial": "I’ve tried multiple trading platforms, but none offer the complete package like AlgoMaticTrader. It’s been a game-changer for me."
+    }
+  ],
+  "ReadyToGetStarted": {
+    "Title": "Ready to Elevate Your Trading Journey?",
+    "Description": "Join AlgoMaticTrader.ai today and unlock the tools, insights, and community you need to succeed. Start your path to smarter trading now!",
+    "Button": "Get Started Now"
+  },
+  "howItWorks": {
+    "section1": {
+      "title": "Maximize Your Trading Potential with AI",
+      "description": "Get the latest insights and trading signals to help you make informed decisions in the crypto and forex markets."
+    },
+    "section2": {
+      "title": "Make Smarter Trading Decisions with AI Insights",
+      "description": "AlgoMaticTrader provides a comprehensive suite of tools to assist traders in making informed decisions. Get real-time, accurate market data and insights with our powerful technical analysis tools and discover new opportunities in the cryptocurrency or forex market."
+    },
+    "section3": {
+      "title": "Unlock the Power of AI for Trading",
+      "description": "Ready to maximize your trading opportunities? With AlgoMaticTrader's advanced technical analysis and AI-generated signals, you can take your crypto and Forex trading to the next level with confidence. Get reliable insight today and start seeing the results you want."
+    },
+    "section4": {
+      "title": "Stay Informed with Market Alerts",
+      "description": "Keep an eye on the market and never miss an opportunity. Get alerted of large buys/sells and track history of whale activities for 1000+ Future & Spot markets with AlgoMaticTrader. Stay informed, stay ahead."
+    },
+    "section5": {
+      "title": "Be the First to Know When the Market Moves",
+      "description": "Stay one step ahead with real-time alerts on market pumps & dumps and unusual volume activities. Take advantage of every opportunity with AlgoMaticTrader on iOS and Android."
+    },
+    "section6": {
+      "title": "Unlock Your Full Crypto Trading Potential",
+      "description": "Enhance your trading experience and maximize returns with AlgoMaticTrader's comprehensive suite of AI-powered tools and insights."
+    }
+  },
+  "CoreFeatures": {
+    "Title": "Core Features",
+    "Subtitle": "Explore the powerful tools and insights AlgoMaticTrader offers to elevate your trading experience.",
+    "Features": [
+      {
+        "Title": "AI-Powered Trading Signals",
+        "Description": "Leverage advanced AI algorithms to receive accurate buy and sell signals for crypto and forex markets."
+      },
+      {
+        "Title": "Comprehensive Market Analysis",
+        "Description": "Access real-time data and in-depth analysis with advanced charting tools to make informed trading decisions."
+      },
+      {
+        "Title": "Personalized Risk Management",
+        "Description": "Set custom risk parameters and stop-loss levels to safeguard your investments and optimize returns."
+      },
+      {
+        "Title": "Educational Resources",
+        "Description": "Enhance your trading knowledge with a wealth of resources, including articles, videos, and webinars."
+      },
+      {
+        "Title": "Real-Time Alerts",
+        "Description": "Stay ahead of market movements with instant notifications for significant events, price changes, and volume spikes."
+      },
+      {
+        "Title": "Seamless Exchange Integration",
+        "Description": "Connect your favorite exchanges to execute trades directly from the platform, ensuring a smooth trading experience."
+      }
+    ]
+  },
+  "Disclaimer": {
+    "title": "Disclaimer",
+    "content": "Our site is for educational use only and should not be considered financial advice. Trading and Investing Activities are Inherently Risky, and Users of Our Material Should Be Prepared to Incur Losses in Connection with such Activities."
+  },
+  "RiskDisclaimer": {
+    "title": "Risk Disclaimer",
+    "content1": "Trading and investing are risky. Many will lose money in connection with trading and investing activities.All content on this site is not intended to, and should not be, construed as financial advice. Decisions to buy, sell, hold or trade in securities, commodities and other investments involve risk and are best made based on the advice of qualified financial professionals. Past performance does not guarantee future results.The risk of loss in trading and investing can be substantial. You should therefore carefully consider whether such trading and investing activities are suitable for you in light of your financial condition."
+  },
+  "HypotheticalDisclaimer": {
+    "title": "Hypothetical and Simulated Performance Disclaimer",
+    "content": "Hypothetical or Simulated performance results have certain limitations. Unlike an actual performance record, simulated results do not represent actual trading. Also, since the trades have not been executed, the results may have under-or-over compensated for the impact, if any, of certain market factors, including, but not limited to, lack of liquidity. Simulated trading programs in general are designed with the benefit of hindsight, and are based on historical information. No representation is being made that any account will or is likely to achieve profit or losses similar to those shown."
+  },
+  "TestimonialsDisclaimer": {
+    "title": "Testimonials Disclaimer",
+    "content": "Testimonials appearing on this website may not be representative of other clients or customers and are not a guarantee of future performance or success. Any trading results depicted in testimonials are not verified and we have no basis for believing that individual experiences depicted are typical considering that results will vary given many factors such as skill, risk management, experience, and the fact that trading and investing are very high-risk activities where it is likely you will lose money. As a provider of technical analysis tools for charting platforms, we do not have access to the personal trading accounts or brokerage statements of our customers. As a result, we have no reason to believe our customers perform better or worse than traders as a whole based on any content or tool we provide."
+  },
+  "InvestmentDisclaimer": {
+    "title": "AlgoMaticTrader Is Not An Investment Adviser",
+    "content": "AlgoMaticTrader is not registered as an investment adviser with the U.S. Securities and Exchange Commission. Rather, AlgoMaticTrader relies upon the “publisher’s exclusion” from the definition of “investment adviser” as provided under Section 202(a)(11)(D) of the Investment Advisers Act of 1940 (the “Advisers Act”) and corresponding state laws. As such, AlgoMaticTrader does not offer or provide personalized investment advice and nothing in these materials should be construed as investment advice within the meaning of the Advisers Act."
+  },
+  "EducationalDisclaimer": {
+    "title": "Informational and Educational Purposes Only",
+    "content1": "To the extent any of the content, material, information and/or any other kind of informational offering published, broadcast, or otherwise stated on this, and/or associated websites, may be deemed to be “investment advice”, such information is impersonal and not tailored to the investment needs of any specific person. The information contained within this, and/or, associated websites, is provided for informational and educational purposes only. The information should not be construed as investment or trading advice and is not meant to be a solicitation or recommendation to buy, sell, or hold any positions in any indices or financial markets mentioned. The content and information provided by AlgoMaticTrader, the website and the products and services of AlgoMaticTrader, is solely incidental to the business and activities of AlgoMaticTrader in providing educational tools for technical analysis. AlgoMaticTrader does not, and will not, provide you with any legal, tax, estate planning or accounting advice, or any advice regarding the suitability, profitability or appropriateness for you of any security, investment, financial product, investment strategy or other matter. The data, content and information within the tools & scanners should not be construed as investment or trading advice and is not meant to be a solicitation or recommendation to buy, sell, or hold any positions in any securities or to engage in any other transaction."
+  },
+  "TradingViewDisclosure": {
+    "title": "TradingView Disclosure",
+    "content": "Charts used on this site are by TradingView in which our tools are built on. TradingView is a registered trademark of TradingView, Inc. www.TradingView.com. TradingView has no affiliation with the owner, developer, or provider of the Services described herein."
+  },
+  "PrivacyNotice": {
+    "title": "Privacy Policy",
+    "content": "AlgoMaticTrader respects the privacy of information that identifies you or is identifiable to you (Personal Information). We want you to understand how AlgoMaticTrader processes Personal Information, and how you can submit privacy rights requests to us concerning your Personal Information, in compliance with the various laws in the United States, Canada, European Union, and other countries that govern AlgoMaticTrader's processing of Personal Information (Data Privacy Laws). Our processing of Personal Information is governed by those Data Privacy Laws as well as this Privacy Policy (Policy).",
+    "Children": {
+      "title": "Minors Information",
+      "content": "We do not intend to, and do not knowingly, process Personal Information about individuals who are minors in the jurisdictions where they reside (Children). Individuals who are Children should not provide any Personal Information to us, and individuals should not provide Personal Information to us about Children. If we discover or are informed that we have Personal Information about Children, we reserve the right to delete that Personal Information from our systems."
+    },
+    "DataPrivacyOfficer": {
+      "title": "Data Privacy Officer and Security Policy",
+      "content": "For questions about AlgoMaticTrader's processing of your Personal Information or this Policy, please contact our Data Privacy Officer as follows:",
+      "name": "support@AlgoMaticTrader.ai",
+      "email": "support@AlgoMaticTrader.ai",
+      "address": ""
+    },
+    "PersonalInformation": {
+      "title": "Personal Information",
+      "content": "AlgoMaticTrader provides technical indicators (free & premium) that can be plugged into financial investment applications such as TradingView, Discord and others (Products) to anyone who creates an account with us (Clients). In the course of providing the Products, AlgoMaticTrader receives from Clients, itself collects, and processes Personal Information, which may include the following: (1) identifiers, such as first and last name; email address; billing address; and phone number; and (2) financial information, such as your credit or debit card information, provided however that AlgoMaticTrader does not store or has access to any such payment and credit information and uses a third-party payment processor to process all such payments."
+    },
+    "SensitiveInformationProcessed": {
+      "title": "Sensitive Information Processed",
+      "content": "AlgoMaticTrader does not intend to, and does not knowingly process Personal Information that is of a sensitive nature (Sensitive Personal Information). If we discover or are informed that we have Sensitive Personal Information, we reserve the right to delete that Sensitive Personal Information from our systems."
+    },
+    "LegalBases": {
+      "title": "Legal Bases for Processing Personal Information",
+      "content": "AlgoMaticTrader processes Personal Information to perform our contractual and other commercial, business, and legal relationships with and obligations to provide Products to Clients. As a result, Clients provide Personal Information to AlgoMaticTrader and AlgoMaticTrader collects and processes Personal Information in order to provide Products to Clients. In addition, AlgoMaticTrader seeks and obtains consent for the use and processing of Personal Information when required by Data Privacy Laws. Those are the legal bases for AlgoMaticTrader to process Personal Information."
+    },
+    "ProcessingPurposes": {
+      "title": "Processing Purposes",
+      "content": "AlgoMaticTrader may process Personal Information to: (1) provide, develop, maintain, and enhance the Products, and the Site; (2) fulfill your requests when you subscribe for the Products; (3) communicate with Clients about the Products; (4) provide support for the Products including responding to requests, questions and feedback; (5) process and complete transactions, and send related information, including purchase confirmations and invoices; (6) personalize your experience with the Site; (7) send you marketing and promotional communications that we believe may be of interest, such as information about our Products, features, offers, catalogues, promotions, and events; (8) maintain the safety, security, and integrity of our Products, and the Site; (9) comply with legal and regulatory obligations, and (10) establish, enforce, and otherwise exercise our rights and defend against claims."
+    },
+    "DisclosurePurposes": {
+      "title": "Disclosure of Personal Information",
+      "content": "Except as necessary or appropriate to provide Products to Clients, AlgoMaticTrader does not disclose Personal Information about you to other Client’s or unaffiliated third parties, provided that we may disclose Personal Information for the following purposes and in the following circumstances."
+    },
+    "DisclosureCircumstances": {
+      "title": "Disclosure Circumstances",
+      "content": "- If directed to do so by the individual about whom such Personal Information pertains or that individual’s legal representative.\n- If required to do so by Data Privacy Law, any other law, rule, or regulation, legal process or warrant, or order of any court or governmental agency or authority.\n- To third parties necessary or appropriate to provide the Products, such as information technology and security providers, data hosting services, providers that process payments, or any other third party that is necessary or appropriate for AlgoMaticTrader to disclose Personal Information to in order to provide the Products.\n- To professional service providers, including attorneys, accountants, tax professionals, and financial advisers, if doing so is necessary or appropriate to obtain professional services from them.\n- In connection with a sale, merger, consolidation, change in control, transfer of substantial assets, reorganization, or liquidation of AlgoMaticTrader.\n- To entities that perform marketing, advertising or market research on our behalf."
+    },
+    "PrivacyRights": {
+      "title": "Privacy Rights",
+      "content": "Depending on the Personal Information that AlgoMaticTrader has about you, and depending on the manner in which we process your Personal Information, you may have the following privacy rights related to our processing of your Personal Information."
+    },
+    "PrivacyRightsList": {
+      "title": "Privacy Rights List",
+      "content": "- Be informed about how your Personal Information is being processed, the categories of Personal Information being processed, and the categories of sources from which your Personal Information has been collected.\n- Be informed about whether and how your Personal Information being processed is being sold, shared, traded, exchanged or brokered with unaffiliated third parties, and which categories of your Personal Information are being sold, shared, traded, exchanged or brokered with unaffiliated third parties.\n- Access or receive a copy of your Personal Information.\n- Rectify, update or correct inaccurate or incomplete Personal Information about you.\n- Erasure or deletion of certain categories of your Personal Information.\n- Object and opt-out of processing of your Personal Information.\n- Limit processing of your Personal Information.\n- Opt-out of the sale, sharing, trading, exchange, and brokering of your Personal Information with unaffiliated third parties.\n- Portability of your Personal Information in a commonly used format.\n- Withdrawal of your consent to processing of your Personal Information to the extent such processing is based on your consent, provided that such withdrawal will not affect the lawfulness of AlgoMaticTrader's use of your Personal Information before such withdrawal.\n- Non-discrimination for exercising your privacy rights."
+    },
+    "RequestSubmission": {
+      "title": "Request Submission",
+      "content": "To make a request concerning these rights, please complete and submit the Privacy Rights Request Form on this Site. We will confirm receipt of all such complete Privacy Rights Request Forms within 10 days of receipt. We will substantively respond to all such requests within 30 days, subject to any lawful extension of that period. Additionally, there may be a delay in processing a request while we verify that the request is valid and originates from you as opposed to an unauthorized person."
+    },
+    "RequestLimitations": {
+      "title": "Request Limitations",
+      "content": "Please be aware there may be valid reasons to refuse a request, including legal and regulatory requirements that we retain and process certain information. Also, please be aware that certain requests may limit or prevent us from providing Products to you. In those situations, we will notify you in writing within 30 days. You may also contact our Data Privacy Officer for help with those situations."
+    },
+    "NonDiscrimination": {
+      "title": "Non-Discrimination",
+      "content": "AlgoMaticTrader will not discriminate against you if you exercise any of the foregoing rights or any other rights under Data Privacy Laws, including, by not denying Products to you, not providing a different level or quality of Products to you, and not suggesting that you will receive a different level or quality of Products."
+    },
+    "AutomatedDecisionMaking": {
+      "title": "Automated Decision Making",
+      "content": "AlgoMaticTrader does not use automated decision making or profiling in the processing of your Personal Information, and does not make decisions that affect you based on automated decision making or profiling using your Personal Information."
+    },
+    "RetentionDuration": {
+      "title": "Duration of Retention",
+      "content": "Because the Products that AlgoMaticTrader provides to Client’s vary significantly, the duration we retain Personal Information varies significantly, depending on the types of Products that AlgoMaticTrader provides to particular Client’s, the duration and depth of AlgoMaticTrader's relationship with particular Client, and the nature of Personal Information in question. AlgoMaticTrader endeavors to retain Personal Information that it receives from or collects for only as long as is necessary or appropriate."
+    },
+    "Cookies": {
+      "title": "Cookies",
+      "content": "When you visit the Site, AlgoMaticTrader may place a cookie (a text file containing a randomly assigned number) on your device so that we have the ability to customize the look and feel of the Site for you. Cookies remember information about you, your preferences, and your device for a better user experience when visiting the Site. Using cookies, we may also collect a variety of other information regarding your usage of the Site, including your Internet protocol address, username, session identification, browser you are using, web pages you view and referring web pages, when you access the Site, and general online behavior for performance and marketing purposes. You may decline to accept cookies by modifying your web browser settings. If you choose so, however, you may be unable to use all functions of the Site, or the Site may operate less efficiently."
+    },
+    "ChangesToPolicy": {
+      "title": "Changes to Policy",
+      "content": "AlgoMaticTrader reserves the right to change or amend this Policy at any time and for any reasons, including to remain in compliance with Data Privacy Laws."
+    },
+    "QuestionsConcerns": {
+      "title": "Questions or Concerns",
+      "content": "For questions or concerns, please contact our Data Privacy Officer as follows:",
+      "name": "support@AlgoMaticTrader.ai",
+      "email": "support@AlgoMaticTrader.ai",
+      "lastUpdated": "Last Updated: September 4th, 2024"
+    }
+  },
+  "TermsOfServicePage": {
+    "title": "Terms of Service",
+    "overview": "This website is operated by AlgoMaticTrader. Throughout the site, the terms “we”, “us” and “our” refer to AlgoMaticTrader. AlgoMaticTrader offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.",
+    "acceptance": "By visiting our site and/or purchasing any tools, features, or products from the site, you engage in our “Service” and agree to be bound by the following terms and conditions (“Terms of Service”, “Terms”), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. These Terms of Service apply to all users of the site, including without limitation users who are browsers, vendors, customers, merchants, and/or contributors of content.",
+    "agreement": "Please read these Terms of Service carefully before accessing or using our website. By accessing or using any part of the site, you agree to be bound by these Terms of Service. If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any services. If these Terms of Service are considered an offer, acceptance is expressly limited to these Terms of Service.",
+    "modification": "Any new features or tools which are added to the current store shall also be subject to the Terms of Service. You can review the most current version of the Terms of Service at any time on this page. We reserve the right to update, change or replace any part of these Terms of Service by posting updates and changes to our website, in our sole discretion without notice. We will not be liable if for any reason all or any part of the Services are unavailable at any time or for any period. It is your responsibility to check this page periodically for changes. Your continued use of or access to the website following the posting of any changes constitutes acceptance of those changes.",
+    "section1_title": "SECTION 1 - ECOMMERCE TERMS",
+    "section1_content": "By agreeing to these Terms of Service, you represent that you are at least the age of majority in the jurisdiction where you reside, or that you are the age of majority in your state or province of residence, and you have given us your consent to allow any of your minor dependents to use this site. You are responsible for both: (1) Making all arrangements necessary for you to have access to the Services; (2) Ensuring that all persons who access the Services through your internet connection are aware of these Terms of Service and comply with them. To access the Services or some of the resources it offers, you may be asked to provide certain registration details or other information. It is a condition of your use of the Services that all such registration information you provide to us is correct, current, and complete. You agree that all information you provide to register with the Services or otherwise is governed by our Privacy Policy, and you consent to all actions we take with respect to your information consistent with our Privacy Policy. You agree to notify us immediately of any unauthorized access to or use of your username or password or any other breach of security. You should use particular caution when accessing your account from a public or shared computer so that others are not able to view or record your password or other personal information. You may not use our Services for any illegal or unauthorized purpose nor may you, in the use of the Service, violate any laws in your jurisdiction (including but not limited to copyright laws). You must not transmit any worms or viruses or any code of a destructive nature. A breach or violation of any of the Terms will result in an immediate termination of your Services.",
+    "section2_title": "SECTION 2 - GENERAL CONDITIONS",
+    "section2_content": "We reserve the right to refuse Service to anyone at any time in our sole discretion for any or no reason, including if, in our opinion, you have violated any provision of these Terms of Service. You understand that your content (not including credit card information), may be transferred unencrypted and involve (a) transmissions over various networks; and (b) changes to conform and adapt to technical requirements of connecting networks or devices. Credit card information is always encrypted during transfer over networks.",
+    "section3_title": "SECTION 3 - INTELLECTUAL PROPERTY RIGHTS",
+    "section3_content": "The Services and its entire contents, features, and functionality (including but not limited to all information, software, text, displays, images, video, and audio, and the design, selection, and arrangement thereof) are owned by AlgoMaticTrader, its licensors, or other providers of such material and are protected by United States and international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws. These Terms of Service permit you to use the Services for your personal use, or in your professional capacity. You must not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit any of the material on the Services, without our express written permission.",
+    "section4_title": "SECTION 4 - TRADEMARKS",
+    "section4_content": "The AlgoMaticTrader name, our logo, and all related names, logos, product and service names, designs, and slogans are trademarks of AlgoMaticTrader. You must not use such marks without the prior written permission from us. All other names, logos, product and service names, designs, and slogans on the Services are the trademarks of their respective owners.",
+    "section5_title": "SECTION 5 - DISCLAIMERS & DISCLOSURES",
+    "section5_content": "By using this site or any of the products, services, and information from this site, you have carefully read through and fully acknowledged the following disclaimers and disclosures below in this section. Risk Disclaimer: Trading is risky and most day traders lose money. All content is to be considered hypothetical, selected after the fact, in order to demonstrate our Services and should not be construed as financial advice. Decisions to buy, sell, hold or trade in securities, commodities and other investments involve risk and are best made based on the advice of qualified financial professionals. Past performance does not guarantee future results. The risk of loss in trading can be substantial. You should therefore carefully consider whether such trading is suitable for you in light of your financial condition.",
+    "section6_title": "SECTION 6 - REFUNDS",
+    "section6_content": "We allow refunds within a 30-day period on your first initial payment if you are not satisfied or do not understand our Services, which means you have 30 days after you sign up to any AlgoMaticTrader subscription plan to receive a refund on your first initial payment. To get a refund, you can contact us at our support email and we will assist you as soon as possible on the same day. Refunds generally take 3-5 business days to arrive in your bank account. We allow refunds specifically for yearly subscription auto-renewals within the first 72 hours of billing; however, we are not required to process a refund under any other circumstance after 30 days including the case you forgot about auto-renewal of your subscription. We send reminders prior to annual billing cycles, and it is your sole responsibility to manage your subscription prior to renewals by logging in or emailing us to support. We do not accept refunds if paying with crypto due to potential transaction fees and other complications.",
+    "section7_title": "SECTION 7 - ACCURACY, COMPLETENESS AND TIMELINESS OF INFORMATION",
+    "section7_content": "We are not responsible if information made available on this site is not accurate, complete, or current. The material on this site is provided for general information only and should not be relied upon or used as the sole basis for making decisions without consulting primary, more accurate, more complete, or more timely sources of information. Any reliance on the material on this site is at your own risk.",
+    "section8_title": "SECTION 8 - PRODUCT / SERVICE",
+    "section8_content": "Certain Services may be available exclusively online through the website. We do not warrant that the quality of any Services, information, or other material purchased or obtained by you will meet your expectations, or that any errors in the Service will be corrected. Imitations of our Services are not allowed, you agree that we have the right at any time to remove your access and ban you from our server if suspected of imitating in any form.",
+    "section9_title": "SECTION 9 - PROHIBITED USES",
+    "section9_content": "In addition to other prohibitions as set forth in the Terms of Service, you are prohibited from using the site or its content: (a) for any unlawful purpose; (b) to solicit others to perform or participate in any unlawful acts; (c) to violate any international, federal, provincial, or state regulations, rules, laws, or local ordinances; (d) to infringe upon or violate our intellectual property rights or the intellectual property rights of others; (e) to harass, abuse, insult, harm, defame, slander, disparage, intimidate, or discriminate based on gender, sexual orientation, religion, ethnicity, race, age, national origin, or disability; (f) to submit false or misleading information; (g) to upload or transmit viruses or any other type of malicious code that will or may be used in any way that will affect the functionality or operation of the Service or of any related website, other websites, or the Internet; (h) to collect or track the personal information of others; (i) to spam, phish, pharm, pretext, spider, crawl, or scrape; (j) for any obscene or immoral purpose; or (k) to interfere with or circumvent the security features of the Service or any related website, other websites, or the Internet.",
+    "section10_title": "SECTION 10 - DISCLAIMER OF WARRANTIES; LIMITATION OF LIABILITY",
+    "section10_content": "We do not guarantee, represent or warrant that your use of our Service will be uninterrupted, timely, secure, or error-free. You understand that we cannot and do not guarantee or warrant that files available for downloading from the internet or our site will be free of viruses or other destructive code. You are responsible for implementing sufficient procedures and checkpoints to satisfy your particular requirements for anti-virus protection and accuracy of data input and output, and for maintaining a means external to our site for any reconstruction of any lost data. We do not warrant that the results that may be obtained from the use of the Service will be accurate or reliable. You expressly agree that your use of, or inability to use, the Services is at your sole risk. The Services and all Services delivered to you through the Service are (except as expressly stated by us) provided \"as is\" and \"as available\" for your use, without any representation, warranties, or conditions of any kind, either express or implied, including all implied warranties or conditions of merchantability, merchantable quality, fitness for a particular purpose, durability, title, and non-infringement.",
+    "section11_title": "SECTION 11 - INDEMNIFICATION",
+    "section11_content": "You agree to indemnify, defend and hold harmless AlgoMaticTrader and our parent, subsidiaries, affiliates, partners, officers, directors, agents, contractors, licensors, service providers, subcontractors, suppliers, interns and employees, harmless from any claim or demand, including reasonable attorneys’ fees, made by any third-party due to or arising out of your breach of these Terms of Service or the documents they incorporate by reference, or your violation of any law or the rights of a third-party.",
+    "section12_title": "SECTION 12 - CHANGES TO TERMS OF SERVICE",
+    "section12_content": "We reserve the right, at our sole discretion, to update, change or replace any part of these Terms of Service by posting updates and changes to our website. It is your responsibility to check our website periodically for changes. Your continued use of or access to our website or the Service following the posting of any changes constitutes acceptance of those changes.",
+    "section13_title": "SECTION 13 - INFORMATION ABOUT YOU",
+    "section13_content": "All information we collect about you is subject to our Privacy Policy. By using the Services, you consent to all actions taken by us with respect to your information in compliance with the Privacy Policy.",
+    "section14_title": "SECTION 14 - GOVERNING LAW AND JURISDICTION",
+    "section14_content": "All matters relating to the Services and these Terms of Use, and any dispute or claim arising therefrom or related thereto (in each case, including non-contractual disputes or claims), shall be governed by and construed in accordance with the internal laws of the state of Delaware without giving effect to any choice or conflict of law provision or rule. Any legal suit, action, or proceeding arising out of, or related to these Terms of Service or the Services shall be instituted exclusively in the federal courts of the United States or the courts of Delaware, although we retain the right to bring any suit, action, or proceeding against you for breach of these Terms of Service in your country of residence or any other relevant country. You waive any and all objections to the exercise of jurisdiction over you by such courts and to venue in such courts.",
+    "section15_title": "SECTION 15 - CONTACT INFORMATION",
+    "section15_content": "Questions about the Terms of Service should be sent to us to support"
+  },
+  "main-form": {
+    "success": {
+      "title": "Success",
+      "message": "Your form has been submitted successfully.",
+      "ctaButton": "Get Started Now"
+    },
+    "heroSectionLvds": {
+      "title": "Trade World LVDS - Early Membership",
+      "subtitle": "Your AI-powered partner for smarter trading decisions.",
+      "description": "Join thousands of traders who rely on AlgoMaticTrader for real-time signals, market insights, and risk management tools. Start your journey to consistent profits today.",
+      "ctaButton": "Get Started Now"
+    },
+    "heroSection": {
+      "title": "Master Trading with AlgoMaticTrader.ai",
+      "subtitle": "Your AI-powered partner for smarter trading decisions.",
+      "description": "Join thousands of traders who rely on AlgoMaticTrader for real-time signals, market insights, and risk management tools. Start your journey to consistent profits today.",
+      "ctaButton": "Get Started Now"
+    },
+    "formSection": {
+      "title": "Get Started with AlgoMaticTrader.ai",
+      "description": "Fill out the form below to join our platform and unlock the tools you need for smarter, more confident trading.",
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Enter your full name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter your email address"
+        },
+        "number": {
+          "label": "Phone Number",
+          "placeholder": "Enter your phone number"
+        },
+        "questions": [
+          {
+            "question": "Are you currently struggling to find reliable trading signals or insights for crypto and forex markets?",
+            "options": [
+              "Yes, I have difficulty finding consistent and accurate signals.",
+              "I rely on free tools, but they don't always work for me.",
+              "I do okay, but I'm looking for better insights to improve my results.",
+              "No, I have a reliable system, but I'm open to exploring new tools."
+            ]
+          },
+          {
+            "question": "How much time do you spend analyzing markets, and would you benefit from a tool that simplifies your trading decisions?",
+            "options": [
+              "I spend hours daily analyzing charts and trends—it's exhausting.",
+              "I trade part-time and don't have enough time for in-depth market analysis.",
+              "I prefer tools that simplify things so I can make quick decisions.",
+              "I don't spend much time analyzing because I'm not confident in my methods."
+            ]
+          },
+          {
+            "question": "What's your biggest challenge in managing risk while trading, and how would expert tools help you improve your outcomes?",
+            "options": [
+              "I struggle to set effective stop-loss and take-profit levels.",
+              "I often overtrade or take on too much risk.",
+              "I don't have the tools to manage risk effectively.",
+              "I'm confident in my trading but open to exploring better risk management techniques."
+            ]
+          }
+        ],
+        "submitButton": "Submit"
+      }
+    }
+  },
+  "support": {
+    "title": "How Can We Help?",
+    "description": "Our support team is here to assist you. Please fill out the form below and we'll get back to you as soon as possible.",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter your full name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter your email address"
+      },
+      "issue": {
+        "label": "How can we help?",
+        "placeholder": "Please describe your issue or question in detail"
+      },
+      "submitButton": {
+        "default": "Submit Support Request",
+        "loading": "Submitting..."
+      }
+    },
+    "success": {
+      "title": "Thank you for contacting us!",
+      "message": "We've received your support request and will get back to you within 24-48 hours.",
+      "urgentHelp": "If you need immediate assistance, please email us directly at support@AlgoMaticTrader.ai"
+    },
+    "toast": {
+      "success": {
+        "title": "Success!",
+        "description": "Your support request has been submitted. We'll get back to you soon."
+      },
+      "error": {
+        "title": "Error",
+        "description": "There was a problem submitting your request. Please try again."
+      }
+    }
+  },
+  "error": {
+    "404": {
+      "title": "Page Not Found",
+      "message": "Sorry, we couldn't find the page you're looking for."
+    },
+    "500": {
+      "title": "Server Error",
+      "message": "Oops! Something went wrong on our end."
+    },
+    "403": {
+      "title": "Access Denied",
+      "message": "Sorry, you don't have permission to access this page."
+    },
+    "buttons": {
+      "home": "Go back home",
+      "back": "Go back"
+    }
+  },
+  "register": {
+    "form": {
+      "submit": "Submit",
+      "submitting": "Submitting..."
+    }
+  },
+  "supported": {
+    "success": {
+      "title": "Thank you for contacting us!",
+      "message": "We've received your support request and will get back to you within 24-48 hours.",
+      "urgentHelp": "If you need immediate assistance, please email us directly at support@AlgoMaticTrader.ai"
+    },
+    "toast": {
+      "success": {
+        "title": "Success!",
+        "description": "Your support request has been submitted. We'll get back to you soon."
+      },
+      "error": {
+        "title": "Error",
+        "description": "There was a problem submitting your request. Please try again."
+      }
+    }
+  }
+}
