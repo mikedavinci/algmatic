@@ -5,14 +5,8 @@ import { useNavigationStore } from '@/lib/store';
 import { AnimatedLogo } from '@/components/logo/animated-logo';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { MobileMenu } from './mobile-menu';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select';
 import { useNavigate } from 'react-router-dom';
+import { LanguageSelector } from '@/components/language-selector';
 
 export function Header() {
   const { toggle } = useNavigationStore();
@@ -92,19 +86,7 @@ export function Header() {
           <Button onClick={() => navigate('/register')}>
             {t('navbar.ctaButton')}
           </Button>
-          <Select value={i18n.language} onValueChange={changeLanguage}>
-            <SelectTrigger className="w-[80px] h-8 text-[11px]">
-              <SelectValue className="text-[11px]" />
-            </SelectTrigger>
-            <SelectContent className="min-w-[80px]">
-              <SelectItem value="en" className="text-[11px]">
-                Eng
-              </SelectItem>
-              <SelectItem value="es" className="text-[11px]">
-                Esp
-              </SelectItem>
-            </SelectContent>
-          </Select>
+          <LanguageSelector />
         </nav>
       </div>
       <MobileMenu />

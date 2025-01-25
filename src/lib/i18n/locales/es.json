@@ -544,5 +544,165 @@
         ]
       }
     }
+  },
+  "auriTwo": {
+    "hero": {
+      "title": "¡Hola! Soy Auri, tu Compañera de Trading Inteligente",
+      "subtitle": "Empodero a los traders con análisis de nivel institucional, análisis de precisión e inteligencia de mercado en tiempo real.",
+      "cta_primary": "Comencemos",
+      "cta_secondary": "Descubre Más"
+    },
+    "about": {
+      "title": "¿Por Qué Elegirme a Mí, Auri?",
+      "content": "Estoy aquí para ser tu asistente de próxima generación, específicamente diseñada para traders que exigen precisión y análisis innovadores. Ya sea que operes con criptomonedas, acciones o forex, te proporciono señales en tiempo real, tutoriales educativos y comentarios accionables para mantenerte a la vanguardia. Piensa en mí como tu socio de confianza para navegar los mercados."
+    },
+    "features": {
+      "title": "Lo Que Me Hace Especial",
+      "items": [
+        {
+          "title": "Señales de Mercado Avanzadas 📊",
+          "description": "Proporciono señales en tiempo real para mercados de criptomonedas, acciones y forex. Con mis análisis de múltiples marcos temporales, recomendaciones de stop-loss y take-profit, tendrás todo lo necesario para operar con confianza."
+        },
+        {
+          "title": "Tutoriales Educativos 📚",
+          "description": "¡Mejoremos tus habilidades de trading juntos! Ofrezco guías paso a paso sobre análisis técnico y fundamental para ayudarte a operar de manera más inteligente."
+        },
+        {
+          "title": "Comentarios sobre tus Operaciones 📝",
+          "description": "Revisaré tus operaciones y te daré consejos detallados y accionables para que sigas mejorando."
+        },
+        {
+          "title": "Análisis de Datos en Tiempo Real 📈",
+          "description": "Superviso métricas on-chain, movimientos de ballenas y sentimiento social para ayudarte a identificar tendencias antes de que se popularicen."
+        },
+        {
+          "title": "Gestión de Riesgos 🛡️",
+          "description": "La gestión del riesgo es clave. Te ayudaré a calcular tamaños de posición, establecer stop-loss y garantizar que tu margen se mantenga seguro."
+        }
+      ]
+    },
+    "how_it_works": {
+      "title": "Cómo Trabajo para Ti",
+      "steps": [
+        {
+          "title": "Analizar Tendencias del Mercado 🔍",
+          "description": "Escaneo miles de proyectos y mercados en tiempo real. Usando inteligencia artificial avanzada, te entrego análisis de alta convicción directamente."
+        },
+        {
+          "title": "Proporcionar Señales 💡",
+          "description": "Mis señales están diseñadas para ser accionables y claras, con parámetros de entrada, salida y riesgo definidos."
+        },
+        {
+          "title": "Educar y Guiar 🎓",
+          "description": "Te proporcionaré tutoriales personalizados y comentarios constructivos para perfeccionar tus habilidades y aumentar tu confianza."
+        },
+        {
+          "title": "Empoderar tu Trading 🚀",
+          "description": "Con mis análisis y herramientas, podrás optimizar tus estrategias, tomar decisiones basadas en datos y mantenerte a la delantera en el mercado."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo Que los Traders Dicen de Mí",
+      "quotes": [
+        {
+          "author": "John D.",
+          "content": "Auri ha transformado la forma en que opero. Las señales son precisas y los tutoriales me han ayudado a perfeccionar mi estrategia."
+        },
+        {
+          "author": "Samantha L.",
+          "content": "Los datos en tiempo real y los comentarios sobre operaciones son revolucionarios. Auri me hace sentir que tengo un coach personal de trading."
+        }
+      ]
+    },
+    "cta_section": {
+      "title": "¿Listo para Elevar tu Trading?",
+      "subtitle": "Únete a la creciente comunidad de traders que aprovechan mi poder para dominar los mercados.",
+      "cta_primary": "Regístrate Hoy",
+      "cta_secondary": "Explora Mis Funciones"
+    },
+    "faq": {
+      "title": "¿Tienes Preguntas? Yo Tengo Respuestas",
+      "items": [
+        {
+          "question": "¿Qué mercados soportas? 🌐",
+          "answer": "Proporciono análisis y señales para mercados de criptomonedas, acciones y forex."
+        },
+        {
+          "question": "¿Eres adecuada para principiantes? 👶",
+          "answer": "¡Absolutamente! Mis tutoriales y comentarios sobre operaciones me hacen perfecta para traders de todos los niveles de experiencia."
+        },
+        {
+          "question": "¿Qué tan precisas son tus señales? 🎯",
+          "answer": "Utilizo inteligencia artificial avanzada y datos en tiempo real para ofrecer señales de alta convicción. Aunque ningún sistema es perfecto, mis análisis están diseñados para darte una ventaja."
+        },
+        {
+          "question": "¿Qué te diferencia de otras herramientas de trading? 🛠️",
+          "answer": "A diferencia de las herramientas tradicionales, combino análisis de datos de nivel institucional, señales en tiempo real y educación personalizada en una plataforma integral."
+        }
+      ]
+    },
+    "knowledge_library": {
+      "title": "Biblioteca de Conocimientos de Auri",
+      "content": "Todo gran trader comienza con una base sólida de conocimientos, y estoy aquí para ser tu recurso de referencia. Con mi Biblioteca de Conocimientos, tendrás acceso a un tesoro de sabiduría sobre trading al alcance de tu mano."
+    },
+    "portfolio_analytics": {
+      "title": "Análisis de Rendimiento del Portafolio",
+      "content": "Con el Análisis de Rendimiento del Portafolio, tendrás una vista clara de tu progreso, para que puedas tomar decisiones basadas en datos y perfeccionar tus estrategias."
+    },
+    "monthly_recap": {
+      "title": "Resumen Mensual del Mercado de Auri",
+      "content": "Al final de cada mes, te entregaré un resumen completo para ayudarte a reflexionar, aprender y planificar. Piensa en esto como nuestra sesión de estrategia mensual para mantenerte preparado para lo que viene."
+    },
+    "footerTwo": {
+      "contact": "Contáctame: Ponte en Contacto",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "rights_reserved": "Todos los derechos reservados."
+    }
+  },
+  "auriTen": {
+    "title": "¿Por Qué Elegir Auri 2.0?",
+    "subtitle": "Desbloquea tu Potencial con Auri 2.0",
+    "dailyMarketBriefings": {
+      "title": "Comienza tu Día Conmigo",
+      "content": "Cada mañana, te enviaré un resumen personalizado del mercado directamente a ti. Desde movimientos del mercado durante la noche hasta eventos económicos próximos, me aseguraré de que comiences el día informado y listo para actuar."
+    },
+    "interactiveTradeSimulator": {
+      "title": "Practica Sin Riesgo",
+      "content": "Pon a prueba tus estrategias en un entorno de simulación de trading. Te proporcionaré comentarios sobre tus operaciones, ayudándote a perfeccionar tus técnicas sin arriesgar dinero real."
+    },
+    "askAuri": {
+      "title": "Tu Mentora Personal de Trading",
+      "content": "¿Tienes una pregunta sobre una operación, estrategia o condición de mercado? ¡Pregúntame! Estoy aquí 24/7 para guiarte con análisis instantáneos y consejos accionables."
+    },
+    "aurisTradingChallenges": {
+      "title": "Mejora tus Habilidades con Desafíos",
+      "content": "Enfréntate a desafíos de trading diseñados para tu nivel de experiencia. Completa misiones, gana insignias y sigue tu progreso como trader."
+    },
+    "insightsDashboard": {
+      "title": "Análisis en Tiempo Real de Auri",
+      "content": "Accede a un panel dinámico donde te presentaré métricas clave, análisis de sentimiento y oportunidades en tus mercados favoritos, todo personalizado a tus preferencias de trading."
+    },
+    "moodBasedTradingAssistant": {
+      "title": "Alineemos Estrategias con tu Estado de Ánimo",
+      "content": "¿Te sientes cauteloso? Nos centraremos en configuraciones de bajo riesgo. ¿Te sientes audaz? Te mostraré oportunidades de alto potencial. Juntos, alinearemos tu estrategia con tu mentalidad."
+    },
+    "marketSentimentScanner": {
+      "title": "Mantente Adelante de la Multitud",
+      "content": "Escaneo noticias, redes sociales y foros de trading para traerte las tendencias de sentimiento más actualizadas. Descubre lo que piensa el mercado antes que los demás."
+    },
+    "aurisKnowledgeLibrary": {
+      "title": "Tu Enciclopedia de Trading",
+      "content": "Sumérgete en mi extensa biblioteca de conceptos, estrategias y tutoriales de trading. Ya sea que estés aprendiendo sobre retrocesos de Fibonacci o indicadores económicos, te tengo cubierto."
+    },
+    "portfolioPerformanceAnalytics": {
+      "title": "Conoce tus Números",
+      "content": "Analicemos juntos tus operaciones. Te ayudaré a entender tu rendimiento, destacar tus fortalezas y señalar áreas de mejora con análisis detallados."
+    },
+    "aurisMonthlyMarketRecap": {
+      "title": "Reflexiona, Aprende y Planifica",
+      "content": "Al final de cada mes, prepararé un informe completo de las tendencias del mercado, tu rendimiento en trading y áreas a vigilar. Juntos, planificaremos tus próximos pasos."
+    }
   }
 }

@@ -55,85 +55,87 @@ function App() {
   return (
     <HelmetProvider>
       <ThemeProvider defaultTheme="dark">
-        <Helmet>
-          <title>Auri - Automated Trading Platform</title>
-          <meta
-            name="description"
-            content="Experience the future of trading with Auri. Advanced automation, risk management, and 24/7 reliability for consistent results."
-          />
+        <div className="min-h-screen flex flex-col font-sans">
+          <Helmet>
+            <title>Auri - Automated Trading Platform</title>
+            <meta
+              name="description"
+              content="Experience the future of trading with Auri. Advanced automation, risk management, and 24/7 reliability for consistent results."
+            />
 
-          {/* Open Graph meta tags */}
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content={currentUrl} />
-          <meta property="og:site_name" content="Auri" />
-          <meta
-            property="og:title"
-            content="Auri - Automated Trading Platform"
-          />
-          <meta
-            property="og:description"
-            content="Experience the future of trading with Auri. Advanced automation, risk management, and 24/7 reliability for consistent results."
-          />
-          <meta
-            property="og:image"
-            content="https://images.unsplash.com/photo-1642790106117-e829e14a795f?q=80&w=1200&h=630&fit=crop"
-          />
-          <meta property="og:image:width" content="1200" />
-          <meta property="og:image:height" content="630" />
-          <meta
-            property="og:image:alt"
-            content="Auri - AI-Powered Trading Platform"
-          />
+            {/* Open Graph meta tags */}
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content={currentUrl} />
+            <meta property="og:site_name" content="Auri" />
+            <meta
+              property="og:title"
+              content="Auri - Automated Trading Platform"
+            />
+            <meta
+              property="og:description"
+              content="Experience the future of trading with Auri. Advanced automation, risk management, and 24/7 reliability for consistent results."
+            />
+            <meta
+              property="og:image"
+              content="https://images.unsplash.com/photo-1642790106117-e829e14a795f?q=80&w=1200&h=630&fit=crop"
+            />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
+            <meta
+              property="og:image:alt"
+              content="Auri - AI-Powered Trading Platform"
+            />
 
-          {/* Twitter Card meta tags */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@Auri" />
-          <meta name="twitter:url" content={currentUrl} />
-          <meta
-            name="twitter:title"
-            content="Auri - Automated Trading Platform"
-          />
-          <meta
-            name="twitter:description"
-            content="Experience the future of trading with Auri. Advanced automation, risk management, and 24/7 reliability for consistent results."
-          />
-          <meta
-            name="twitter:image"
-            content="https://images.unsplash.com/photo-1642790106117-e829e14a795f?q=80&w=1200&h=630&fit=crop"
-          />
-          <meta
-            name="twitter:image:alt"
-            content="Auri - AI-Powered Trading Platform"
-          />
+            {/* Twitter Card meta tags */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:site" content="@Auri" />
+            <meta name="twitter:url" content={currentUrl} />
+            <meta
+              name="twitter:title"
+              content="Auri - Automated Trading Platform"
+            />
+            <meta
+              name="twitter:description"
+              content="Experience the future of trading with Auri. Advanced automation, risk management, and 24/7 reliability for consistent results."
+            />
+            <meta
+              name="twitter:image"
+              content="https://images.unsplash.com/photo-1642790106117-e829e14a795f?q=80&w=1200&h=630&fit=crop"
+            />
+            <meta
+              name="twitter:image:alt"
+              content="Auri - AI-Powered Trading Platform"
+            />
 
-          {/* WhatsApp specific */}
-          <meta
-            property="og:image:secure_url"
-            content="https://images.unsplash.com/photo-1642790106117-e829e14a795f?q=80&w=1200&h=630&fit=crop"
-          />
-        </Helmet>
-        <ScrollToTop />
-        <div className="relative flex min-h-screen flex-col bg-auri-gradient">
-          <Header />
-          <Routes>
-            <Route path="/" element={<AuriPage />} />
-            <Route path="/register" element={<RegisterPage />} />
-            <Route path="/partner-form" element={<PartnerFormPage />} />
-            <Route path="/support" element={<SupportPage />} />
-            <Route path="/privacy-policy" element={<PrivacyPage />} />
-            <Route path="/terms-of-service" element={<TermsPage />} />
-            <Route path="/disclaimer" element={<DisclaimerPage />} />
-            <Route path="/features" element={<HomePage />} />
+            {/* WhatsApp specific */}
+            <meta
+              property="og:image:secure_url"
+              content="https://images.unsplash.com/photo-1642790106117-e829e14a795f?q=80&w=1200&h=630&fit=crop"
+            />
+          </Helmet>
+          <ScrollToTop />
+          <div className="relative flex-1 bg-auri-gradient">
+            <Header />
+            <Routes>
+              <Route path="/" element={<AuriPage />} />
+              <Route path="/register" element={<RegisterPage />} />
+              <Route path="/partner-form" element={<PartnerFormPage />} />
+              <Route path="/support" element={<SupportPage />} />
+              <Route path="/privacy-policy" element={<PrivacyPage />} />
+              <Route path="/terms-of-service" element={<TermsPage />} />
+              <Route path="/disclaimer" element={<DisclaimerPage />} />
+              <Route path="/features" element={<HomePage />} />
 
-            {/* Error routes */}
-            <Route path="/400" element={<BadRequestPage />} />
-            <Route path="/404" element={<NotFoundPage />} />
-            <Route path="/500" element={<ServerErrorPage />} />
+              {/* Error routes */}
+              <Route path="/400" element={<BadRequestPage />} />
+              <Route path="/404" element={<NotFoundPage />} />
+              <Route path="/500" element={<ServerErrorPage />} />
 
-            {/* Catch all route for 404 */}
-            <Route path="*" element={<NotFoundPage />} />
-          </Routes>
-          <Footer />
+              {/* Catch all route for 404 */}
+              <Route path="*" element={<NotFoundPage />} />
+            </Routes>
+            <Footer />
+          </div>
         </div>
       </ThemeProvider>
     </HelmetProvider>

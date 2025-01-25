@@ -2,23 +2,13 @@ import { useNavigationStore } from "@/lib/store";
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from 'react-i18next';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select';
 import { useNavigate } from 'react-router-dom';
+import { LanguageSelector } from '@/components/language-selector';
 
 export function MobileMenu() {
   const { isOpen, toggle } = useNavigationStore();
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const navigate = useNavigate();
-
-  const changeLanguage = (value: string) => {
-    i18n.changeLanguage(value);
-  };
 
   const navItems = [
     { href: '/', label: 'Auri' },
@@ -61,15 +51,9 @@ export function MobileMenu() {
           ))}
           <div className="mb-4">
             <p className="text-sm font-medium mb-2">Language</p>
-            <Select value={i18n.language} onValueChange={changeLanguage}>
-              <SelectTrigger className="w-full">
-                <SelectValue />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="en">English</SelectItem>
-                <SelectItem value="es">Español</SelectItem>
-              </SelectContent>
-            </Select>
+            <div className="flex justify-center">
+              <LanguageSelector />
+            </div>
           </div>
           <Button
             className="w-full"

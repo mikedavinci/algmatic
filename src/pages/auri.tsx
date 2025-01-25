@@ -2,14 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import {
-  ArrowRight,
-  Brain,
-  BookOpen,
-  LineChart,
-  BarChart,
-  Shield,
-} from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { CandlestickBackground } from '@/components/animations/candlestick-background';
 
 const container = {
@@ -30,24 +23,42 @@ interface Step {
   description: string;
 }
 
+interface Feature {
+  title: string;
+  description: string;
+}
+
+interface Testimonial {
+  content: string;
+  author: string;
+}
+
+interface Faq {
+  question: string;
+  answer: string;
+}
+
 export function AuriPage() {
   const { t } = useTranslation();
 
-  const features = [
-    { icon: LineChart, key: 'Advanced Market Signals' },
-    { icon: BookOpen, key: 'Educational Tutorials' },
-    { icon: Brain, key: 'Trade Feedback' },
-    { icon: BarChart, key: 'Real-Time Data Analysis' },
-    { icon: Shield, key: 'Risk Management' },
-  ];
-
-  const steps = (t('auri.sections.how_it_works.steps', { returnObjects: true }) || []) as Step[];
+  const features = (t('auriTwo.features.items', { returnObjects: true }) ||
+    []) as Feature[];
+  const steps = (t('auriTwo.how_it_works.steps', { returnObjects: true }) ||
+    []) as Step[];
+  const testimonials = (t('auriTwo.testimonials.quotes', {
+    returnObjects: true,
+  }) || []) as Testimonial[];
+  const faqs = (t('auriTwo.faq.items', { returnObjects: true }) || []) as Faq[];
 
   return (
     <div className="min-h-screen bg-auri-gradient">
       {/* Hero Section */}
       <section className="relative overflow-hidden pt-24 pb-20 min-h-[80vh] flex items-center">
-        <div className="container relative z-10">
+        <div className="absolute inset-0 z-0">
+          <CandlestickBackground />
+        </div>
+        <div className="absolute inset-0 z-10 bg-gradient-to-b from-background via-background/20 to-background pointer-events-none" />
+        <div className="container relative z-20">
           <div className="mx-auto max-w-3xl text-center">
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
@@ -56,25 +67,25 @@ export function AuriPage() {
               className="flex justify-center mb-12"
             >
               <img
-                src="https://res.cloudinary.com/dtgmhmxlx/image/upload/v1737791264/algomatic/cropped-one_m9ifgz.png"
+                src="https://res.cloudinary.com/dtgmhmxlx/image/upload/v1737832292/algomatic/DALL_E_2025-01-25_01.19.26_-_Auri_is_a_cute_and_magnetic_humanoid_AI_character_with_an_approachable_and_modern_design._She_has_a_youthful_and_friendly_appearance_with_soft_glowin_avl6ch.webp"
                 alt="Auri Logo"
-                className="h-24 w-24 object-contain"
+                className="h-32 w-32 object-contain rounded-full"
               />
             </motion.div>
             <motion.h1
-              className="mb-8 text-4xl font-bold tracking-wider sm:text-6xl bg-gradient-to-r from-auri-teal via-auri-lavender to-auri-softPink bg-clip-text text-transparent"
+              className="mb-8 text-4xl font-bold tracking-wider sm:text-6xl bg-gradient-to-r from-auri-teal via-auri-lavender to-auri-softPink bg-clip-text text-transparent font-display"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
             >
-              {t('auri.hero.title')}
+              {t('auriTwo.hero.title')}
             </motion.h1>
             <motion.p
-              className="mb-12 text-lg text-muted-foreground sm:text-xl"
+              className="mb-12 text-lg text-muted-foreground sm:text-xl font-sans"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              {t('auri.hero.subtitle')}
+              {t('auriTwo.hero.subtitle')}
             </motion.p>
             <motion.div
               className="flex flex-col sm:flex-row items-center justify-center gap-4"
@@ -86,116 +97,198 @@ export function AuriPage() {
                 size="lg"
                 className="w-full sm:w-auto bg-auri-teal hover:bg-auri-teal/90"
               >
-                {t('auri.hero.cta_primary')}
+                {t('auriTwo.hero.cta_primary')}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              {/* <Button size="lg" variant="outline" className="w-full sm:w-auto">
-                {t('auri.hero.cta_secondary')}
-              </Button> */}
+              <Button size="lg" variant="outline" className="w-full sm:w-auto">
+                {t('auriTwo.hero.cta_secondary')}
+              </Button>
             </motion.div>
           </div>
-        </div>
-        <div className="absolute inset-0 z-0">
-          <CandlestickBackground />
         </div>
       </section>
 
       {/* About Section */}
-      <section className="py-20 bg-card/5">
+      <section className="py-20">
         <div className="container">
-          <motion.div
-            variants={container}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true }}
-            className="max-w-3xl mx-auto text-center"
-          >
-            <motion.h2 variants={item} className="text-3xl font-bold mb-6">
-              {t('auri.sections.about.title')}
-            </motion.h2>
-            <motion.p variants={item} className="text-lg text-muted-foreground">
-              {t('auri.sections.about.content')}
-            </motion.p>
-          </motion.div>
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-6">
+              {t('auriTwo.about.title')}
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              {t('auriTwo.about.content')}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Daily Market Briefings Section */}
+      <section className="py-20 bg-muted/50">
+        <div className="container">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-6">
+              {t('auriTen.dailyMarketBriefings.title')}
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              {t('auriTen.dailyMarketBriefings.content')}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Interactive Trade Simulator Section */}
+      <section className="py-20">
+        <div className="container">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-6">
+              {t('auriTen.interactiveTradeSimulator.title')}
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              {t('auriTen.interactiveTradeSimulator.content')}
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Features Section */}
-      <section className="py-20">
+      <section className="py-20 bg-muted/50">
         <div className="container">
+          <h2 className="text-3xl font-bold text-center mb-12 font-heading">
+            {t('auriTwo.features.title')}
+          </h2>
           <motion.div
             variants={container}
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
-            className="text-center mb-16"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           >
-            <motion.h2 variants={item} className="text-3xl font-bold mb-6">
-              {t('auri.sections.features.title')}
-            </motion.h2>
-          </motion.div>
-          <motion.div
-            variants={container}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true }}
-            className="grid gap-8 md:grid-cols-2 lg:grid-cols-3"
-          >
-            {features.map((feature, index) => {
-              const Icon = feature.icon;
-              return (
-                <motion.div variants={item} key={index}>
-                  <Card className="p-6 h-full bg-card/50 backdrop-blur-sm border-auri-teal/20 hover:border-auri-teal/40 transition-colors">
-                    <div className="mb-4 w-12 h-12 rounded-lg bg-auri-teal/10 flex items-center justify-center">
-                      <Icon className="h-6 w-6 text-auri-teal" />
-                    </div>
-                    <h3 className="text-xl font-bold mb-3">
-                      {t(`auri.sections.features.items.${index}.title`)}
-                    </h3>
-                    <p className="text-muted-foreground">
-                      {t(`auri.sections.features.items.${index}.description`)}
-                    </p>
-                  </Card>
-                </motion.div>
-              );
-            })}
+            {features.map((feature, index) => (
+              <motion.div key={index} variants={item}>
+                <Card className="p-6 h-full">
+                  <h3 className="text-xl font-semibold mb-4 font-heading">
+                    {feature.title}
+                  </h3>
+                  <p className="text-muted-foreground font-sans">
+                    {feature.description}
+                  </p>
+                </Card>
+              </motion.div>
+            ))}
           </motion.div>
         </div>
       </section>
 
       {/* How it Works Section */}
-      <section className="py-20 bg-card/5">
+      <section className="py-20">
         <div className="container">
+          <h2 className="text-3xl font-bold text-center mb-12 font-heading">
+            {t('auriTwo.how_it_works.title')}
+          </h2>
           <motion.div
             variants={container}
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
-            className="text-center mb-16"
+            className="grid grid-cols-1 md:grid-cols-2 gap-8"
           >
-            <motion.h2 variants={item} className="text-3xl font-bold mb-6">
-              {t('auri.sections.how_it_works.title')}
-            </motion.h2>
-          </motion.div>
-          <motion.div
-            variants={container}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true }}
-            className="grid gap-8 md:grid-cols-2 lg:grid-cols-4"
-          >
-            {steps.map((step: Step, index: number) => (
-              <motion.div variants={item} key={index} className="relative">
-                <Card className="p-6 h-full bg-card/50 backdrop-blur-sm border-auri-lavender/20 hover:border-auri-lavender/40 transition-colors">
-                  <div className="absolute -top-4 -left-4 w-8 h-8 rounded-full bg-auri-lavender text-background flex items-center justify-center font-bold">
-                    {index + 1}
-                  </div>
-                  <h3 className="text-xl font-bold mb-3 mt-2">{step.title}</h3>
-                  <p className="text-muted-foreground">{step.description}</p>
+            {steps.map((step, index) => (
+              <motion.div key={index} variants={item}>
+                <Card className="p-6 h-full">
+                  <h3 className="text-xl font-semibold mb-4 font-heading">
+                    {step.title}
+                  </h3>
+                  <p className="text-muted-foreground font-sans">
+                    {step.description}
+                  </p>
                 </Card>
               </motion.div>
             ))}
           </motion.div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-20 bg-muted/50">
+        <div className="container">
+          <h2 className="text-3xl font-bold text-center mb-12 font-heading">
+            {t('auriTwo.testimonials.title')}
+          </h2>
+          <motion.div
+            variants={container}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true }}
+            className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto"
+          >
+            {testimonials.map((testimonial, index) => (
+              <motion.div key={index} variants={item}>
+                <Card className="p-6 h-full">
+                  <p className="text-muted-foreground mb-4 font-sans">
+                    "{testimonial.content}"
+                  </p>
+                  <p className="font-semibold font-mono">
+                    - {testimonial.author}
+                  </p>
+                </Card>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20">
+        <div className="container">
+          <h2 className="text-3xl font-bold text-center mb-12 font-heading">
+            {t('auriTwo.faq.title')}
+          </h2>
+          <motion.div
+            variants={container}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true }}
+            className="max-w-3xl mx-auto space-y-6"
+          >
+            {faqs.map((faq, index) => (
+              <motion.div key={index} variants={item}>
+                <Card className="p-6">
+                  <h3 className="text-xl font-semibold mb-4 font-heading">
+                    {faq.question}
+                  </h3>
+                  <p className="text-muted-foreground font-sans">
+                    {faq.answer}
+                  </p>
+                </Card>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-20 bg-muted/50">
+        <div className="container">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-6">
+              {t('auriTwo.cta_section.title')}
+            </h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              {t('auriTwo.cta_section.subtitle')}
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Button
+                size="lg"
+                className="w-full sm:w-auto bg-auri-teal hover:bg-auri-teal/90"
+              >
+                {t('auriTwo.cta_section.cta_primary')}
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+              <Button size="lg" variant="outline" className="w-full sm:w-auto">
+                {t('auriTwo.cta_section.cta_secondary')}
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
     </div>

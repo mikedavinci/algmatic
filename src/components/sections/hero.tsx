@@ -22,9 +22,9 @@ export function Hero() {
         <div className="mx-auto max-w-3xl text-center">
           <div className="flex items-center justify-center mb-12">
             <motion.img
-              src="https://res.cloudinary.com/dtgmhmxlx/image/upload/v1737791264/algomatic/cropped-one_m9ifgz.png"
-              alt="Algomatic Logo"
-              className="h-24 w-24 object-contain"
+              src="https://res.cloudinary.com/dtgmhmxlx/image/upload/v1737832292/algomatic/DALL_E_2025-01-25_01.19.26_-_Auri_is_a_cute_and_magnetic_humanoid_AI_character_with_an_approachable_and_modern_design._She_has_a_youthful_and_friendly_appearance_with_soft_glowin_avl6ch.webp"
+              alt="Auri Logo"
+              className="h-32 w-32 object-contain rounded-full"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, ease: 'easeOut' }}
