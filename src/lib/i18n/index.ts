@@ -4,7 +4,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import en from './locales/en.json';
 import es from './locales/es.json';
 
-const savedLanguage = localStorage.getItem('i18nextLng') || 'es';
+const savedLanguage = localStorage.getItem('i18nextLng') || 'en';
 
 i18n
   .use(LanguageDetector)
@@ -13,20 +13,20 @@ i18n
     lng: savedLanguage,
     resources: {
       en: {
-        translation: en
+        translation: en,
       },
       es: {
-        translation: es
-      }
+        translation: es,
+      },
     },
-    fallbackLng: 'es',
+    fallbackLng: 'en',
     interpolation: {
-      escapeValue: false
+      escapeValue: false,
     },
     detection: {
       order: ['localStorage', 'navigator'],
-      caches: ['localStorage']
-    }
+      caches: ['localStorage'],
+    },
   });
 
 export default i18n;
