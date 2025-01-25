@@ -1,10 +1,10 @@
 export const siteConfig = {
-  name: 'AlgoMaticTrader',
+  name: 'Auri',
   description: 'Your path to trading mastery starts here.',
-  url: 'https://AlgoMaticTrader.com',
-  ogImage: 'https://AlgoMaticTrader.com/og.jpg',
+  url: 'https://Auri.com',
+  ogImage: 'https://Auri.com/og.jpg',
   links: {
-    twitter: 'https://twitter.com/AlgoMaticTrader',
-    github: 'https://github.com/AlgoMaticTrader',
+    twitter: 'https://twitter.com/Auri',
+    github: 'https://github.com/Auri',
   },
 };

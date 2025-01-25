@@ -68,7 +68,7 @@ export function PartnerFormPage() {
     setIsLoading(true);
     try {
       const response = await fetch(
-        'https://api.AlgoMaticTrader.ai/api/site-forms/submit-lvds-form',
+        'https://api.Auri.ai/api/site-forms/submit-lvds-form',
         {
           method: 'POST',
           headers: {

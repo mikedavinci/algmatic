@@ -21,6 +21,7 @@ import {
   ServerErrorPage,
 } from '@/components/error/error-pages';
 import { useEffect } from 'react';
+import { AuriPage } from './pages/auri';
 
 function HomePage() {
   const location = useLocation();
@@ -49,29 +50,29 @@ function HomePage() {
 function App() {
   const location = useLocation();
   const currentPath = location.pathname === '/' ? '' : location.pathname;
-  const currentUrl = `https://AlgoMaticTrader.ai/#${currentPath}`;
+  const currentUrl = `https://Auri.ai/#${currentPath}`;
 
   return (
     <HelmetProvider>
       <ThemeProvider defaultTheme="dark">
         <Helmet>
-          <title>AlgoMaticTrader - Automated Trading Platform</title>
+          <title>Auri - Automated Trading Platform</title>
           <meta
             name="description"
-            content="Experience the future of trading with AlgoMaticTrader. Advanced automation, risk management, and 24/7 reliability for consistent results."
+            content="Experience the future of trading with Auri. Advanced automation, risk management, and 24/7 reliability for consistent results."
           />
 
           {/* Open Graph meta tags */}
           <meta property="og:type" content="website" />
           <meta property="og:url" content={currentUrl} />
-          <meta property="og:site_name" content="AlgoMaticTrader" />
+          <meta property="og:site_name" content="Auri" />
           <meta
             property="og:title"
-            content="AlgoMaticTrader - Automated Trading Platform"
+            content="Auri - Automated Trading Platform"
           />
           <meta
             property="og:description"
-            content="Experience the future of trading with AlgoMaticTrader. Advanced automation, risk management, and 24/7 reliability for consistent results."
+            content="Experience the future of trading with Auri. Advanced automation, risk management, and 24/7 reliability for consistent results."
           />
           <meta
             property="og:image"
@@ -81,20 +82,20 @@ function App() {
           <meta property="og:image:height" content="630" />
           <meta
             property="og:image:alt"
-            content="AlgoMaticTrader - AI-Powered Trading Platform"
+            content="Auri - AI-Powered Trading Platform"
           />
 
           {/* Twitter Card meta tags */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@AlgoMaticTrader" />
+          <meta name="twitter:site" content="@Auri" />
           <meta name="twitter:url" content={currentUrl} />
           <meta
             name="twitter:title"
-            content="AlgoMaticTrader - Automated Trading Platform"
+            content="Auri - Automated Trading Platform"
           />
           <meta
             name="twitter:description"
-            content="Experience the future of trading with AlgoMaticTrader. Advanced automation, risk management, and 24/7 reliability for consistent results."
+            content="Experience the future of trading with Auri. Advanced automation, risk management, and 24/7 reliability for consistent results."
           />
           <meta
             name="twitter:image"
@@ -102,7 +103,7 @@ function App() {
           />
           <meta
             name="twitter:image:alt"
-            content="AlgoMaticTrader - AI-Powered Trading Platform"
+            content="Auri - AI-Powered Trading Platform"
           />
 
           {/* WhatsApp specific */}
@@ -115,13 +116,14 @@ function App() {
         <div className="relative flex min-h-screen flex-col bg-auri-gradient">
           <Header />
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<AuriPage />} />
             <Route path="/register" element={<RegisterPage />} />
-            <Route path="/trade-world-lvds" element={<PartnerFormPage />} />
+            <Route path="/partner-form" element={<PartnerFormPage />} />
             <Route path="/support" element={<SupportPage />} />
             <Route path="/privacy-policy" element={<PrivacyPage />} />
             <Route path="/terms-of-service" element={<TermsPage />} />
             <Route path="/disclaimer" element={<DisclaimerPage />} />
+            <Route path="/features" element={<HomePage />} />
 
             {/* Error routes */}
             <Route path="/400" element={<BadRequestPage />} />

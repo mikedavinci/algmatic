@@ -2,14 +2,13 @@ import { useNavigationStore } from "@/lib/store";
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from 'react-i18next';
-import { AnimatedLogo } from '@/components/logo/animated-logo';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from '@/components/ui/select';
 import { useNavigate } from 'react-router-dom';
 
 export function MobileMenu() {
@@ -22,54 +21,44 @@ export function MobileMenu() {
   };
 
   const navItems = [
-    { href: '#hero', label: t('navbar.items.home') },
-    { href: '#features', label: t('navbar.items.features') },
-    { href: '#faq', label: t('navbar.items.faq') }
+    { href: '/auri', label: 'Auri' },
+    { href: '/features#features', label: t('navbar.items.features') },
+    { href: '/features#faq', label: t('navbar.items.faq') },
   ];
 
-  const scrollToSection = (href: string) => {
-    if (window.location.hash !== '#/') {
-      navigate('/', { state: { scrollTo: href.substring(1) } });
-    } else {
-      const element = document.querySelector(href);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+  const handleNavigation = (href: string) => {
+    if (href.startsWith('/')) {
+      const [path, hash] = href.split('#');
+      navigate(path);
+      if (hash) {
+        setTimeout(() => {
+          const element = document.querySelector(`#${hash}`);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }, 100);
       }
+      toggle();
     }
-    toggle();
   };
 
   return (
     <Sheet open={isOpen} onOpenChange={toggle}>
       <SheetContent side="left" className="w-[300px] sm:w-[400px]">
-        <SheetHeader className="text-center">
-          <div className="flex flex-col items-center justify-center space-y-2">
-            <AnimatedLogo />
-            <SheetTitle className="text-xl font-bold bg-gradient-to-r from-primary via-primary/80 to-primary/40 bg-clip-text text-transparent">
-              {t('navbar.brand')}
-            </SheetTitle>
-          </div>
+        <SheetHeader>
+          <SheetTitle>{t('navbar.brand')}</SheetTitle>
         </SheetHeader>
-        <nav className="flex flex-col gap-4 mt-8">
+        <nav className="flex flex-col gap-4">
           {navItems.map((item) => (
             <Button
               key={item.href}
               variant="ghost"
               className="w-full justify-start"
-              onClick={() => scrollToSection(item.href)}
+              onClick={() => handleNavigation(item.href)}
             >
               {item.label}
             </Button>
           ))}
-          <Button
-            className="w-full"
-            onClick={() => {
-              navigate('/register');
-              toggle();
-            }}
-          >
-            {t('navbar.ctaButton')}
-          </Button>
           <div className="mb-4">
             <p className="text-sm font-medium mb-2">Language</p>
             <Select value={i18n.language} onValueChange={changeLanguage}>
@@ -82,6 +71,15 @@ export function MobileMenu() {
               </SelectContent>
             </Select>
           </div>
+          <Button
+            className="w-full"
+            onClick={() => {
+              navigate('/register');
+              toggle();
+            }}
+          >
+            {t('navbar.ctaButton')}
+          </Button>
         </nav>
       </SheetContent>
     </Sheet>

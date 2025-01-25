@@ -47,18 +47,18 @@ export function DisclaimerPage() {
               </div>
             </div>
             <h1 className="text-4xl font-bold mb-4">
-              {t('AlgoMaticTraderDisclaimer.title')}
+              {t('AuriDisclaimer.title')}
             </h1>
             <p className="text-lg text-muted-foreground font-semibold">
-              {t('AlgoMaticTraderDisclaimer.subtitle')}
+              {t('AuriDisclaimer.subtitle')}
             </p>
           </motion.div>
 
-          {/* AlgoMaticTrader Disclaimer */}
+          {/* Auri Disclaimer */}
           <motion.div variants={item} className="space-y-6 mb-12">
             {Array.from({ length: 7 }).map((_, index) => (
               <p key={index} className="text-muted-foreground">
-                {t(`AlgoMaticTraderDisclaimer.paragraph${index + 1}`)}
+                {t(`AuriDisclaimer.paragraph${index + 1}`)}
               </p>
             ))}
           </motion.div>
@@ -118,7 +118,7 @@ export function DisclaimerPage() {
           {/* Footer */}
           <motion.div variants={item} className="text-center mt-12">
             <p className="text-sm text-muted-foreground">
-              {t('AlgoMaticTraderDisclaimer.footer')}
+              {t('AuriDisclaimer.footer')}
             </p>
           </motion.div>
         </motion.div>

@@ -1,14 +1,14 @@
 {
   "pageTitle": "Opera de Forma Más Inteligente, No Más Difícil – Experimenta el Trading Automatizado",
-  "pageSubtitle": "Automatización avanzada de trading, gestión de riesgos y fiabilidad 24/7, todo entregado sin problemas con AlgoMaticTrader.",
-  "behindTheScenesTitle": "Detrás de Escena: Cómo Funciona AlgoMaticTrader",
-  "behindTheScenesDescription": "AlgoMaticTrader ofrece una experiencia de trading completamente automatizada. Cada componente está diseñado para manejar tareas complejas de trading sin esfuerzo, brindando resultados consistentes mientras te enfocas en otras prioridades.",
+  "pageSubtitle": "Automatización avanzada de trading, gestión de riesgos y fiabilidad 24/7, todo entregado sin problemas con Auri.",
+  "behindTheScenesTitle": "Detrás de Escena: Cómo Funciona Auri",
+  "behindTheScenesDescription": "Auri ofrece una experiencia de trading completamente automatizada. Cada componente está diseñado para manejar tareas complejas de trading sin esfuerzo, brindando resultados consistentes mientras te enfocas en otras prioridades.",
   "orchestrator": {
     "title": "El Orquestador",
-    "whatItDoesTitle": "Qué Ofrece AlgoMaticTrader",
+    "whatItDoesTitle": "Qué Ofrece Auri",
     "whatItDoesDescription": "El Orquestador actúa como el centro principal, ocupándose de todo, desde la configuración inicial hasta el monitoreo en tiempo real y los cierres seguros. Garantiza que el sistema funcione perfectamente las 24 horas del día.",
     "benefitsTitle": "Por Qué Es Importante",
-    "benefit1": "Integración Sin Esfuerzo: AlgoMaticTrader asegura que todo esté configurado y gestionado de forma fluida de principio a fin.",
+    "benefit1": "Integración Sin Esfuerzo: Auri asegura que todo esté configurado y gestionado de forma fluida de principio a fin.",
     "benefit2": "Monitoreo en Tiempo Real: Un 'latido' incorporado rastrea constantemente las condiciones del mercado para mantener la eficiencia del sistema."
   },
   "signalGuru": {
@@ -16,12 +16,12 @@
     "whatItDoesTitle": "Cómo Potencia Tu Trading",
     "whatItDoesDescription": "SignalGuru es tu procesador inteligente de señales. Captura señales de trading, las valida y las convierte en operaciones accionables, todo de manera automática.",
     "benefitsTitle": "Por Qué Es Importante",
-    "benefit1": "Procesamiento Inteligente de Señales: AlgoMaticTrader asegura que cada señal de trading esté optimizada para obtener resultados confiables.",
+    "benefit1": "Procesamiento Inteligente de Señales: Auri asegura que cada señal de trading esté optimizada para obtener resultados confiables.",
     "benefit2": "Verificación Incorporada: Solo se ejecutan señales de alta calidad que cumplen criterios estrictos."
   },
   "tradeNavigator": {
     "title": "Navegador de Operaciones",
-    "whatItDoesTitle": "Qué Hace AlgoMaticTrader por Ti",
+    "whatItDoesTitle": "Qué Hace Auri por Ti",
     "whatItDoesDescription": "TradeNavigator maneja todas las ejecuciones de operaciones, ajustes y cierres con precisión. Elimina las conjeturas del trading automatizando estas tareas.",
     "benefitsTitle": "Por Qué Es Importante",
     "benefit1": "Ejecución Automatizada: Las operaciones se abren y cierran automáticamente según estrategias definidas.",
@@ -29,34 +29,34 @@
   },
   "marketVision": {
     "title": "Visión de Mercado",
-    "whatItDoesTitle": "Cómo AlgoMaticTrader Te Mantiene Informado",
+    "whatItDoesTitle": "Cómo Auri Te Mantiene Informado",
     "whatItDoesDescription": "MarketVision analiza cada símbolo de trading en tiempo real, capturando precios de oferta/demanda, diferenciales y otros datos clave para garantizar decisiones de trading precisas.",
     "benefitsTitle": "Por Qué Es Importante",
-    "benefit1": "Información Precisa del Mercado: AlgoMaticTrader garantiza que los valores de pip, tamaños de tick y niveles de stop se calculen con precisión.",
+    "benefit1": "Información Precisa del Mercado: Auri garantiza que los valores de pip, tamaños de tick y niveles de stop se calculen con precisión.",
     "benefit2": "Acceso a Datos en Tiempo Real: Mantente informado con instantáneas actualizadas del mercado."
   },
   "riskGuard": {
     "title": "Guardián de Riesgos",
-    "whatItDoesTitle": "Cómo AlgoMaticTrader Gestiona el Riesgo",
+    "whatItDoesTitle": "Cómo Auri Gestiona el Riesgo",
     "whatItDoesDescription": "RiskGuard calcula y aplica tamaños de posición óptimos para asegurarse de que tu trading se mantenga dentro de límites seguros.",
     "benefitsTitle": "Por Qué Es Importante",
-    "benefit1": "Ajustes Dinámicos: AlgoMaticTrader adapta automáticamente los tamaños de las posiciones a tus preferencias de riesgo.",
+    "benefit1": "Ajustes Dinámicos: Auri adapta automáticamente los tamaños de las posiciones a tus preferencias de riesgo.",
     "benefit2": "Protección Confiable: Se previene el sobreapalancamiento con verificaciones en tiempo real del uso de margen."
   },
   "sessionGuardian": {
     "title": "Guardián de Sesiones",
-    "whatItDoesTitle": "Cómo AlgoMaticTrader Optimiza las Horas de Trading",
+    "whatItDoesTitle": "Cómo Auri Optimiza las Horas de Trading",
     "whatItDoesDescription": "SessionGuardian automatiza la actividad de trading en función de los horarios de las sesiones del mercado, enfocándose en las ventanas más rentables.",
     "benefitsTitle": "Por Qué Es Importante",
-    "benefit1": "Ventanas de Trading Optimizadas: AlgoMaticTrader ejecuta operaciones durante las sesiones más activas y líquidas.",
+    "benefit1": "Ventanas de Trading Optimizadas: Auri ejecuta operaciones durante las sesiones más activas y líquidas.",
     "benefit2": "Flexibilidad Global: Opera en múltiples sesiones como Asia, Londres o Nueva York, o en las tres."
   },
   "navbar": {
-    "brand": "AlgoMaticTrader",
+    "brand": "Auri",
     "items": {
       "home": "Inicio",
       "features": "Características",
-      "faq": "Preguntas",
+      "faq": "Preguntas Frecuentes",
       "contact": "Contacto"
     },
     "ctaButton": "Comenzar"
@@ -66,40 +66,40 @@
     "questions": [
       {
         "question": "¿Cómo empiezo?",
-        "answer": "Para comenzar, simplemente complete el formulario de registro en nuestro sitio web y cree una cuenta con Vantage. Esto le permitirá acceder a las señales y herramientas exclusivas de AlgoMaticTrader."
+        "answer": "Para comenzar, simplemente complete el formulario de registro en nuestro sitio web y cree una cuenta con Vantage. Esto le permitirá acceder a las señales y herramientas exclusivas de Auri."
       },
       {
         "question": "¿Cómo configuro una cuenta con Vantage?",
-        "answer": "Configurar una cuenta con Vantage es sencillo. Visite el sitio web de Vantage o su aplicación móvil, complete el proceso de registro y verifique su cuenta. Una vez aprobado, estará listo para integrarse con AlgoMaticTrader."
+        "answer": "Configurar una cuenta con Vantage es sencillo. Visite el sitio web de Vantage o su aplicación móvil, complete el proceso de registro y verifique su cuenta. Una vez aprobado, estará listo para integrarse con Auri."
       },
       {
         "question": "He configurado una cuenta con Vantage. ¿Qué hago después?",
-        "answer": "Después de configurar su cuenta con Vantage, descargue la aplicación Vantage Social. Busque 'AlgoMaticTrader' dentro de la aplicación y suscríbase a nuestras señales para comenzar a recibir información y alertas comerciales."
+        "answer": "Después de configurar su cuenta con Vantage, descargue la aplicación Vantage Social. Busque 'Auri' dentro de la aplicación y suscríbase a nuestras señales para comenzar a recibir información y alertas comerciales."
       },
       {
         "question": "¿Cómo puedo monitorear el rendimiento de las operaciones?",
-        "answer": "Inicie sesión en Vantage Social para ver todas las operaciones realizadas por AlgoMaticTrader. Además, puede monitorear el rendimiento directamente iniciando sesión en su cuenta de Vantage, donde su saldo reflejará los resultados de todas las operaciones ejecutadas."
+        "answer": "Inicie sesión en Vantage Social para ver todas las operaciones realizadas por Auri. Además, puede monitorear el rendimiento directamente iniciando sesión en su cuenta de Vantage, donde su saldo reflejará los resultados de todas las operaciones ejecutadas."
       },
       {
-        "question": "¿AlgoMaticTrader sigue criptomonedas y forex?",
-        "answer": "Sí, AlgoMaticTrader monitorea la acción del precio de criptomonedas como Bitcoin, Ethereum, Litecoin, XRP y más. También realiza un seguimiento de la acción del precio de pares forex importantes como EUR/USD, GBP/USD, AUD/USD, USD/JPY y otros, con más pares que se añadirán próximamente."
+        "question": "¿Auri sigue criptomonedas y forex?",
+        "answer": "Sí, Auri monitorea la acción del precio de criptomonedas como Bitcoin, Ethereum, Litecoin, XRP y más. También realiza un seguimiento de la acción del precio de pares forex importantes como EUR/USD, GBP/USD, AUD/USD, USD/JPY y otros, con más pares que se añadirán próximamente."
       }
     ]
   },
-  "AlgoMaticTraderDisclaimer": {
-    "title": "Descargo de responsabilidad de AlgoMaticTrader",
+  "AuriDisclaimer": {
+    "title": "Descargo de responsabilidad de Auri",
     "subtitle": "No somos responsables de cualquier pérdida que puedan sufrir nuestros clientes o clientes debido al uso de nuestros servicios.",
     "paragraph1": "Operar es riesgoso y muchos perderán dinero en relación con las actividades de trading. Todo el contenido en este sitio no pretende, ni debe ser, interpretado como asesoramiento financiero. Las decisiones de comprar, vender, mantener o negociar en valores, productos básicos y otros mercados implican riesgo y deben ser tomadas con base en el asesoramiento de profesionales financieros calificados. El rendimiento pasado no garantiza resultados futuros.",
     "paragraph2": "Los resultados de rendimiento hipotéticos o simulados tienen ciertas limitaciones. A diferencia de un registro de rendimiento real, los resultados simulados no representan operaciones reales. Además, dado que las operaciones no se han ejecutado, los resultados pueden haber compensado de manera insuficiente o excesiva el impacto, si lo hubiera, de ciertos factores del mercado, incluidos, pero no limitados a, la falta de liquidez. Los programas de trading simulados en general están diseñados con el beneficio de la retrospectiva y se basan en información histórica. No se está haciendo ninguna representación de que cualquier cuenta alcanzará o es probable que alcance ganancias o pérdidas similares a las mostradas.",
     "paragraph3": "Los testimonios que aparecen en este sitio web pueden no ser representativos de otros clientes o usuarios y no son una garantía de rendimiento o éxito futuro.",
     "paragraph4": "Como proveedor de herramientas de análisis técnico para plataformas de gráficos, no tenemos acceso a las cuentas de trading personales ni a los estados de cuenta de corretaje de nuestros clientes. Como resultado, no tenemos motivos para creer que nuestros clientes se desempeñen mejor o peor que los traders en general en función de cualquier contenido o herramienta que proporcionemos.",
-    "paragraph5": "Los gráficos utilizados en este sitio son de TradingView, en los cuales se construyen nuestras herramientas. TradingView® es una marca registrada de TradingView, Inc. www.TradingView.com.",
+    "paragraph5": "Los gráficos utilizados en este sitio son de TradingView, en los cuales se construye la mayoría de nuestras herramientas. TradingView® es una marca registrada de TradingView, Inc. www.TradingView.com.",
     "paragraph6": "TradingView® no tiene ninguna afiliación con el propietario, desarrollador o proveedor de los Servicios descritos aquí.",
     "paragraph7": "Esto no representa nuestro descargo de responsabilidad completo. Por favor, lea nuestro descargo de responsabilidad completo.",
-    "footer": "Copyright 2024 AlgoMaticTrader"
+    "footer": "© Copyright 2024 Auri"
   },
   "footer": {
-    "copyright": "© 2025 AlgoMaticTrader.ai. All rights reserved",
+    "copyright": "© 2023 Auri.ai. All rights reserved",
     "sections": {
       "about": {
         "title": "Sobre Nosotros",
@@ -107,19 +107,19 @@
         "links": [
           {
             "title": "Sobre Nosotros",
-            "url": "https://AlgoMaticTrader.ai/about"
+            "url": "https://Auri.ai/about"
           },
           {
             "title": "Carreras",
-            "url": "https://AlgoMaticTrader.ai/careers"
+            "url": "https://Auri.ai/careers"
           },
           {
             "title": "Blog",
-            "url": "https://AlgoMaticTrader.ai/blog"
+            "url": "https://Auri.ai/blog"
           },
           {
             "title": "Contáctanos",
-            "url": "https://AlgoMaticTrader.ai/contact-us"
+            "url": "https://Auri.ai/contact-us"
           }
         ]
       },
@@ -129,15 +129,15 @@
         "links": [
           {
             "title": "Descargar",
-            "url": "https://AlgoMaticTrader.ai/download"
+            "url": "https://Auri.ai/download"
           },
           {
             "title": "Centro de Ayuda",
-            "url": "https://AlgoMaticTrader.ai/help-center"
+            "url": "https://Auri.ai/help-center"
           },
           {
             "title": "Socios de Afiliados",
-            "url": "https://AlgoMaticTrader.ai/faq"
+            "url": "https://Auri.ai/faq"
           }
         ]
       },
@@ -146,16 +146,16 @@
         "links": [
           {
             "title": "Facebook",
-            "url": "https://AlgoMaticTrader.ai/download"
+            "url": "https://Auri.ai/download"
           },
 
           {
             "title": "YouTube",
-            "url": "https://AlgoMaticTrader.ai/help-center"
+            "url": "https://Auri.ai/help-center"
           },
           {
             "title": "Instagram",
-            "url": "https://AlgoMaticTrader.ai/faq"
+            "url": "https://Auri.ai/faq"
           }
         ]
       },
@@ -179,7 +179,7 @@
         "links": [
           {
             "title": "Contactanos",
-            "url": "https://AlgoMaticTrader.ai/support"
+            "url": "https://Auri.ai/support"
           }
         ]
       },
@@ -189,15 +189,15 @@
         "links": [
           {
             "title": "Política de Privacidad",
-            "url": "https://AlgoMaticTrader.ai/privacy-policy"
+            "url": "https://Auri.ai/privacy-policy"
           },
           {
             "title": "Términos de Servicio",
-            "url": "https://AlgoMaticTrader.ai/terms-of-service"
+            "url": "https://Auri.ai/terms-of-service"
           },
           {
             "title": "Descargo de Responsabilidad",
-            "url": "https://AlgoMaticTrader.ai/disclaimer"
+            "url": "https://Auri.ai/disclaimer"
           }
         ]
       }
@@ -210,28 +210,28 @@
     },
     "section2": {
       "title": "Toma Decisiones de Trading Más Inteligentes con Información de IA",
-      "description": "AlgoMaticTrader ofrece un conjunto completo de herramientas para ayudar a los traders a tomar decisiones informadas. Obtén datos de mercado en tiempo real y análisis precisos con nuestras potentes herramientas de análisis técnico y descubre nuevas oportunidades en el mercado de criptomonedas o forex."
+      "description": "Auri ofrece un conjunto completo de herramientas para ayudar a los traders a tomar decisiones informadas. Obtén datos de mercado en tiempo real y análisis precisos con nuestras potentes herramientas de análisis técnico y descubre nuevas oportunidades en el mercado de criptomonedas o forex."
     },
     "section3": {
       "title": "Desbloquea el Poder de la IA para el Trading",
-      "description": "¿Listo para maximizar tus oportunidades de trading? Con el análisis técnico avanzado y las señales generadas por IA de AlgoMaticTrader, puedes llevar tu trading de criptomonedas y forex al siguiente nivel con confianza. Obtén información confiable hoy y empieza a ver los resultados que deseas."
+      "description": "¿Listo para maximizar tus oportunidades de trading? Con el análisis técnico avanzado y las señales generadas por IA de Auri, puedes llevar tu trading de criptomonedas y forex al siguiente nivel con confianza. Obtén información confiable hoy y empieza a ver los resultados que deseas."
     },
     "section4": {
       "title": "Mantente Informado con Alertas de Mercado",
-      "description": "Mantén un ojo en el mercado y no pierdas ninguna oportunidad. Recibe alertas sobre compras/ventas grandes y rastrea el historial de actividades de ballenas para más de 1000 mercados de futuros y spot con AlgoMaticTrader. Mantente informado, mantente adelante."
+      "description": "Mantén un ojo en el mercado y no pierdas ninguna oportunidad. Recibe alertas sobre compras/ventas grandes y rastrea el historial de actividades de ballenas para más de 1000 mercados de futuros y spot con Auri. Mantente informado, mantente adelante."
     },
     "section5": {
       "title": "Sé el Primero en Saber Cuando el Mercado se Mueve",
-      "description": "Mantente un paso adelante con alertas en tiempo real sobre subidas y caídas del mercado y actividades de volumen inusuales. Aprovecha cada oportunidad con AlgoMaticTrader en iOS y Android."
+      "description": "Mantente un paso adelante con alertas en tiempo real sobre subidas y caídas del mercado y actividades de volumen inusuales. Aprovecha cada oportunidad con Auri en iOS y Android."
     },
     "section6": {
       "title": "Desbloquea Todo tu Potencial de Trading de Criptomonedas",
-      "description": "Mejora tu experiencia de trading y maximiza tus retornos con la suite completa de herramientas e información impulsada por IA de AlgoMaticTrader."
+      "description": "Mejora tu experiencia de trading y maximiza tus retornos con la suite completa de herramientas e información impulsada por IA de Auri."
     }
   },
   "ReadyToGetStarted": {
     "Title": "¿Listo para Elevar Tu Trayectoria de Trading?",
-    "Description": "Únete a AlgoMaticTrader.ai hoy y desbloquea las herramientas, conocimientos y comunidad que necesitas para tener éxito. ¡Empieza tu camino hacia un trading más inteligente ahora!",
+    "Description": "Únete a Auri.ai hoy y desbloquea las herramientas, conocimientos y comunidad que necesitas para tener éxito. ¡Empieza tu camino hacia un trading más inteligente ahora!",
     "Button": "Comienza Ahora"
   },
   "Disclaimer": {
@@ -254,14 +254,14 @@
     "content2": "Como proveedor de herramientas de análisis técnico para plataformas de gráficos, no tenemos acceso a las cuentas de trading personales ni a los estados de cuenta de corretaje de nuestros clientes. Como resultado, no tenemos motivos para creer que nuestros clientes se desempeñen mejor o peor que los traders en general en función de cualquier contenido o herramienta que proporcionemos."
   },
   "InvestmentDisclaimer": {
-    "title": "AlgoMaticTrader No Es un Asesor de Inversiones",
-    "content": "AlgoMaticTrader no está registrado como asesor de inversiones ante la Comisión de Valores y Bolsa de EE. UU. (SEC). En su lugar, AlgoMaticTrader se basa en la “exclusión del editor” de la definición de “asesor de inversiones” según lo dispuesto en la Sección 202(a)(11)(D) de la Ley de Asesores de Inversiones de 1940 (la “Ley de Asesores”) y las leyes estatales correspondientes. Como tal, AlgoMaticTrader no ofrece ni proporciona asesoramiento de inversión personalizado y nada en estos materiales debe interpretarse como asesoramiento de inversión en el sentido de la Ley de Asesores."
+    "title": "Auri No Es un Asesor de Inversiones",
+    "content": "Auri no está registrado como asesor de inversiones ante la Comisión de Valores y Bolsa de EE. UU. (SEC). En su lugar, Auri se basa en la “exclusión del editor” de la definición de “asesor de inversiones” según lo dispuesto en la Sección 202(a)(11)(D) de la Ley de Asesores de Inversiones de 1940 (la “Ley de Asesores”) y las leyes estatales correspondientes. Como tal, Auri no ofrece ni proporciona asesoramiento de inversión personalizado y nada en estos materiales debe interpretarse como asesoramiento de inversión en el sentido de la Ley de Asesores."
   },
   "EducationalDisclaimer": {
     "title": "Solo Para Propósitos Informativos y Educativos",
     "content1": "En la medida en que cualquier contenido, material, información y/o cualquier otro tipo de oferta informativa publicada, transmitida o declarada de otro modo en este y/o sitios web asociados, pueda considerarse “asesoramiento de inversión”, dicha información es impersonal y no se adapta a las necesidades de inversión de ninguna persona en particular. La información contenida en este y/o sitios web asociados se proporciona solo con fines informativos y educativos.",
-    "content2": "La información no debe interpretarse como asesoramiento de inversión o trading y no está destinada a ser una solicitud o recomendación para comprar, vender o mantener cualquier posición en cualquier índice o mercado financiero mencionado. El contenido y la información proporcionados por AlgoMaticTrader, el sitio web y los productos y servicios de AlgoMaticTrader son incidentales al negocio y las actividades de AlgoMaticTrader en la provisión de herramientas educativas para el análisis técnico.",
-    "content3": "AlgoMaticTrader no le proporcionará ni le proporcionará ningún asesoramiento legal, fiscal, de planificación patrimonial o contable, ni ningún asesoramiento sobre la idoneidad, rentabilidad o conveniencia para usted de cualquier valor, inversión, producto financiero, estrategia de inversión u otro asunto. Los datos, el contenido y la información dentro de las herramientas y escáneres no deben interpretarse como asesoramiento de inversión o trading y no están destinados a ser una solicitud o recomendación para comprar, vender o mantener cualquier posición en cualquier valor o participar en cualquier otra transacción."
+    "content2": "La información no debe interpretarse como asesoramiento de inversión o trading y no está destinada a ser una solicitud o recomendación para comprar, vender o mantener cualquier posición en cualquier índice o mercado financiero mencionado. El contenido y la información proporcionados por Auri, el sitio web y los productos y servicios de Auri son incidentales al negocio y las actividades de Auri en la provisión de herramientas educativas para el análisis técnico.",
+    "content3": "Auri no le proporcionará ni le proporcionará ningún asesoramiento legal, fiscal, de planificación patrimonial o contable, ni ningún asesoramiento sobre la idoneidad, rentabilidad o conveniencia para usted de cualquier valor, inversión, producto financiero, estrategia de inversión u otro asunto. Los datos, el contenido y la información dentro de las herramientas y escáneres no deben interpretarse como asesoramiento de inversión o trading y no están destinados a ser una solicitud o recomendación para comprar, vender o mantener cualquier posición en cualquier valor o participar en cualquier otra transacción."
   },
   "TradingViewDisclosure": {
     "title": "Divulgación de TradingView",
@@ -269,49 +269,49 @@
   },
   "PrivacyNotice": {
     "title": "Política de Privacidad",
-    "content": "AlgoMaticTrader respeta la privacidad de la información que te identifica o que es identificable contigo (Información Personal). Queremos que entiendas cómo AlgoMaticTrader procesa la Información Personal y cómo puedes enviarnos solicitudes relacionadas con tus derechos de privacidad en relación con tu Información Personal, en cumplimiento con las diversas leyes de los Estados Unidos, Canadá, la Unión Europea y otros países que rigen el procesamiento de Información Personal por parte de AlgoMaticTrader (Leyes de Privacidad de Datos). Nuestro procesamiento de Información Personal está regido por esas Leyes de Privacidad de Datos, así como por esta Política de Privacidad (Política).",
+    "content": "Auri respeta la privacidad de la información que te identifica o que es identificable contigo (Información Personal). Queremos que entiendas cómo Auri procesa la Información Personal y cómo puedes enviarnos solicitudes relacionadas con tus derechos de privacidad en relación con tu Información Personal, en cumplimiento con las diversas leyes de los Estados Unidos, Canadá, la Unión Europea y otros países que rigen el procesamiento de Información Personal por parte de Auri (Leyes de Privacidad de Datos). Nuestro procesamiento de Información Personal está regido por esas Leyes de Privacidad de Datos, así como por esta Política de Privacidad (Política).",
     "Children": {
       "title": "Información de Menores",
       "content": "No tenemos la intención, ni procesamos conscientemente, Información Personal sobre individuos que sean menores de edad en las jurisdicciones en las que residen (Niños). Los individuos que sean Niños no deben proporcionarnos ninguna Información Personal, y los individuos no deben proporcionarnos Información Personal sobre Niños. Si descubrimos o se nos informa que tenemos Información Personal sobre Niños, nos reservamos el derecho de eliminar esa Información Personal de nuestros sistemas."
     },
     "DataPrivacyOfficer": {
       "title": "Oficial de Privacidad de Datos y Política de Seguridad",
-      "content": "Para preguntas sobre el procesamiento de tu Información Personal por parte de AlgoMaticTrader o esta Política, por favor contacta a nuestro Oficial de Privacidad de Datos de la siguiente manera:",
-      "name": "support@AlgoMaticTrader.ai",
-      "email": "support@AlgoMaticTrader.ai",
+      "content": "Para preguntas sobre el procesamiento de tu Información Personal por parte de Auri o esta Política, por favor contacta a nuestro Oficial de Privacidad de Datos de la siguiente manera:",
+      "name": "support@Auri.ai",
+      "email": "support@Auri.ai",
       "address": ""
     },
     "PersonalInformation": {
       "title": "Información Personal",
-      "content": "AlgoMaticTrader proporciona indicadores técnicos (gratuitos y premium) que se pueden integrar en aplicaciones de inversión financiera como TradingView, Discord y otras (Productos) a cualquier persona que cree una cuenta con nosotros (Clientes). En el curso de la provisión de los Productos, AlgoMaticTrader recibe de los Clientes, recopila y procesa Información Personal, que puede incluir lo siguiente: (1) identificadores, como nombre y apellido; dirección de correo electrónico; dirección de facturación; y número de teléfono; y (2) información financiera, como tu información de tarjeta de crédito o débito, siempre y cuando AlgoMaticTrader no almacene ni tenga acceso a dicha información de pago y crédito y utilice un procesador de pagos de terceros para procesar todos esos pagos."
+      "content": "Auri proporciona indicadores técnicos (gratuitos y premium) que se pueden integrar en aplicaciones de inversión financiera como TradingView, Discord y otras (Productos) a cualquier persona que cree una cuenta con nosotros (Clientes). En el curso de la provisión de los Productos, Auri recibe de los Clientes, recopila y procesa Información Personal, que puede incluir lo siguiente: (1) identificadores, como nombre y apellido; dirección de correo electrónico; dirección de facturación; y número de teléfono; y (2) información financiera, como tu información de tarjeta de crédito o débito, siempre y cuando Auri no almacene ni tenga acceso a dicha información de pago y crédito y utilice un procesador de pagos de terceros para procesar todos esos pagos."
     },
     "SensitiveInformationProcessed": {
       "title": "Información Sensible Procesada",
-      "content": "AlgoMaticTrader no tiene la intención ni procesa conscientemente Información Personal de naturaleza sensible (Información Personal Sensible). Si descubrimos o se nos informa que tenemos Información Personal Sensible, nos reservamos el derecho de eliminar esa Información Personal Sensible de nuestros sistemas."
+      "content": "Auri no tiene la intención ni procesa conscientemente Información Personal de naturaleza sensible (Información Personal Sensible). Si descubrimos o se nos informa que tenemos Información Personal Sensible, nos reservamos el derecho de eliminar esa Información Personal Sensible de nuestros sistemas."
     },
     "LegalBases": {
       "title": "Bases Legales para el Procesamiento de Información Personal",
-      "content": "AlgoMaticTrader procesa Información Personal para cumplir con nuestras relaciones contractuales y otras relaciones comerciales, empresariales y legales, así como con las obligaciones de proporcionar Productos a los Clientes. Como resultado, los Clientes proporcionan Información Personal a AlgoMaticTrader y AlgoMaticTrader recopila y procesa Información Personal para proporcionar Productos a los Clientes. Además, AlgoMaticTrader busca y obtiene el consentimiento para el uso y procesamiento de Información Personal cuando lo requieren las Leyes de Privacidad de Datos. Esas son las bases legales para que AlgoMaticTrader procese Información Personal."
+      "content": "Auri procesa Información Personal para cumplir con nuestras relaciones contractuales y otras relaciones comerciales, empresariales y legales, así como con las obligaciones de proporcionar Productos a los Clientes. Como resultado, los Clientes proporcionan Información Personal a Auri y Auri recopila y procesa Información Personal para proporcionar Productos a los Clientes. Además, Auri busca y obtiene el consentimiento para el uso y procesamiento de Información Personal cuando lo requieren las Leyes de Privacidad de Datos. Esas son las bases legales para que Auri procese Información Personal."
     },
     "ProcessingPurposes": {
       "title": "Finalidades del Procesamiento",
-      "content": "AlgoMaticTrader puede procesar Información Personal para: (1) proporcionar, desarrollar, mantener y mejorar los Productos y el Sitio; (2) cumplir con tus solicitudes cuando te suscribas a los Productos; (3) comunicarse con los Clientes sobre los Productos; (4) proporcionar soporte para los Productos, incluyendo responder a solicitudes, preguntas y comentarios; (5) procesar y completar transacciones, y enviar información relacionada, incluidas confirmaciones de compra y facturas; (6) personalizar tu experiencia con el Sitio; (7) enviarte comunicaciones de marketing y promocionales que creemos que pueden ser de interés, como información sobre nuestros Productos, características, ofertas, catálogos, promociones y eventos; (8) mantener la seguridad, integridad y protección de nuestros Productos y del Sitio; (9) cumplir con obligaciones legales y reglamentarias; y (10) establecer, hacer cumplir y, de otro modo, ejercer nuestros derechos y defendernos de reclamaciones."
+      "content": "Auri puede procesar Información Personal para: (1) proporcionar, desarrollar, mantener y mejorar los Productos y el Sitio; (2) cumplir con tus solicitudes cuando te suscribas a los Productos; (3) comunicarse con los Clientes sobre los Productos; (4) proporcionar soporte para los Productos, incluyendo responder a solicitudes, preguntas y comentarios; (5) procesar y completar transacciones, y enviar información relacionada, incluidas confirmaciones de compra y facturas; (6) personalizar tu experiencia con el Sitio; (7) enviarte comunicaciones de marketing y promocionales que creemos que pueden ser de interés, como información sobre nuestros Productos, características, ofertas, catálogos, promociones y eventos; (8) mantener la seguridad, integridad y protección de nuestros Productos y del Sitio; (9) cumplir con obligaciones legales y reglamentarias; y (10) establecer, hacer cumplir y, de otro modo, ejercer nuestros derechos y defendernos de reclamaciones."
     },
     "DisclosurePurposes": {
       "title": "Propósitos de Divulgación de Información Personal",
-      "content": "Excepto cuando sea necesario o apropiado para proporcionar Productos a los Clientes, AlgoMaticTrader no divulga Información Personal sobre ti a otros Clientes o a terceros no afiliados, siempre que podamos divulgar Información Personal para los siguientes propósitos y en las siguientes circunstancias."
+      "content": "Excepto cuando sea necesario o apropiado para proporcionar Productos a los Clientes, Auri no divulga Información Personal sobre ti a otros Clientes o a terceros no afiliados, siempre que podamos divulgar Información Personal para los siguientes propósitos y en las siguientes circunstancias."
     },
     "DisclosureCircumstances": {
       "title": "Circunstancias de Divulgación",
-      "content": "- Si lo solicita la persona a la que se refiere dicha Información Personal o el representante legal de esa persona.\n- Si lo requiere la Ley de Privacidad de Datos, cualquier otra ley, regla o reglamento, proceso legal o orden judicial, o una orden de cualquier agencia o autoridad gubernamental.\n- A terceros que sean necesarios o apropiados para proporcionar los Productos, como proveedores de tecnología de la información y seguridad, servicios de alojamiento de datos, proveedores que procesan pagos, o cualquier otro tercero que sea necesario o apropiado para que AlgoMaticTrader divulgue Información Personal a fin de proporcionar los Productos.\n- A proveedores de servicios profesionales, incluidos abogados, contables, profesionales fiscales y asesores financieros, si hacerlo es necesario o apropiado para obtener servicios profesionales de ellos.\n- En relación con una venta, fusión, consolidación, cambio de control, transferencia de activos sustanciales, reorganización o liquidación de AlgoMaticTrader.\n- A entidades que realicen marketing, publicidad o investigación de mercado en nuestro nombre."
+      "content": "- Si lo solicita la persona a la que se refiere dicha Información Personal o el representante legal de esa persona.\n- Si lo requiere la Ley de Privacidad de Datos, cualquier otra ley, regla o reglamento, proceso legal o orden judicial, o una orden de cualquier agencia o autoridad gubernamental.\n- A terceros que sean necesarios o apropiados para proporcionar los Productos, como proveedores de tecnología de la información y seguridad, servicios de alojamiento de datos, proveedores que procesan pagos, o cualquier otro tercero que sea necesario o apropiado para que Auri divulgue Información Personal a fin de proporcionar los Productos.\n- A proveedores de servicios profesionales, incluidos abogados, contadores, profesionales fiscales y asesores financieros, si hacerlo es necesario o apropiado para obtener servicios profesionales de ellos.\n- En relación con una venta, fusión, consolidación, cambio de control, transferencia de activos sustanciales, reorganización o liquidación de Auri.\n- A entidades que realicen marketing, publicidad o investigación de mercado en nuestro nombre."
     },
     "PrivacyRights": {
       "title": "Derechos de Privacidad",
-      "content": "Dependiendo de la Información Personal que AlgoMaticTrader tenga sobre ti, y dependiendo de la forma en que procesamos tu Información Personal, puedes tener los siguientes derechos de privacidad relacionados con nuestro procesamiento de tu Información Personal."
+      "content": "Dependiendo de la Información Personal que Auri tenga sobre ti, y dependiendo de la forma en que procesamos tu Información Personal, puedes tener los siguientes derechos de privacidad relacionados con nuestro procesamiento de tu Información Personal."
     },
     "PrivacyRightsList": {
       "title": "Lista de Derechos de Privacidad",
-      "content": "- Ser informado sobre cómo se procesa tu Información Personal, las categorías de Información Personal que se están procesando y las categorías de fuentes de las que se ha recopilado tu Información Personal.\n- Ser informado sobre si tu Información Personal procesada se está vendiendo, compartiendo, intercambiando o negociando con terceros no afiliados, y qué categorías de tu Información Personal se están vendiendo, compartiendo, intercambiando o negociando con terceros no afiliados.\n- Acceder o recibir una copia de tu Información Personal.\n- Rectificar, actualizar o corregir Información Personal inexacta o incompleta sobre ti.\n- Borrar o eliminar ciertas categorías de tu Información Personal.\n- Oponerte y optar por no participar en el procesamiento de tu Información Personal.\n- Limitar el procesamiento de tu Información Personal.\n- Optar por no participar en la venta, compartición, intercambio o negociación de tu Información Personal con terceros no afiliados.\n- Portabilidad de tu Información Personal en un formato de uso común.\n- Retirar tu consentimiento para el procesamiento de tu Información Personal en la medida en que dicho procesamiento se base en tu consentimiento, siempre que dicha retirada no afecte la legalidad del uso de tu Información Personal por parte de AlgoMaticTrader antes de dicha retirada.\n- No discriminación por ejercer tus derechos de privacidad."
+      "content": "- Ser informado sobre cómo se procesa tu Información Personal, las categorías de Información Personal que se están procesando y las categorías de fuentes de las que se ha recopilado tu Información Personal.\n- Ser informado sobre si tu Información Personal procesada se está vendiendo, compartiendo, intercambiando o negociando con terceros no afiliados, y qué categorías de tu Información Personal se están vendiendo, compartiendo, intercambiando o negociando con terceros no afiliados.\n- Acceder o recibir una copia de tu Información Personal.\n- Rectificar, actualizar o corregir Información Personal inexacta o incompleta sobre ti.\n- Borrar o eliminar ciertas categorías de tu Información Personal.\n- Oponerte y optar por no participar en el procesamiento de tu Información Personal.\n- Limitar el procesamiento de tu Información Personal.\n- Optar por no participar en la venta, compartición, intercambio o negociación de tu Información Personal con terceros no afiliados.\n- Portabilidad de tu Información Personal en un formato de uso común.\n- Retirar tu consentimiento para el procesamiento de tu Información Personal en la medida en que dicho procesamiento se base en tu consentimiento, siempre que dicha retirada no afecte la legalidad del uso de tu Información Personal por parte de Auri antes de dicha retirada.\n- No discriminación por ejercer tus derechos de privacidad."
     },
     "RequestSubmission": {
       "title": "Presentación de Solicitudes",
@@ -323,35 +323,35 @@
     },
     "NonDiscrimination": {
       "title": "No Discriminación",
-      "content": "AlgoMaticTrader no te discriminará si ejerces cualquiera de los derechos mencionados anteriormente u otros derechos bajo las Leyes de Privacidad de Datos, incluyendo no negarte los Productos, no proporcionarte un nivel o calidad de Productos diferente y no sugerir que recibirás un nivel o calidad de Productos diferente."
+      "content": "Auri no te discriminará si ejerces cualquiera de los derechos mencionados anteriormente u otros derechos bajo las Leyes de Privacidad de Datos, incluyendo no negarte los Productos, no proporcionarte un nivel o calidad de Productos diferente y no sugerir que recibirás un nivel o calidad de Productos diferente."
     },
     "AutomatedDecisionMaking": {
       "title": "Toma de Decisiones Automatizada",
-      "content": "AlgoMaticTrader no utiliza la toma de decisiones automatizada ni la elaboración de perfiles en el procesamiento de tu Información Personal, y no toma decisiones que te afecten basándose en la toma de decisiones automatizada ni en la elaboración de perfiles utilizando tu Información Personal."
+      "content": "Auri no utiliza la toma de decisiones automatizada ni la elaboración de perfiles en el procesamiento de tu Información Personal, y no toma decisiones que te afecten basándose en la toma de decisiones automatizada ni en la elaboración de perfiles utilizando tu Información Personal."
     },
     "RetentionDuration": {
       "title": "Duración de la Retención",
-      "content": "Debido a que los Productos que AlgoMaticTrader proporciona a los Clientes varían significativamente, la duración durante la cual conservamos la Información Personal varía considerablemente, dependiendo de los tipos de Productos que AlgoMaticTrader proporciona a Clientes particulares, la duración y profundidad de la relación de AlgoMaticTrader con un Cliente particular y la naturaleza de la Información Personal en cuestión. AlgoMaticTrader se esfuerza por retener la Información Personal que recibe o recopila solo durante el tiempo que sea necesario o apropiado."
+      "content": "Debido a que los Productos que Auri proporciona a los Clientes varían significativamente, la duración durante la cual conservamos la Información Personal varía considerablemente, dependiendo de los tipos de Productos que Auri proporciona a Clientes particulares, la duración y profundidad de la relación de Auri con un Cliente particular y la naturaleza de la Información Personal en cuestión. Auri se esfuerza por retener la Información Personal que recibe o recopila solo durante el tiempo que sea necesario o apropiado."
     },
     "Cookies": {
       "title": "Cookies",
-      "content": "Cuando visitas el Sitio, AlgoMaticTrader puede colocar una cookie (un archivo de texto que contiene un número asignado aleatoriamente) en tu dispositivo para que podamos personalizar la apariencia del Sitio para ti. Las cookies recuerdan información sobre ti, tus preferencias y tu dispositivo para una mejor experiencia de usuario cuando visitas el Sitio. Mediante el uso de cookies, también podemos recopilar una variedad de otra información sobre tu uso del Sitio, incluida tu dirección de protocolo de Internet, nombre de usuario, identificación de sesión, navegador que estás utilizando, páginas web que visitas y páginas web de referencia, cuándo accedes al Sitio y comportamiento general en línea para fines de rendimiento y marketing. Puedes optar por no aceptar cookies modificando la configuración de tu navegador web. Si optas por hacerlo, es posible que no puedas utilizar todas las funciones del Sitio, o que el Sitio funcione de manera menos eficiente."
+      "content": "Cuando visitas el Sitio, Auri puede colocar una cookie (un archivo de texto que contiene un número asignado aleatoriamente) en tu dispositivo para que podamos personalizar la apariencia del Sitio para ti. Las cookies recuerdan información sobre ti, tus preferencias y tu dispositivo para una mejor experiencia de usuario cuando visitas el Sitio. Mediante el uso de cookies, también podemos recopilar una variedad de otra información sobre tu uso del Sitio, incluida tu dirección de protocolo de Internet, nombre de usuario, identificación de sesión, navegador que estás utilizando, páginas web que visitas y páginas web de referencia, cuándo accedes al Sitio y comportamiento general en línea para fines de rendimiento y marketing. Puedes optar por no aceptar cookies modificando la configuración de tu navegador web. Si optas por hacerlo, es posible que no puedas utilizar todas las funciones del Sitio, o que el Sitio funcione de manera menos eficiente."
     },
     "ChangesToPolicy": {
       "title": "Cambios en la Política",
-      "content": "AlgoMaticTrader se reserva el derecho de cambiar o modificar esta Política en cualquier momento y por cualquier motivo, incluyendo para mantenerse en cumplimiento con las Leyes de Privacidad de Datos."
+      "content": "Auri se reserva el derecho de cambiar o modificar esta Política en cualquier momento y por cualquier motivo, incluyendo para mantenerse en cumplimiento con las Leyes de Privacidad de Datos."
     },
     "QuestionsConcerns": {
       "title": "Preguntas o Inquietudes",
       "content": "Para preguntas o inquietudes, por favor contacta a nuestro Oficial de Privacidad de Datos de la siguiente manera:",
-      "name": "support@AlgoMaticTrader.ai",
-      "email": "support@AlgoMaticTrader.ai",
+      "name": "support@Auri.ai",
+      "email": "support@Auri.ai",
       "lastUpdated": "Última Actualización: 4 de septiembre de 2024"
     }
   },
   "TermsOfServicePage": {
     "title": "Términos de Servicio",
-    "overview": "Este sitio web es operado por AlgoMaticTrader. A lo largo del sitio, los términos “nosotros”, “nuestro” y “nos” se refieren a AlgoMaticTrader. AlgoMaticTrader ofrece este sitio web, incluyendo toda la información, herramientas y servicios disponibles en este sitio, a ti, el usuario, condicionado a tu aceptación de todos los términos, condiciones, políticas y avisos establecidos aquí.",
+    "overview": "Este sitio web es operado por Auri. A lo largo del sitio, los términos “nosotros”, “nuestro” y “nos” se refieren a Auri. Auri ofrece este sitio web, incluyendo toda la información, herramientas y servicios disponibles en este sitio, a ti, el usuario, condicionado a tu aceptación de todos los términos, condiciones, políticas y avisos establecidos aquí.",
     "acceptance": "Al visitar nuestro sitio y/o comprar cualquier herramienta, característica o producto del sitio, participas en nuestro “Servicio” y aceptas estar sujeto a los siguientes términos y condiciones (“Términos de Servicio”, “Términos”), incluyendo aquellos términos y condiciones adicionales y políticas referenciadas aquí y/o disponibles mediante hipervínculo. Estos Términos de Servicio se aplican a todos los usuarios del sitio, incluyendo sin limitación a usuarios que son navegadores, vendedores, clientes, comerciantes y/o colaboradores de contenido.",
     "agreement": "Por favor, lee estos Términos de Servicio cuidadosamente antes de acceder o utilizar nuestro sitio web. Al acceder o utilizar cualquier parte del sitio, aceptas estar sujeto a estos Términos de Servicio. Si no estás de acuerdo con todos los términos y condiciones de este acuerdo, entonces no debes acceder al sitio web ni utilizar ningún servicio. Si estos Términos de Servicio se consideran una oferta, la aceptación se limita expresamente a estos Términos de Servicio.",
     "modification": "Cualquier nueva característica o herramienta que se añada a la tienda actual también estará sujeta a los Términos de Servicio. Puedes revisar la versión más actual de los Términos de Servicio en cualquier momento en esta página. Nos reservamos el derecho de actualizar, cambiar o reemplazar cualquier parte de estos Términos de Servicio publicando actualizaciones y/o cambios en nuestro sitio web, a nuestra entera discreción y sin previo aviso. No seremos responsables si por cualquier motivo todo o cualquier parte de los Servicios no está disponible en cualquier momento o durante cualquier período. Es tu responsabilidad revisar esta página periódicamente para conocer los cambios. Tu uso continuado del sitio web o acceso al sitio web después de la publicación de cualquier cambio constituye la aceptación de esos cambios.",
@@ -360,13 +360,13 @@
     "section2_title": "SECCIÓN 2 - CONDICIONES GENERALES",
     "section2_content": "Nos reservamos el derecho de rechazar el Servicio a cualquier persona en cualquier momento a nuestra entera discreción por cualquier razón o sin razón alguna, incluyendo si, en nuestra opinión, has violado alguna disposición de estos Términos de Servicio. Entiendes que tu contenido (excluyendo la información de la tarjeta de crédito) puede ser transferido sin cifrar e implicar (a) transmisiones a través de diversas redes; y (b) cambios para adaptarse y ajustarse a los requisitos técnicos de las redes o dispositivos de conexión. La información de la tarjeta de crédito siempre se cifra durante la transferencia a través de las redes.",
     "section3_title": "SECCIÓN 3 - DERECHOS DE PROPIEDAD INTELECTUAL",
-    "section3_content": "Los Servicios y su contenido completo, características y funcionalidad (incluyendo, entre otros, toda la información, software, texto, pantallas, imágenes, video y audio, y el diseño, selección y disposición de los mismos) son propiedad de AlgoMaticTrader, sus licenciantes u otros proveedores de dicho material y están protegidos por las leyes de derechos de autor, marcas comerciales, patentes, secretos comerciales y otras leyes de propiedad intelectual o de derechos propietarios de los Estados Unidos e internacionales. Estos Términos de Servicio te permiten usar los Servicios para tu uso personal, o en tu capacidad profesional. No debes reproducir, distribuir, modificar, crear trabajos derivados, exhibir públicamente, realizar públicamente, volver a publicar, descargar, almacenar o transmitir cualquier material en los Servicios, sin nuestro permiso expreso por escrito.",
+    "section3_content": "Los Servicios y su contenido completo, características y funcionalidad (incluyendo, entre otros, toda la información, software, texto, pantallas, imágenes, video y audio, y el diseño, selección y disposición de los mismos) son propiedad de Auri, sus licenciantes u otros proveedores de dicho material y están protegidos por las leyes de derechos de autor, marcas comerciales, patentes, secretos comerciales y otras leyes de propiedad intelectual o de derechos propietarios de los Estados Unidos e internacionales. Estos Términos de Servicio te permiten usar los Servicios para tu uso personal, o en tu capacidad profesional. No debes reproducir, distribuir, modificar, crear trabajos derivados, exhibir públicamente, realizar públicamente, volver a publicar, descargar, almacenar o transmitir cualquier material en los Servicios, sin nuestro permiso expreso por escrito.",
     "section4_title": "SECCIÓN 4 - MARCAS REGISTRADAS",
-    "section4_content": "El nombre AlgoMaticTrader, nuestro logotipo y todos los nombres, logotipos, nombres de productos y servicios, diseños y eslóganes relacionados son marcas comerciales de AlgoMaticTrader. No debes usar dichas marcas sin el permiso previo por escrito de nuestra parte. Todos los demás nombres, logotipos, nombres de productos y servicios, diseños y eslóganes en los Servicios son marcas comerciales de sus respectivos propietarios.",
+    "section4_content": "El nombre Auri, nuestro logotipo y todos los nombres, logotipos, nombres de productos y servicios, diseños y eslóganes relacionados son marcas comerciales de Auri. No debes usar dichas marcas sin el permiso previo por escrito de nuestra parte. Todos los demás nombres, logotipos, nombres de productos y servicios, diseños y eslóganes en los Servicios son marcas comerciales de sus respectivos propietarios.",
     "section5_title": "SECCIÓN 5 - DESCARGOS DE RESPONSABILIDAD Y DIVULGACIONES",
     "section5_content": "Al utilizar este sitio o cualquiera de los productos, servicios e información de este sitio, has leído detenidamente y has reconocido plenamente los siguientes descargos de responsabilidad y divulgaciones a continuación en esta sección. Descargo de responsabilidad de riesgo: El trading es riesgoso y la mayoría de los traders diarios pierden dinero. Todo el contenido debe considerarse hipotético, seleccionado después de los hechos, para demostrar nuestros Servicios y no debe interpretarse como asesoramiento financiero. Las decisiones de comprar, vender, mantener o negociar valores, productos básicos y otras inversiones implican riesgo y se deben tomar con base en el asesoramiento de profesionales financieros calificados. El rendimiento pasado no garantiza resultados futuros. El riesgo de pérdida en el trading puede ser considerable. Por lo tanto, debes considerar cuidadosamente si dicho trading es adecuado para ti a la luz de tu situación financiera.",
     "section6_title": "SECCIÓN 6 - REEMBOLSOS",
-    "section6_content": "Permitimos reembolsos dentro de un período de 30 días en tu primer pago inicial si no estás satisfecho o no entiendes nuestros Servicios, lo que significa que tienes 30 días después de registrarte en cualquier plan de suscripción de AlgoMaticTrader para recibir un reembolso en tu primer pago inicial. Para obtener un reembolso, puedes contactarnos a soporte y te asistiremos lo antes posible el mismo día. Los reembolsos generalmente tardan de 3 a 5 días hábiles en llegar a tu cuenta bancaria. Permitimos reembolsos específicamente para renovaciones automáticas de suscripciones anuales dentro de las primeras 72 horas de facturación; sin embargo, no estamos obligados a procesar un reembolso bajo ninguna otra circunstancia después de 30 días, incluyendo el caso de que olvides la renovación automática de tu suscripción. Enviamos recordatorios antes de los ciclos de facturación anual, y es tu responsabilidad exclusiva gestionar tu suscripción antes de las renovaciones iniciando sesión o enviando un correo a soporte. No aceptamos reembolsos si se paga con criptomonedas debido a posibles tarifas de transacción y otras complicaciones.",
+    "section6_content": "Permitimos reembolsos dentro de un período de 30 días en tu primer pago inicial si no estás satisfecho o no entiendes nuestros Servicios, lo que significa que tienes 30 días después de registrarte en cualquier plan de suscripción de Auri para recibir un reembolso en tu primer pago inicial. Para obtener un reembolso, puedes contactarnos a soporte y te asistiremos lo antes posible el mismo día. Los reembolsos generalmente tardan de 3 a 5 días hábiles en llegar a tu cuenta bancaria. Permitimos reembolsos específicamente para renovaciones automáticas de suscripciones anuales dentro de las primeras 72 horas de facturación; sin embargo, no estamos obligados a procesar un reembolso bajo ninguna otra circunstancia después de 30 días, incluyendo el caso de que olvides la renovación automática de tu suscripción. Enviamos recordatorios antes de los ciclos de facturación anual, y es tu responsabilidad exclusiva gestionar tu suscripción antes de las renovaciones iniciando sesión o enviando un correo a soporte. No aceptamos reembolsos si se paga con criptomonedas debido a posibles tarifas de transacción y otras complicaciones.",
     "section7_title": "SECCIÓN 7 - EXACTITUD, INTEGRIDAD Y ACTUALIDAD DE LA INFORMACIÓN",
     "section7_content": "No somos responsables si la información disponible en este sitio no es precisa, completa o actual. El material en este sitio se proporciona solo para información general y no debe confiarse en él ni utilizarse como la única base para tomar decisiones sin consultar fuentes primarias, más precisas, más completas o más oportunas de información. Cualquier confianza en el material de este sitio es bajo tu propio riesgo.",
     "section8_title": "SECCIÓN 8 - PRODUCTO / SERVICIO",
@@ -376,36 +376,31 @@
     "section10_title": "SECCIÓN 10 - RENUNCIA DE GARANTÍAS; LIMITACIÓN DE RESPONSABILIDAD",
     "section10_content": "No garantizamos, representamos ni aseguramos que el uso de nuestro Servicio será ininterrumpido, oportuno, seguro o libre de errores. Entiendes que no podemos y no garantizamos ni aseguramos que los archivos disponibles para descargar desde Internet o nuestro sitio estén libres de virus o de otros códigos destructivos. Eres responsable de implementar procedimientos y puntos de control suficientes para satisfacer tus requisitos particulares de protección contra virus y la precisión de los datos de entrada y salida, y de mantener un medio externo a nuestro sitio para la reconstrucción de cualquier dato perdido. No garantizamos que los resultados que puedan obtenerse del uso del Servicio serán precisos o confiables. Aceptas expresamente que el uso del Servicio o la imposibilidad de usarlo es bajo tu propio riesgo. Los Servicios y todos los Servicios entregados a través del Servicio se proporcionan (excepto según lo expresamente declarado por nosotros) tal cual y según disponibilidad para tu uso, sin ninguna representación, garantía o condición de ningún tipo, ya sea expresa o implícita, incluidas todas las garantías o condiciones implícitas de comerciabilidad, calidad comercial, idoneidad para un propósito particular, durabilidad, título y no infracción.",
     "section11_title": "SECCIÓN 11 - INDEMNIZACIÓN",
-    "section11_content": "Aceptas indemnizar, defender y mantener indemne a AlgoMaticTrader y a nuestra empresa matriz, subsidiarias, afiliados, socios, directores, agentes, contratistas, licenciantes, proveedores de servicios, subcontratistas, proveedores, pasantes y empleados, de cualquier reclamo o demanda, incluidos honorarios razonables de abogados, realizados por cualquier tercero debido a o derivados de tu incumplimiento de estos Términos de Servicio o de los documentos que incorporan por referencia, o de tu violación de cualquier ley o los derechos de un tercero.",
+    "section11_content": "Aceptas indemnizar, defender y mantener indemne a Auri y a nuestra empresa matriz, subsidiarias, afiliados, socios, directores, agentes, contratistas, licenciantes, proveedores de servicios, subcontratistas, proveedores, pasantes y empleados, de cualquier reclamo o demanda, incluidos honorarios razonables de abogados, realizados por cualquier tercero debido a o derivados de tu incumplimiento de estos Términos de Servicio o de los documentos que incorporan por referencia, o de tu violación de cualquier ley o los derechos de un tercero.",
     "section12_title": "SECCIÓN 12 - CAMBIOS A LOS TÉRMINOS DE SERVICIO",
     "section12_content": "Nos reservamos el derecho, a nuestra sola discreción, de actualizar, cambiar o reemplazar cualquier parte de estos Términos de Servicio publicando actualizaciones y cambios en nuestro sitio web. Es tu responsabilidad revisar nuestro sitio web periódicamente para conocer los cambios. Tu uso continuado de nuestro sitio web o acceso al Servicio después de la publicación de cualquier cambio a estos Términos de Servicio constituye la aceptación de esos cambios.",
     "section13_title": "SECCIÓN 13 - INFORMACIÓN SOBRE TI",
-    "section13_content": "Toda la información que recopilamos sobre ti está sujeta a nuestra Política de Privacidad. Al utilizar los Servicios, aceptas todas las acciones que tomamos con respecto a tu información en cumplimiento con la Política de Privacidad.",
+    "section13_content": "Toda la información que recopilamos sobre ti está sujeta a nuestra Política de Privacidad. Al utilizar los Servicios, aceptas todas las acciones que tomemos con respecto a tu información en cumplimiento con la Política de Privacidad.",
     "section14_title": "SECCIÓN 14 - LEY APLICABLE Y JURISDICCIÓN",
     "section14_content": "Todos los asuntos relacionados con los Servicios y estos Términos de Uso, y cualquier disputa o reclamo que surja de ellos o esté relacionado con ellos (en cada caso, incluidas las disputas o reclamos no contractuales), se regirán e interpretarán de acuerdo con las leyes internas del estado de Delaware, sin dar efecto a ninguna disposición o norma de elección o conflicto de leyes. Cualquier demanda legal, acción o procedimiento que surja de estos Términos de Servicio o de los Servicios se llevará a cabo exclusivamente en los tribunales federales de los Estados Unidos o en los tribunales de Delaware, aunque nos reservamos el derecho de presentar cualquier demanda, acción o procedimiento en tu país de residencia o en cualquier otro país relevante. Renuncias a cualquier y toda objeción al ejercicio de jurisdicción sobre ti por dichos tribunales y a la competencia en dichos tribunales.",
     "section15_title": "SECCIÓN 15 - INFORMACIÓN DE CONTACTO",
     "section15_content": "Las preguntas sobre los Términos de Servicio deben enviarse a soporte."
   },
   "main-form": {
-    "success": {
-      "title": "Formulario Enviado",
-      "message": "Tu formulario se ha enviado correctamente.",
-      "ctaButton": "Comienza Ahora"
-    },
     "heroSectionLvds": {
       "title": "Trade World LVDS - Membresía Temprana",
       "subtitle": "Tu socio impulsado por IA para decisiones comerciales más inteligentes.",
-      "description": "Únete a miles de traders que confían en AlgoMaticTrader para señales en tiempo real, análisis de mercado y herramientas de gestión de riesgos. Comienza tu camino hacia ganancias consistentes hoy.",
+      "description": "Únete a miles de traders que confían en Auri para señales en tiempo real, análisis de mercado y herramientas de gestión de riesgos. Comienza tu camino hacia ganancias consistentes hoy.",
       "ctaButton": "Comienza Ahora"
     },
     "heroSection": {
-      "title": "Domina el Trading con AlgoMaticTrader.ai",
+      "title": "Domina el Trading con Auri.ai",
       "subtitle": "Tu socio impulsado por IA para decisiones comerciales más inteligentes.",
-      "description": "Únete a miles de traders que confían en AlgoMaticTrader para señales en tiempo real, análisis de mercado y herramientas de gestión de riesgos. Comienza tu camino hacia ganancias consistentes hoy.",
+      "description": "Únete a miles de traders que confían en Auri para señales en tiempo real, análisis de mercado y herramientas de gestión de riesgos. Comienza tu camino hacia ganancias consistentes hoy.",
       "ctaButton": "Comienza Ahora"
     },
     "formSection": {
-      "title": "Comienza con AlgoMaticTrader.ai",
+      "title": "Comienza con Auri.ai",
       "description": "Completa el formulario a continuación para unirte a nuestra plataforma y desbloquear las herramientas que necesitas para un trading más inteligente y confiado.",
       "fields": {
         "name": {
@@ -477,7 +472,7 @@
     "success": {
       "title": "¡Gracias por contactarnos!",
       "message": "Hemos recibido tu solicitud de soporte y te responderemos dentro de 24 a 48 horas.",
-      "urgentHelp": "Si necesitas ayuda inmediata, envíanos un correo electrónico directamente a support@AlgoMaticTrader.ai"
+      "urgentHelp": "Si necesitas ayuda inmediata, envíanos un correo electrónico directamente a support@Auri.ai"
     },
     "toast": {
       "success": {
@@ -490,44 +485,63 @@
       }
     }
   },
-  "error": {
-    "404": {
-      "title": "Página No Encontrada",
-      "message": "Lo sentimos, no pudimos encontrar la página que estás buscando."
+  "auri": {
+    "hero": {
+      "title": "Conoce a Auri: Tu Compañero Inteligente de Trading",
+      "subtitle": "Empoderando a los traders con análisis de precisión, inteligencia de mercado en tiempo real y conocimientos de nivel institucional.",
+      "cta_primary": "Comienza Ahora",
+      "cta_secondary": "Aprende Más"
     },
-    "500": {
-      "title": "Error del Servidor",
-      "message": "¡Ups! Algo salió mal en nuestro servidor."
-    },
-    "403": {
-      "title": "Acceso Denegado",
-      "message": "Lo sentimos, no tienes permiso para acceder a esta página."
-    },
-    "buttons": {
-      "home": "Volver al inicio",
-      "back": "Volver atrás"
-    }
-  },
-  "register": {
-    "form": {
-      "submit": "Enviar",
-      "submitting": "Enviando..."
-    }
-  },
-  "supported": {
-    "success": {
-      "title": "¡Gracias por contactarnos!",
-      "message": "Hemos recibido tu solicitud de soporte y te responderemos en un plazo de 24-48 horas.",
-      "urgentHelp": "Si necesitas ayuda inmediata, envíanos un correo directamente a support@AlgoMaticTrader.ai"
-    },
-    "toast": {
-      "success": {
-        "title": "¡Éxito!",
-        "description": "Tu solicitud de soporte ha sido enviada. Nos pondremos en contacto contigo pronto."
+    "sections": {
+      "about": {
+        "title": "¿Por qué Auri?",
+        "content": "Auri es tu asistente de IA de última generación, diseñado para traders que exigen precisión y conocimientos. Desde criptomonedas hasta acciones y forex, Auri ofrece señales en tiempo real, tutoriales educativos y comentarios prácticos para ayudarte a mantenerte a la vanguardia del mercado."
       },
-      "error": {
-        "title": "Error",
-        "description": "Hubo un problema al enviar tu solicitud. Por favor, inténtalo de nuevo."
+      "features": {
+        "title": "Características Clave de Auri",
+        "items": [
+          {
+            "title": "Señales Avanzadas del Mercado",
+            "description": "Señales en tiempo real para criptomonedas, acciones y forex con análisis en múltiples marcos de tiempo, recomendaciones de stop-loss y take-profit."
+          },
+          {
+            "title": "Tutoriales Educativos",
+            "description": "Guías paso a paso sobre análisis técnico y fundamental para mejorar tus habilidades de trading."
+          },
+          {
+            "title": "Comentarios sobre Operaciones",
+            "description": "Recibe revisiones detalladas de tus operaciones con consejos prácticos para mejorar."
+          },
+          {
+            "title": "Análisis de Datos en Tiempo Real",
+            "description": "Monitorea métricas on-chain, movimientos de grandes inversores y el sentimiento social para descubrir tendencias de mercado antes de que se popularicen."
+          },
+          {
+            "title": "Gestión de Riesgos",
+            "description": "Herramientas poderosas para calcular tamaños de posición, gestionar stop-loss y garantizar la seguridad del margen."
+          }
+        ]
+      },
+      "how_it_works": {
+        "title": "Cómo Funciona Auri",
+        "steps": [
+          {
+            "title": "Analizar Tendencias del Mercado",
+            "description": "Auri escanea miles de proyectos y mercados en tiempo real, utilizando IA para ofrecer ideas de alta convicción."
+          },
+          {
+            "title": "Proveer Señales",
+            "description": "Recibe señales de trading prácticas con parámetros claros de entrada, salida y riesgo."
+          },
+          {
+            "title": "Educar y Guiar",
+            "description": "Aprende con tutoriales personalizados y recibe comentarios constructivos sobre tus operaciones."
+          },
+          {
+            "title": "Potenciar tu Trading",
+            "description": "Usa los conocimientos y herramientas de Auri para mantenerte adelante, optimizar estrategias y tomar decisiones basadas en datos."
+          }
+        ]
       }
     }
   }

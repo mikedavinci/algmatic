@@ -2,7 +2,6 @@ import { Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTranslation } from 'react-i18next';
 import { useNavigationStore } from '@/lib/store';
-// import { ThemeToggle } from "@/components/theme/theme-toggle";
 import { AnimatedLogo } from '@/components/logo/animated-logo';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { MobileMenu } from './mobile-menu';
@@ -27,37 +26,27 @@ export function Header() {
   };
 
   const navItems = [
-    { href: '#hero', label: t('navbar.items.home') },
-    { href: '#features', label: t('navbar.items.features') },
-    { href: '#faq', label: t('navbar.items.faq') },
+    { href: '/', label: 'Meet Auri' },
+    { href: '/features#features', label: t('navbar.items.features') },
+    { href: '/features#faq', label: t('navbar.items.faq') },
   ];
 
-  const scrollToSection = (
+  const handleNavigation = (
     e: React.MouseEvent<HTMLAnchorElement>,
     href: string
   ) => {
     e.preventDefault();
-    if (window.location.pathname !== '/') {
-      // First navigate to home page
-      navigate('/');
-      // Wait for the navigation to complete and DOM to update
-      setTimeout(() => {
-        // After navigation, try to find the element multiple times
-        const tryScroll = (attempts = 0) => {
-          const element = document.querySelector(href);
+
+    if (href.startsWith('/')) {
+      const [path, hash] = href.split('#');
+      navigate(path);
+      if (hash) {
+        setTimeout(() => {
+          const element = document.querySelector(`#${hash}`);
           if (element) {
             element.scrollIntoView({ behavior: 'smooth' });
-          } else if (attempts < 5) {
-            // Retry a few times if element not found
-            setTimeout(() => tryScroll(attempts + 1), 100);
           }
-        };
-        tryScroll();
-      }, 300); // Increased delay to ensure navigation completes
-    } else {
-      const element = document.querySelector(href);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
       }
     }
   };
@@ -67,17 +56,17 @@ export function Header() {
       style={{ opacity }}
       className="sticky top-0 z-50 w-full border-b bg-background backdrop-blur supports-[backdrop-filter]:bg-background/60"
     >
-      <div className="container flex h-16 items-center">
-        <div className="flex items-center justify-between w-full lg:justify-start">
+      <div className="container flex h-16 items-center justify-between">
+        <div className="mr-4 flex">
           <Button
             variant="ghost"
-            className="px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 lg:hidden"
+            className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 lg:hidden"
             onClick={toggle}
           >
             <Menu className="h-6 w-6" />
             <span className="sr-only">Toggle Menu</span>
           </Button>
-          <a href="/" className="absolute left-1/2 -translate-x-1/2 flex items-center space-x-2 lg:static lg:translate-x-0 lg:mr-6">
+          <a href="/" className="mr-6 flex items-center space-x-2">
             <AnimatedLogo />
             <motion.span
               className="font-bold text-xl bg-gradient-to-r from-primary via-primary/80 to-primary/40 bg-clip-text text-transparent"
@@ -94,7 +83,7 @@ export function Header() {
             <a
               key={item.href}
               href={item.href}
-              onClick={(e) => scrollToSection(e, item.href)}
+              onClick={(e) => handleNavigation(e, item.href)}
               className="text-base font-medium transition-colors hover:text-primary relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-primary after:scale-x-0 hover:after:scale-x-100 after:transition-transform"
             >
               {item.label}
