@@ -68,7 +68,7 @@ export function PartnerFormPage() {
     setIsLoading(true);
     try {
       const response = await fetch(
-        'https://api.Auri.ai/api/site-forms/submit-lvds-form',
+        'https://api.tradejourney.ai/api/site-forms/s',
         {
           method: 'POST',
           headers: {

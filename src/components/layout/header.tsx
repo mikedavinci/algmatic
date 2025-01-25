@@ -98,10 +98,10 @@ export function Header() {
             </SelectTrigger>
             <SelectContent className="min-w-[80px]">
               <SelectItem value="en" className="text-[11px]">
-                English
+                Eng
               </SelectItem>
               <SelectItem value="es" className="text-[11px]">
-                Español
+                Esp
               </SelectItem>
             </SelectContent>
           </Select>

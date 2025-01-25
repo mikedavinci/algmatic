@@ -21,7 +21,7 @@ export function MobileMenu() {
   };
 
   const navItems = [
-    { href: '/auri', label: 'Auri' },
+    { href: '/', label: 'Auri' },
     { href: '/features#features', label: t('navbar.items.features') },
     { href: '/features#faq', label: t('navbar.items.faq') },
   ];
