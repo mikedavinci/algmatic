@@ -4,6 +4,8 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { ArrowRight } from 'lucide-react';
 import { CandlestickBackground } from '@/components/animations/candlestick-background';
+import { GridPattern } from '@/components/ui/grid-pattern';
+import { useNavigate } from 'react-router-dom';
 
 const container = {
   hidden: { opacity: 0 },
@@ -40,6 +42,7 @@ interface Faq {
 
 export function AuriPage() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   const features = (t('auriTwo.features.items', { returnObjects: true }) ||
     []) as Feature[];
@@ -51,13 +54,53 @@ export function AuriPage() {
   const faqs = (t('auriTwo.faq.items', { returnObjects: true }) || []) as Faq[];
 
   return (
-    <div className="min-h-screen bg-auri-gradient">
+    <div className="min-h-screen bg-gradient-to-b from-background via-background/95 to-background relative overflow-hidden">
+      <GridPattern size={50} className="opacity-[0.02]" />
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+        <motion.div
+          className="absolute h-[500px] w-[500px] bg-primary/30 rounded-full blur-[100px]"
+          animate={{
+            scale: [1, 1.2, 1],
+            opacity: [0.3, 0.2, 0.3],
+          }}
+          transition={{
+            duration: 8,
+            repeat: Infinity,
+            ease: 'easeInOut',
+          }}
+        />
+        <motion.div
+          className="absolute h-[800px] w-[800px] bg-secondary/20 rounded-full blur-[120px]"
+          animate={{
+            scale: [1.2, 1, 1.2],
+            opacity: [0.2, 0.3, 0.2],
+          }}
+          transition={{
+            duration: 10,
+            repeat: Infinity,
+            ease: 'easeInOut',
+          }}
+        />
+        <motion.div
+          className="absolute h-[600px] w-[600px] bg-accent/20 rounded-full blur-[140px]"
+          animate={{
+            scale: [0.8, 1, 0.8],
+            opacity: [0.2, 0.1, 0.2],
+          }}
+          transition={{
+            duration: 12,
+            repeat: Infinity,
+            ease: 'easeInOut',
+          }}
+        />
+      </div>
+
       {/* Hero Section */}
       <section className="relative overflow-hidden pt-24 pb-20 min-h-[80vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <CandlestickBackground />
         </div>
-        <div className="absolute inset-0 z-10 bg-gradient-to-b from-background via-background/20 to-background pointer-events-none" />
+        <div className="absolute inset-0 z-10 bg-gradient-to-b from-background/80 via-background/40 to-background/90 pointer-events-none" />
         <div className="container relative z-20">
           <div className="mx-auto max-w-3xl text-center">
             <motion.div
@@ -96,21 +139,24 @@ export function AuriPage() {
               <Button
                 size="lg"
                 className="w-full sm:w-auto bg-auri-teal hover:bg-auri-teal/90"
+                onClick={() => navigate('/register')}
               >
                 {t('auriTwo.hero.cta_primary')}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              <Button size="lg" variant="outline" className="w-full sm:w-auto">
+              {/* <Button size="lg" variant="outline" className="w-full sm:w-auto">
                 {t('auriTwo.hero.cta_secondary')}
-              </Button>
+              </Button> */}
             </motion.div>
           </div>
         </div>
       </section>
 
       {/* About Section */}
-      <section className="py-20">
-        <div className="container">
+      <section className="py-20 relative">
+        <GridPattern size={32} className="opacity-[0.02]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-secondary/5" />
+        <div className="container relative">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">
               {t('auriTwo.about.title')}
@@ -123,8 +169,10 @@ export function AuriPage() {
       </section>
 
       {/* Daily Market Briefings Section */}
-      <section className="py-20 bg-muted/50">
-        <div className="container">
+      <section className="py-20 relative">
+        <div className="absolute inset-0 backdrop-blur-3xl bg-muted/30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-transparent" />
+        <div className="container relative">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">
               {t('auriTen.dailyMarketBriefings.title')}
@@ -137,8 +185,10 @@ export function AuriPage() {
       </section>
 
       {/* Interactive Trade Simulator Section */}
-      <section className="py-20">
-        <div className="container">
+      <section className="py-20 relative">
+        <GridPattern size={24} className="opacity-[0.02]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-secondary/5 via-transparent to-accent/5" />
+        <div className="container relative">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">
               {t('auriTen.interactiveTradeSimulator.title')}
@@ -151,8 +201,10 @@ export function AuriPage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 bg-muted/50">
-        <div className="container">
+      <section className="py-20 relative">
+        <div className="absolute inset-0 backdrop-blur-3xl bg-muted/30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/5 to-transparent" />
+        <div className="container relative">
           <h2 className="text-3xl font-bold text-center mb-12 font-heading">
             {t('auriTwo.features.title')}
           </h2>
@@ -180,8 +232,10 @@ export function AuriPage() {
       </section>
 
       {/* How it Works Section */}
-      <section className="py-20">
-        <div className="container">
+      <section className="py-20 relative">
+        <GridPattern size={16} className="opacity-[0.02]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-accent/5 via-transparent to-primary/5" />
+        <div className="container relative">
           <h2 className="text-3xl font-bold text-center mb-12 font-heading">
             {t('auriTwo.how_it_works.title')}
           </h2>
@@ -209,8 +263,10 @@ export function AuriPage() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-muted/50">
-        <div className="container">
+      <section className="py-20 relative">
+        <div className="absolute inset-0 backdrop-blur-3xl bg-muted/30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-accent/5 to-transparent" />
+        <div className="container relative">
           <h2 className="text-3xl font-bold text-center mb-12 font-heading">
             {t('auriTwo.testimonials.title')}
           </h2>
@@ -238,8 +294,10 @@ export function AuriPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20">
-        <div className="container">
+      <section className="py-20 relative">
+        <GridPattern size={20} className="opacity-[0.02]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-secondary/5" />
+        <div className="container relative">
           <h2 className="text-3xl font-bold text-center mb-12 font-heading">
             {t('auriTwo.faq.title')}
           </h2>
@@ -267,8 +325,10 @@ export function AuriPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-muted/50">
-        <div className="container">
+      <section className="py-20 relative">
+        <div className="absolute inset-0 backdrop-blur-3xl bg-muted/30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-transparent" />
+        <div className="container relative">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">
               {t('auriTwo.cta_section.title')}
