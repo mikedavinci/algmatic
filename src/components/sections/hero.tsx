@@ -1,8 +1,9 @@
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, LineChart } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { CandlestickBackground } from '@/components/animations/candlestick-background';
 import { useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 export function Hero() {
   const { t } = useTranslation();
@@ -13,10 +14,17 @@ export function Hero() {
       id="hero"
       className="relative overflow-hidden bg-background/50 pt-24 pb-20 min-h-[80vh] flex items-center"
     >
-      <div className="container relative z-20">
+      <div className="container relative z-10">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="flex items-center justify-center mb-8">
-            <LineChart className="h-16 w-16 text-primary" />
+          <div className="flex items-center justify-center mb-12">
+            <motion.img
+              src="https://res.cloudinary.com/dtgmhmxlx/image/upload/v1737791264/algomatic/cropped-one_m9ifgz.png"
+              alt="Algomatic Logo"
+              className="h-24 w-24 object-contain"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, ease: 'easeOut' }}
+            />
           </div>
           <h1 className="mb-8 text-4xl font-bold tracking-tight sm:text-6xl">
             {t('pageTitle')}
@@ -36,10 +44,10 @@ export function Hero() {
           </div>
         </div>
       </div>
-      <div className="absolute inset-0 z-10 pointer-events-none">
+      <div className="absolute inset-0 z-10">
         <CandlestickBackground />
       </div>
-      <div className="absolute inset-0 z-0 pointer-events-none bg-gradient-to-b from-background via-background/20 to-background" />
+      <div className="absolute inset-0 z-0 bg-gradient-to-b from-background via-background/20 to-background" />
     </section>
   );
 }

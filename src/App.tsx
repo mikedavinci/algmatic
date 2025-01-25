@@ -7,7 +7,7 @@ import { Hero } from '@/components/sections/hero';
 import { FAQ } from '@/components/sections/faq';
 import { Features } from '@/components/sections/features';
 import { RegisterPage } from '@/pages/register';
-import { TradeWorldLVDSPage } from '@/pages/trade-world-lvds';
+import { PartnerFormPage } from '@/pages/partner-form';
 import { SupportPage } from '@/pages/support';
 import { PrivacyPage } from '@/pages/privacy';
 import { TermsPage } from '@/pages/terms';
@@ -112,12 +112,12 @@ function App() {
           />
         </Helmet>
         <ScrollToTop />
-        <div className="relative flex min-h-screen flex-col">
+        <div className="relative flex min-h-screen flex-col bg-auri-gradient">
           <Header />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/register" element={<RegisterPage />} />
-            <Route path="/trade-world-lvds" element={<TradeWorldLVDSPage />} />
+            <Route path="/trade-world-lvds" element={<PartnerFormPage />} />
             <Route path="/support" element={<SupportPage />} />
             <Route path="/privacy-policy" element={<PrivacyPage />} />
             <Route path="/terms-of-service" element={<TermsPage />} />

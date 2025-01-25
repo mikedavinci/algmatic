@@ -31,7 +31,7 @@ const formSchema = z.object({
   question3: z.string(),
 });
 
-export function TradeWorldLVDSPage() {
+export function PartnerFormPage() {
   const { t } = useTranslation();
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);

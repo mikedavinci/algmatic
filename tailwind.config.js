@@ -13,17 +13,16 @@ export default {
         sans: ['"Source Sans Pro"', 'system-ui', 'sans-serif'],
         heading: ['Merriweather', 'Georgia', 'serif'],
       },
-     fontSize: {
-       xs: '0.825rem',   // 13.2px (base * 0.75)
-       sm: '0.9625rem',  // 15.4px (base * 0.875)
-       base: '1.1rem',   // 17.6px (10% larger than default 16px)
-    
-     },
+      fontSize: {
+        xs: '0.825rem', // 13.2px (base * 0.75)
+        sm: '0.9625rem', // 15.4px (base * 0.875)
+        base: '1.1rem', // 17.6px (10% larger than default 16px)
+      },
       container: {
         center: true,
-        padding: "2rem",
+        padding: '2rem',
         screens: {
-          "2xl": "1400px",
+          '2xl': '1400px',
         },
       },
       borderRadius: {
@@ -32,6 +31,17 @@ export default {
         sm: 'calc(var(--radius) - 4px)',
       },
       colors: {
+        // Custom theme colors mapped to existing classes
+        auri: {
+          teal: 'hsl(var(--primary))',
+          lavender: 'hsl(var(--secondary))',
+          whiteAccent: 'hsl(var(--muted))',
+          softPink: 'hsl(var(--accent))',
+          aquaHighlight: 'hsl(var(--destructive))',
+          darkStart: 'hsl(222, 47%, 8%)',
+          darkMid: 'hsl(215, 32%, 12%)',
+          darkEnd: 'hsl(217, 36%, 14%)',
+        },
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
@@ -72,6 +82,10 @@ export default {
           4: 'hsl(var(--chart-4))',
           5: 'hsl(var(--chart-5))',
         },
+      },
+      backgroundImage: {
+        'auri-gradient':
+          'linear-gradient(180deg, hsl(222, 47%, 8%) 0%, hsl(215, 32%, 12%) 50%, hsl(217, 36%, 14%) 100%)',
       },
       keyframes: {
         'accordion-down': {
