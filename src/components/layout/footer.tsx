@@ -99,20 +99,9 @@ export function Footer() {
                     >
                       {link.title}
                     </Link>
-                  ) : link.title === 'Disclaimer' ? (
-                    <Link
-                      to="/disclaimer"
-                      className="text-sm text-muted-foreground hover:text-primary"
-                    >
-                      {link.title}
-                    </Link>
                   ) : (
                     <Link
-                      to={
-                        link.url.startsWith('#')
-                          ? '/' + link.url
-                          : '/' + link.url
-                      }
+                      to="/disclaimer"
                       className="text-sm text-muted-foreground hover:text-primary"
                     >
                       {link.title}
