@@ -1,56 +1,15 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
+import { HTMLAttributes } from 'react';
 
-function CandleStick({ x, delay, direction = "left" }: { x: number; delay: number; direction?: "left" | "right" }) {
-  const yOffset = 800;
-  const xOffset = direction === "left" ? -200 : 200;
-  
+export function CandlestickBackground({
+  className = '',
+  ...props
+}: HTMLAttributes<HTMLDivElement>) {
   return (
-    <g>
-      <motion.line
-        x1={x + 25}
-        x2={x + 25}
-        y1={0}
-        y2={100}
-        stroke="currentColor"
-        strokeWidth={6}
-        initial={{ opacity: 0, y: yOffset, x: 0 }}
-        animate={{ 
-          opacity: [0, 0.8, 0],
-          y: [yOffset, -200],
-          x: [0, xOffset]
-        }}
-        transition={{
-          duration: 15,
-          delay,
-          repeat: Infinity,
-          ease: "linear"
-        }}
-      />
-      <motion.rect
-        x={x}
-        width={50}
-        height={80}
-        fill="currentColor"
-        initial={{ opacity: 0, y: yOffset, x: 0 }}
-        animate={{ 
-          opacity: [0, 0.8, 0],
-          y: [yOffset, -200],
-          x: [0, xOffset]
-        }}
-        transition={{
-          duration: 15,
-          delay,
-          repeat: Infinity,
-          ease: "linear"
-        }}
-      />
-    </g>
-  );
-}
-
-export function CandlestickBackground() {
-  return (
-    <div className="absolute inset-0 h-full w-full overflow-hidden pointer-events-none">
+    <div
+      className={`absolute inset-0 h-full w-full overflow-hidden pointer-events-none ${className}`}
+      {...props}
+    >
       <div className="absolute inset-0">
         <motion.svg
           viewBox="0 0 1200 800"
@@ -61,18 +20,13 @@ export function CandlestickBackground() {
         >
           {/* Left side candlesticks */}
           {Array.from({ length: 10 }).map((_, i) => (
-            <CandleStick
-              key={i}
-              x={i * 120}
-              delay={i * 0.8}
-              direction="left"
-            />
+            <CandleStick key={i} x={i * 120} delay={i * 0.8} direction="left" />
           ))}
           {/* Right side candlesticks */}
           {Array.from({ length: 10 }).map((_, i) => (
             <CandleStick
               key={`right-${i}`}
-              x={600 + (i * 120)}
+              x={600 + i * 120}
               delay={i * 0.8}
               direction="right"
             />
@@ -80,5 +34,59 @@ export function CandlestickBackground() {
         </motion.svg>
       </div>
     </div>
+  );
+}
+
+interface CandleStickProps {
+  x: number;
+  delay: number;
+  direction?: 'left' | 'right';
+}
+
+function CandleStick({ x, delay, direction = 'left' }: CandleStickProps) {
+  const yOffset = 800;
+  const xOffset = direction === 'left' ? -200 : 200;
+
+  return (
+    <g>
+      <motion.line
+        x1={x + 25}
+        x2={x + 25}
+        y1={0}
+        y2={100}
+        stroke="currentColor"
+        strokeWidth={6}
+        initial={{ opacity: 0, y: yOffset, x: 0 }}
+        animate={{
+          opacity: [0, 0.8, 0],
+          y: [yOffset, -200],
+          x: [0, xOffset],
+        }}
+        transition={{
+          duration: 15,
+          delay,
+          repeat: Infinity,
+          ease: 'linear',
+        }}
+      />
+      <motion.rect
+        x={x}
+        width={50}
+        height={80}
+        fill="currentColor"
+        initial={{ opacity: 0, y: yOffset, x: 0 }}
+        animate={{
+          opacity: [0, 0.8, 0],
+          y: [yOffset, -200],
+          x: [0, xOffset],
+        }}
+        transition={{
+          duration: 15,
+          delay,
+          repeat: Infinity,
+          ease: 'linear',
+        }}
+      />
+    </g>
   );
 }

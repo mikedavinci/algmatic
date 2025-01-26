@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { LanguageSelector } from '@/components/language-selector';
+import { SignedIn, SignedOut, UserButton } from '@clerk/clerk-react';
 
 export function MobileMenu() {
   const { isOpen, toggle } = useNavigationStore();
@@ -11,8 +12,8 @@ export function MobileMenu() {
   const navigate = useNavigate();
 
   const navItems = [
-    { href: '/', label: 'Auri' },
-    { href: '/features#features', label: t('navbar.items.features') },
+    { href: '/', label: 'Meet Auri' },
+    { href: '/mind-of-auri', label: t('navbar.items.features') },
     { href: '/features#faq', label: t('navbar.items.faq') },
   ];
 
@@ -49,6 +50,33 @@ export function MobileMenu() {
               {item.label}
             </Button>
           ))}
+          <SignedOut>
+            <Button
+              variant="ghost"
+              className="w-full justify-start"
+              onClick={() => {
+                navigate('/sign-in');
+                toggle();
+              }}
+            >
+              Sign In
+            </Button>
+            <Button
+              variant="default"
+              className="w-full justify-start"
+              onClick={() => {
+                navigate('/sign-up');
+                toggle();
+              }}
+            >
+              Sign Up
+            </Button>
+          </SignedOut>
+          <SignedIn>
+            <div className="flex items-center justify-center">
+              <UserButton afterSignOutUrl="/" />
+            </div>
+          </SignedIn>
           <div className="mb-4">
             <p className="text-sm font-medium mb-2">Language</p>
             <div className="flex justify-center">

@@ -1,4 +1,8 @@
 {
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up"
+  },
   "pageTitle": "Trade Smarter, Not Harder – Experience Automated Trading",
   "pageSubtitle": "Advanced trading automation, risk management, and 24/7 reliability—all delivered seamlessly with Auri.",
   "behindTheScenesTitle": "Behind the Scenes: How Auri Works",
@@ -738,8 +742,8 @@
     }
   },
   "auriTen": {
-    "title": "Why Auri 2.0?",
-    "subtitle": "Unlock Your Potential with Auri 2.0",
+    "title": "Why Auri?",
+    "subtitle": "Unlock Your Potential with Auri",
     "dailyMarketBriefings": {
       "title": "Kickstart Your Day with Me",
       "content": "Every morning, I’ll deliver a personalized market briefing directly to you. From overnight market movements to upcoming economic events, I’ll ensure you start the day informed and ready to act."
@@ -779,6 +783,233 @@
     "aurisMonthlyMarketRecap": {
       "title": "Reflect, Learn, and Plan Ahead",
       "content": "At the end of each month, I’ll prepare a comprehensive report of market trends, your trading performance, and areas to watch. Together, we’ll plan your next steps."
+    }
+  },
+  "auriPageTwo": {
+    "auriDailyBriefing": {
+      "greeting": "Good morning! It’s Auri, your trusted trading companion, here to make sure you’re ready to seize every market opportunity today. ☀️",
+      "intro": "Every day, before the opening bell rings, I gather the most important market updates just for you. From overnight movements to breaking news, I distill the chaos of the markets into a concise, personalized briefing. Here’s what you can expect in your daily dose of insights:",
+      "items": {
+        "overnightRecap": "Overnight Recap: I’ll update you on how global markets performed while you slept. Whether it’s Asia, Europe, or the US, I’ll highlight key trends and movements.",
+        "topMovers": "Top Movers: Find out which stocks, cryptos, or forex pairs made the biggest waves and why.",
+        "economicEventsCalendar": "Economic Events Calendar: I’ll keep you informed about crucial economic events, like Fed announcements or earnings reports, so you can plan your trades ahead of time.",
+        "marketSentiment": "Market Sentiment: Get a quick snapshot of what traders and investors are buzzing about across social media and forums.",
+        "auriKeyInsights": "Auri’s Key Insights: My AI brain processes all this data to offer you actionable advice—whether it’s a potential breakout, a reversal, or an opportunity to watch."
+      },
+      "outro": "But I don’t just give you raw data—I add context and strategies tailored to your style. Are you a cautious trader? I’ll emphasize low-risk options. Feeling bold today? I’ll point you toward high-reward opportunities.",
+      "closing": "Let’s face the markets together, one morning at a time. Ready to start your day with a competitive edge? Grab your coffee, and let’s dive into today’s market briefing. I promise it’ll be worth your time."
+    },
+    "auriPracticeWithoutRisk": {
+      "title": "Practice Without Risk",
+      "greeting": "Hi, it’s me, Auri! Have you ever wished you could test your trading strategies without the pressure of real money on the line? I’ve got you covered with my Interactive Trade Simulator—your safe space to experiment, learn, and grow as a trader.",
+      "intro": "Here’s how I’ll make it an unforgettable experience:",
+      "items": {
+        "realisticEnvironment": "Step into a Realistic Market Environment 🌎: I’ve designed the simulator to mirror actual market conditions, so every trade you make feels just like the real thing. You’ll get access to live prices, realistic spreads, and even simulated slippage—just like in a live trading scenario.",
+        "testAndTweak": "Test, Tweak, and Triumph 🔄: Go ahead and experiment! Whether it’s a new strategy, an unfamiliar trading pair, or a different risk approach, the simulator lets you try it all. I’ll help you track the outcomes so you can see what works and what doesn’t.",
+        "feedbackConfidence": "Feedback That Builds Confidence 📊: Every trade you make in the simulator is an opportunity to learn. I’ll provide you with detailed feedback on your entries, exits, risk management, and overall strategy. Think of me as your personal trading coach, helping you refine your techniques with each trade.",
+        "financialStressFree": "Learn Without Financial Stress 🛡️: There’s no need to worry about losses here—only lessons. By practicing in a risk-free environment, you’ll build the skills and confidence to apply your strategies successfully when it’s time to trade live.",
+        "gamifyGrowth": "Gamify Your Growth 🏆: Trading doesn’t have to be all serious. I’ve added challenges, achievements, and badges to keep you motivated. Whether it’s mastering a new technique or achieving a profitable streak, you’ll have fun while leveling up your skills."
+      },
+      "outro": "The Interactive Trade Simulator isn’t just a tool—it’s a safe haven where you can explore, grow, and prepare for success. Ready to dive in and start practicing? Let’s perfect your craft, one simulated trade at a time!"
+    },
+    "auriTradingMentor": {
+      "title": "Your Personal Trading Mentor",
+      "greeting": "Hey there, it’s me, Auri! Got a question about a trade? Wondering if your strategy aligns with the current market conditions? Or maybe you’re curious about a particular stock, crypto, or forex pair? I’m here to help—24/7.",
+      "items": {
+        "askAnything": "Ask Me Anything 🤔: Whether you’re a beginner trying to understand candlestick patterns or a seasoned trader fine-tuning your risk management, I’m your go-to mentor. Simply type your question, and I’ll provide clear, actionable answers tailored to your needs.",
+        "realTimeGuidance": "Real-Time Guidance 🕒: Markets move fast, and so do I. Need to understand a sudden market spike or decide whether to hold or exit a position? Just ask, and I’ll respond instantly with insights that help you stay one step ahead.",
+        "strategySupport": "Strategy Support 🎯: Feeling unsure about a strategy? Let’s discuss it! I’ll analyze your approach and offer suggestions to optimize your trading plan. From technical indicators to entry and exit points, I’m here to guide you toward success.",
+        "marketDeepDives": "Market Deep Dives 🌊: Want to explore the fundamentals of a stock, the sentiment around a cryptocurrency, or the trends in forex markets? I can dive deep into the data and provide you with the knowledge you need to make informed decisions.",
+        "alwaysLearning": "Always Here, Always Learning 📚: I never sleep, and I’m always improving. My AI capabilities grow every day, meaning my answers will get sharper, my insights deeper, and my advice even more relevant to your trading style."
+      },
+      "whyAskAuri": {
+        "title": "Why Ask Auri?",
+        "items": {
+          "instantAnswers": "Instant Answers: No waiting. Get the information you need when you need it.",
+          "personalizedInsights": "Personalized Insights: My guidance is tailored to your unique trading goals and style.",
+          "accessibleAnywhere": "Accessible Anywhere: Reach me from your desktop, mobile, or tablet—anytime, anywhere."
+        }
+      },
+      "outro": "Trading can feel overwhelming at times, but you’re never alone when I’m around. Ready to unlock the full potential of your trades? Let’s chat—I can’t wait to hear your questions and help you succeed!"
+    },
+    "auriRealTimeInsights": {
+      "title": "Auri’s Real-Time Insights",
+      "greeting": "Hi, it’s me, Auri! Imagine having a personal dashboard that evolves with your trading journey. That’s exactly what I bring to the table—a dynamic, real-time hub for all your market intelligence.",
+      "sections": {
+        "tradingCommandCenter": {
+          "title": "Your Trading Command Center 📊",
+          "content": "From the moment you log in, I’ll provide you with a personalized overview of the markets that matter most to you. Whether it’s crypto, stocks, or forex, I’ll display the key metrics you need to make informed decisions."
+        },
+        "metricsThatMatter": {
+          "title": "Metrics That Matter 📈",
+          "items": {
+            "priceAction": "Price Action: See live prices, trends, and key support/resistance levels.",
+            "marketVolume": "Market Volume: Track where the action is happening and identify surging opportunities.",
+            "performanceAnalysis": "Performance Analysis: Gain insights into daily, weekly, and monthly trends across your chosen assets."
+          }
+        },
+        "sentimentAnalysis": {
+          "title": "Sentiment Analysis 🗣️",
+          "content": "Stay ahead of the herd with my sentiment tracker. I analyze social media chatter, trading forums, and news headlines to give you a real-time pulse on market psychology."
+        },
+        "opportunityAlerts": {
+          "title": "Opportunity Alerts 🚨",
+          "content": "Opportunities wait for no one, so I won’t let you miss them. I’ll flag breakout setups, reversals, or significant events as they unfold—all tailored to your preferences."
+        },
+        "customizableDashboard": {
+          "title": "Your Preferences, Your Dashboard 🛠️",
+          "content": "This is your trading space, so I’ve made it fully customizable. Choose the assets, timeframes, and metrics you want to focus on, and I’ll ensure they’re always front and center."
+        }
+      },
+      "outro": "Your success starts with staying informed. Let’s make your trading more precise, confident, and effective with my real-time insights."
+    },
+    "auriMindsetStrategies": {
+      "title": "Let’s Match Strategies to Your Mindset",
+      "greeting": "Hello again! Have you ever noticed how your mindset influences your trading? Whether you’re feeling cautious or adventurous, I’m here to align your strategies with how you’re feeling today.",
+      "sections": {
+        "cautious": {
+          "title": "Cautious? Let’s Play It Safe 🛡️",
+          "content": "If you’re in a risk-averse mood, I’ll guide you toward strategies that minimize exposure while keeping you in the game. Think low-volatility assets, conservative stop-loss levels, and setups with a high probability of success."
+        },
+        "boldAndConfident": {
+          "title": "Bold and Confident? Let’s Go Big 🔥",
+          "content": "Feeling daring today? I’ll help you capitalize on high-reward opportunities. Whether it’s a breakout, a reversal, or a momentum trade, we’ll focus on setups that match your appetite for action."
+        },
+        "dynamicAdjustments": {
+          "title": "Dynamic Adjustments 🔄",
+          "content": "Your mood can change, and that’s okay—I’ll adapt. Throughout the day, you can tell me how you’re feeling, and I’ll adjust my recommendations to keep you comfortable and confident."
+        },
+        "buildingConfidence": {
+          "title": "Building Confidence Together 🤝",
+          "content": "Trading isn’t just about numbers; it’s about trust—in yourself and your system. Let me help you build that trust by tailoring every suggestion to your current mindset. Trading is as much art as it is science, and your mindset is the brushstroke that defines the picture. Let’s create a masterpiece together, one strategy at a time."
+        }
+      }
+    },
+    "auriStayAhead": {
+      "title": "Stay Ahead of the Crowd",
+      "greeting": "Hi there! One of my superpowers is keeping you ahead of the pack, and my Market Sentiment Scanner is how I do it. By analyzing what’s trending before it becomes mainstream, I give you an unparalleled edge.",
+      "sections": {
+        "sentimentSources": {
+          "title": "My Sentiment Sources 🌐",
+          "items": {
+            "newsFeeds": "News Feeds: The latest headlines and how they could impact the markets.",
+            "socialMediaBuzz": "Social Media Buzz: What traders are tweeting, sharing, and discussing.",
+            "tradingForums": "Trading Forums: Deep dives into niche discussions for hidden gems."
+          }
+        },
+        "whatITrack": {
+          "title": "What I Track 🕵️‍♀️",
+          "items": {
+            "bullishBearishTrends": "Bullish vs. Bearish Trends: Get an instant overview of market optimism or caution.",
+            "hotTopics": "Hot Topics: See which assets, industries, or sectors are dominating conversations.",
+            "whaleActivity": "Whale Activity: Find out what the big players are doing and when they’re making moves."
+          }
+        },
+        "actionableInsights": {
+          "title": "Actionable Insights 📬",
+          "content": "I don’t just give you raw data—I turn it into actionable advice. If I detect a shift in sentiment or a potential opportunity, I’ll alert you with clear recommendations."
+        },
+        "closing": {
+          "title": "Stay Ahead, Stay Smart 🚀",
+          "content": "Markets are driven by people, and people are driven by emotion. By understanding sentiment, you’ll stay ahead of the crowd and position yourself for success before the rest of the market catches on. Let’s outthink, outtrade, and outpace the competition together. Ready to stay ahead of the curve? Let’s get started!"
+        }
+      }
+    },
+    "auriKnowledgeLibrary": {
+      "title": "Auri’s Knowledge Library",
+      "greeting": "Hello, it’s me, Auri! Every great trader starts with a solid foundation of knowledge, and I’m here to be your go-to resource. With my Knowledge Library, you’ll have access to a treasure trove of trading wisdom at your fingertips.",
+      "sections": {
+        "comprehensiveResources": {
+          "title": "Comprehensive Resources 📚",
+          "items": {
+            "technicalAnalysis": "Technical Analysis: Learn how to read charts, identify patterns, and use indicators like moving averages and RSI.",
+            "fundamentalAnalysis": "Fundamental Analysis: Dive into company earnings, economic data, and news that move markets.",
+            "tradingPsychology": "Trading Psychology: Master the mental side of trading, from managing emotions to sticking to your plan."
+          }
+        },
+        "tailoredLearningPaths": {
+          "title": "Tailored Learning Paths 🎓",
+          "content": "Whether you’re a beginner or an experienced trader, I’ll guide you through curated learning paths to match your skill level. From “Trading 101” to “Advanced Fibonacci Techniques,” I’ll make sure you’re always learning something new."
+        },
+        "searchAndDiscover": {
+          "title": "Search and Discover 🔍",
+          "content": "Looking for specific topics? Just type in what you need, and I’ll fetch the best resources for you. No more sifting through irrelevant content—I’ll get you exactly what you’re looking for."
+        },
+        "interactiveLearning": {
+          "title": "Interactive Learning ✍️",
+          "content": "Quizzes, practice exercises, and real-world examples make learning engaging and fun. You’ll not only understand the material but also see how to apply it in real trading scenarios."
+        },
+        "knowledgeHubAnytime": {
+          "title": "Your Knowledge Hub, Anytime ⏰",
+          "content": "The library is available 24/7, so you can dive in whenever inspiration strikes. Trading is a journey, and I’m here to make sure you’re always equipped with the tools you need."
+        }
+      },
+      "outro": "Let’s turn knowledge into power and power into profits. Ready to start learning?"
+    },
+    "auriPortfolioAnalytics": {
+      "title": "Portfolio Performance Analytics",
+      "greeting": "Hi, I’m Auri, and I’m here to help you understand your trading like never before. With Portfolio Performance Analytics, you’ll have a clear view of your progress, so you can make data-driven decisions and refine your strategies.",
+      "sections": {
+        "trackEveryTrade": {
+          "title": "Track Every Trade 📝",
+          "content": "I’ll keep a detailed log of your trades, including entries, exits, profits, losses, and risk levels. With this data, we’ll uncover what’s working and what needs improvement."
+        },
+        "analyzeYourSuccess": {
+          "title": "Analyze Your Success 📊",
+          "items": {
+            "winRate": "Win Rate: How often your trades are profitable.",
+            "riskToRewardRatio": "Risk-to-Reward Ratio: How effectively you’re managing risk for potential gains.",
+            "drawdowns": "Drawdowns: Insights into the depth and duration of your losses."
+          }
+        },
+        "identifyTrends": {
+          "title": "Identify Trends 🔄",
+          "content": "I’ll help you spot patterns in your trading behavior. Are you better at certain timeframes? Do you excel in specific markets or conditions? Together, we’ll identify your strengths and areas to watch."
+        },
+        "goalSettingAndProgress": {
+          "title": "Goal Setting and Progress 🎯",
+          "content": "Set performance goals, and I’ll track your progress. Whether it’s achieving a higher win rate or improving risk management, I’ll keep you motivated and on track."
+        },
+        "customizableReports": {
+          "title": "Customizable Reports 🛠️",
+          "content": "Generate personalized reports to review your portfolio’s health. Whether you want a quick summary or a deep dive, I’ve got you covered."
+        }
+      },
+      "outro": "Your portfolio is more than just numbers—it’s a story of growth, learning, and success. Let’s make sure your story has a happy ending."
+    },
+    "auriMonthlyRecap": {
+      "title": "Auri’s Monthly Market Recap",
+      "greeting": "Hey, it’s Auri! At the end of every month, I’ll deliver a comprehensive recap to help you reflect, learn, and plan ahead. Think of it as our monthly strategy session to keep you sharp and ready for what’s next.",
+      "sections": {
+        "whatHappenedThisMonth": {
+          "title": "What Happened This Month? 📅",
+          "items": {
+            "marketMovers": "Market Movers: The stocks, cryptos, or forex pairs that defined the month.",
+            "economicHighlights": "Economic Highlights: Major announcements, policy changes, and their market impacts.",
+            "sentimentShifts": "Sentiment Shifts: How market psychology evolved and influenced trends."
+          }
+        },
+        "yourPerformanceAnalyzed": {
+          "title": "Your Performance, Analyzed 📈",
+          "items": {
+            "topTrades": "Top Trades: Celebrate your best moments and understand what made them successful.",
+            "learningOpportunities": "Learning Opportunities: Identify trades that didn’t go as planned and the lessons they offer.",
+            "overallMetrics": "Overall Metrics: Review your win rate, P&L, and other key performance indicators."
+          }
+        },
+        "trendsToWatch": {
+          "title": "Trends to Watch 👀",
+          "content": "I’ll highlight emerging opportunities and potential risks for the upcoming month. From new market themes to watchlists, you’ll be ahead of the curve."
+        },
+        "actionableStrategies": {
+          "title": "Actionable Strategies 🛠️",
+          "content": "To wrap things up, I’ll suggest actionable strategies based on your goals and the market outlook. Together, we’ll craft a game plan for the next month."
+        },
+        "deliveredWithStyle": {
+          "title": "Delivered with Style 💌",
+          "content": "Your recap will be clear, concise, and easy to digest. No fluff—just the insights you need to level up. The end of the month is a time to reflect on progress and look forward to new possibilities. Let’s make the most of it, together."
+        }
+      }
     }
   }
 }

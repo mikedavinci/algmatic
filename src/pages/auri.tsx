@@ -2,7 +2,19 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { ArrowRight } from 'lucide-react';
+import {
+  ArrowRight,
+  Sunrise,
+  LineChart,
+  MessagesSquare,
+  Trophy,
+  LayoutDashboard,
+  Brain,
+  TrendingUp,
+  BookOpen,
+  BarChart3,
+  CalendarClock,
+} from 'lucide-react';
 import { CandlestickBackground } from '@/components/animations/candlestick-background';
 import { GridPattern } from '@/components/ui/grid-pattern';
 import { useNavigate } from 'react-router-dom';
@@ -189,13 +201,185 @@ export function AuriPage() {
         <GridPattern size={24} className="opacity-[0.02]" />
         <div className="absolute inset-0 bg-gradient-to-r from-secondary/5 via-transparent to-accent/5" />
         <div className="container relative">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">
-              {t('auriTen.interactiveTradeSimulator.title')}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+              {t('auriTen.title')}
             </h2>
-            <p className="text-lg text-muted-foreground">
-              {t('auriTen.interactiveTradeSimulator.content')}
+            <p className="text-xl text-muted-foreground">
+              {t('auriTen.subtitle')}
             </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Daily Market Briefings */}
+            <Card className="p-6 backdrop-blur-lg bg-background/50 hover:bg-background/80 transition-colors">
+              <div className="flex items-start gap-4">
+                <div className="p-2 rounded-lg bg-primary/10">
+                  <Sunrise className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">
+                    {t('auriTen.dailyMarketBriefings.title')}
+                  </h3>
+                  <p className="text-muted-foreground">
+                    {t('auriTen.dailyMarketBriefings.content')}
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Interactive Trade Simulator */}
+            <Card className="p-6 backdrop-blur-lg bg-background/50 hover:bg-background/80 transition-colors">
+              <div className="flex items-start gap-4">
+                <div className="p-2 rounded-lg bg-secondary/10">
+                  <LineChart className="h-6 w-6 text-secondary" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">
+                    {t('auriTen.interactiveTradeSimulator.title')}
+                  </h3>
+                  <p className="text-muted-foreground">
+                    {t('auriTen.interactiveTradeSimulator.content')}
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Ask Auri */}
+            <Card className="p-6 backdrop-blur-lg bg-background/50 hover:bg-background/80 transition-colors">
+              <div className="flex items-start gap-4">
+                <div className="p-2 rounded-lg bg-accent/10">
+                  <MessagesSquare className="h-6 w-6 text-accent" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">
+                    {t('auriTen.askAuri.title')}
+                  </h3>
+                  <p className="text-muted-foreground">
+                    {t('auriTen.askAuri.content')}
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Trading Challenges */}
+            <Card className="p-6 backdrop-blur-lg bg-background/50 hover:bg-background/80 transition-colors">
+              <div className="flex items-start gap-4">
+                <div className="p-2 rounded-lg bg-primary/10">
+                  <Trophy className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">
+                    {t('auriTen.aurisTradingChallenges.title')}
+                  </h3>
+                  <p className="text-muted-foreground">
+                    {t('auriTen.aurisTradingChallenges.content')}
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Insights Dashboard */}
+            <Card className="p-6 backdrop-blur-lg bg-background/50 hover:bg-background/80 transition-colors">
+              <div className="flex items-start gap-4">
+                <div className="p-2 rounded-lg bg-secondary/10">
+                  <LayoutDashboard className="h-6 w-6 text-secondary" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">
+                    {t('auriTen.insightsDashboard.title')}
+                  </h3>
+                  <p className="text-muted-foreground">
+                    {t('auriTen.insightsDashboard.content')}
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Mood Based Trading */}
+            <Card className="p-6 backdrop-blur-lg bg-background/50 hover:bg-background/80 transition-colors">
+              <div className="flex items-start gap-4">
+                <div className="p-2 rounded-lg bg-accent/10">
+                  <Brain className="h-6 w-6 text-accent" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">
+                    {t('auriTen.moodBasedTradingAssistant.title')}
+                  </h3>
+                  <p className="text-muted-foreground">
+                    {t('auriTen.moodBasedTradingAssistant.content')}
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Market Sentiment Scanner */}
+            <Card className="p-6 backdrop-blur-lg bg-background/50 hover:bg-background/80 transition-colors">
+              <div className="flex items-start gap-4">
+                <div className="p-2 rounded-lg bg-primary/10">
+                  <TrendingUp className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">
+                    {t('auriTen.marketSentimentScanner.title')}
+                  </h3>
+                  <p className="text-muted-foreground">
+                    {t('auriTen.marketSentimentScanner.content')}
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Knowledge Library */}
+            <Card className="p-6 backdrop-blur-lg bg-background/50 hover:bg-background/80 transition-colors">
+              <div className="flex items-start gap-4">
+                <div className="p-2 rounded-lg bg-secondary/10">
+                  <BookOpen className="h-6 w-6 text-secondary" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">
+                    {t('auriTen.aurisKnowledgeLibrary.title')}
+                  </h3>
+                  <p className="text-muted-foreground">
+                    {t('auriTen.aurisKnowledgeLibrary.content')}
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Portfolio Analytics */}
+            <Card className="p-6 backdrop-blur-lg bg-background/50 hover:bg-background/80 transition-colors">
+              <div className="flex items-start gap-4">
+                <div className="p-2 rounded-lg bg-accent/10">
+                  <BarChart3 className="h-6 w-6 text-accent" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">
+                    {t('auriTen.portfolioPerformanceAnalytics.title')}
+                  </h3>
+                  <p className="text-muted-foreground">
+                    {t('auriTen.portfolioPerformanceAnalytics.content')}
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Monthly Recap */}
+            <Card className="p-6 backdrop-blur-lg bg-background/50 hover:bg-background/80 transition-colors">
+              <div className="flex items-start gap-4">
+                <div className="p-2 rounded-lg bg-primary/10">
+                  <CalendarClock className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">
+                    {t('auriTen.aurisMonthlyMarketRecap.title')}
+                  </h3>
+                  <p className="text-muted-foreground">
+                    {t('auriTen.aurisMonthlyMarketRecap.content')}
+                  </p>
+                </div>
+              </div>
+            </Card>
           </div>
         </div>
       </section>

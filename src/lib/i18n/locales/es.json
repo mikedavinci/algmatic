@@ -1,13 +1,17 @@
 {
+  "auth": {
+    "signIn": "Iniciar",
+    "signUp": "Registrarse"
+  },
   "pageTitle": "Opera de Forma Más Inteligente, No Más Difícil – Experimenta el Trading Automatizado",
   "pageSubtitle": "Automatización avanzada de trading, gestión de riesgos y fiabilidad 24/7, todo entregado sin problemas con Auri.",
   "behindTheScenesTitle": "Detrás de Escena: Cómo Funciona Auri",
-  "behindTheScenesDescription": "Auri ofrece una experiencia de trading completamente automatizada. Cada componente está diseñado para manejar tareas complejas de trading sin esfuerzo, brindando resultados consistentes mientras te enfocas en otras prioridades.",
+  "behindTheScenesDescription": "Auri ofrece una experiencia de trading completamente automatizada. Cada componente está diseño para manejar tareas complejas de trading sin esfuerzo, brindando resultados consistentes mientras te enfocas en otras prioridades.",
   "orchestrator": {
     "title": "El Orquestador",
     "whatItDoesTitle": "Qué Ofrece Auri",
     "whatItDoesDescription": "El Orquestador actúa como el centro principal, ocupándose de todo, desde la configuración inicial hasta el monitoreo en tiempo real y los cierres seguros. Garantiza que el sistema funcione perfectamente las 24 horas del día.",
-    "benefitsTitle": "Por Qué Es Importante",
+    "benefitsTitle": "Por qué Es Importante",
     "benefit1": "Integración Sin Esfuerzo: Auri asegura que todo esté configurado y gestionado de forma fluida de principio a fin.",
     "benefit2": "Monitoreo en Tiempo Real: Un 'latido' incorporado rastrea constantemente las condiciones del mercado para mantener la eficiencia del sistema."
   },
@@ -703,6 +707,233 @@
     "aurisMonthlyMarketRecap": {
       "title": "Reflexiona, Aprende y Planifica",
       "content": "Al final de cada mes, prepararé un informe completo de las tendencias del mercado, tu rendimiento en trading y áreas a vigilar. Juntos, planificaremos tus próximos pasos."
+    }
+  },
+  "auriPageTwo": {
+    "auriDailyBriefing": {
+      "greeting": "¡Buenos días! Soy Auri, tu compañera de trading de confianza, aquí para asegurarme de que estés listo para aprovechar todas las oportunidades del mercado hoy. ☀️",
+      "intro": "Cada día, antes de que suene la campana de apertura, recopilo las actualizaciones más importantes del mercado solo para ti. Desde movimientos nocturnos hasta noticias de última hora, destilo el caos de los mercados en un informe conciso y personalizado. Esto es lo que puedes esperar en tu dosis diaria de información:",
+      "items": {
+        "overnightRecap": "Resumen Nocturno: Te informaré sobre cómo se desempeñaron los mercados globales mientras dormías. Ya sea Asia, Europa o Estados Unidos, destacaré las principales tendencias y movimientos.",
+        "topMovers": "Principales Movimientos: Descubre qué acciones, criptomonedas o pares de divisas hicieron los mayores movimientos y por qué.",
+        "economicEventsCalendar": "Calendario de Eventos Económicos: Te mantendré informado sobre eventos económicos cruciales, como anuncios de la Fed o informes de ganancias, para que puedas planificar tus operaciones con anticipación.",
+        "marketSentiment": "Sentimiento del Mercado: Obtén una visión rápida de lo que los traders e inversores están comentando en redes sociales y foros.",
+        "auriKeyInsights": "Ideas Clave de Auri: Mi inteligencia artificial procesa todos estos datos para ofrecerte consejos accionables, ya sea un posible breakout, una reversión o una oportunidad a observar."
+      },
+      "outro": "Pero no solo te doy datos crudos: agrego contexto y estrategias adaptadas a tu estilo. ¿Eres un trader cauteloso? Enfatizaré opciones de bajo riesgo. ¿Te sientes audaz hoy? Te señalaré hacia oportunidades de alta recompensa.",
+      "closing": "Enfrentemos juntos los mercados, una mañana a la vez. ¿Listo para comenzar tu día con una ventaja competitiva? Toma tu café y sumérgete en el informe de mercado de hoy. Prometo que valdrá la pena."
+    },
+    "auriPracticeWithoutRisk": {
+      "title": "Practica Sin Riesgo",
+      "greeting": "¡Hola! Soy Auri. ¿Alguna vez has deseado probar tus estrategias de trading sin la presión de usar dinero real? Tengo lo que necesitas con mi Simulador Interactivo de Trading: tu espacio seguro para experimentar, aprender y crecer como trader.",
+      "intro": "Así es como haré que sea una experiencia inolvidable:",
+      "items": {
+        "realisticEnvironment": "Sumérgete en un Entorno de Mercado Realista 🌎: He diseñado el simulador para reflejar las condiciones reales del mercado, de modo que cada operación que realices se sienta como en la vida real. Tendrás acceso a precios en vivo, spreads realistas e incluso deslizamientos simulados, como en un escenario de trading real.",
+        "testAndTweak": "Prueba, Ajusta y Triunfa 🔄: ¡Experimenta! Ya sea una nueva estrategia, un par de trading desconocido o un enfoque diferente de riesgo, el simulador te permite probarlo todo. Te ayudaré a rastrear los resultados para que veas qué funciona y qué no.",
+        "feedbackConfidence": "Comentarios que Construyen Confianza 📊: Cada operación que realices en el simulador es una oportunidad para aprender. Te proporcionaré comentarios detallados sobre tus entradas, salidas, gestión de riesgos y estrategia general. Piensa en mí como tu entrenador personal de trading, ayudándote a perfeccionar tus técnicas con cada operación.",
+        "financialStressFree": "Aprende Sin Estrés Financiero 🛡️: Aquí no necesitas preocuparte por las pérdidas, solo por las lecciones. Practicando en un entorno sin riesgo, desarrollarás las habilidades y la confianza para aplicar tus estrategias con éxito cuando llegue el momento de operar en vivo.",
+        "gamifyGrowth": "Gamifica tu Crecimiento 🏆: El trading no tiene que ser todo serio. He agregado desafíos, logros y recompensas para mantenerte motivado. Ya sea dominando una nueva técnica o logrando una racha rentable, te divertirás mientras mejoras tus habilidades."
+      },
+      "outro": "El Simulador Interactivo de Trading no es solo una herramienta: es un refugio seguro donde puedes explorar, crecer y prepararte para el éxito. ¿Listo para sumergirte y empezar a practicar? ¡Perfeccionemos tu habilidad, una operación simulada a la vez!"
+    },
+    "auriTradingMentor": {
+      "title": "Tu Mentor Personal de Trading",
+      "greeting": "¡Hola! Soy Auri. ¿Tienes una pregunta sobre una operación? ¿Te preguntas si tu estrategia se alinea con las condiciones actuales del mercado? ¿O tal vez tienes curiosidad por una acción, criptomoneda o par de divisas en particular? Estoy aquí para ayudarte, las 24 horas del día, los 7 días de la semana.",
+      "items": {
+        "askAnything": "Pregunta lo que quieras 🤔: Ya seas un principiante tratando de entender patrones de velas o un trader experimentado ajustando tu gestión de riesgos, soy tu mentor ideal. Simplemente escribe tu pregunta y te proporcionaré respuestas claras y accionables adaptadas a tus necesidades.",
+        "realTimeGuidance": "Orientación en Tiempo Real 🕒: Los mercados se mueven rápido, y yo también. ¿Necesitas entender un pico repentino del mercado o decidir si mantener o cerrar una posición? Pregúntame, y responderé al instante con ideas que te ayuden a mantenerte un paso adelante.",
+        "strategySupport": "Soporte Estratégico 🎯: ¿No estás seguro sobre una estrategia? ¡Hablemos de ello! Analizaré tu enfoque y ofreceré sugerencias para optimizar tu plan de trading. Desde indicadores técnicos hasta puntos de entrada y salida, estoy aquí para guiarte hacia el éxito.",
+        "marketDeepDives": "Análisis Profundos del Mercado 🌊: ¿Quieres explorar los fundamentos de una acción, el sentimiento alrededor de una criptomoneda o las tendencias en los mercados de divisas? Puedo profundizar en los datos y proporcionarte el conocimiento necesario para tomar decisiones informadas.",
+        "alwaysLearning": "Siempre Aquí, Siempre Aprendiendo 📚: Nunca duermo y siempre estoy mejorando. Mis capacidades de inteligencia artificial crecen cada día, lo que significa que mis respuestas serán más precisas, mis ideas más profundas y mis consejos aún más relevantes para tu estilo de trading."
+      },
+      "whyAskAuri": {
+        "title": "¿Por Qué Preguntarle a Auri?",
+        "items": {
+          "instantAnswers": "Respuestas Instantáneas: Sin esperas. Obtén la información que necesitas cuando la necesitas.",
+          "personalizedInsights": "Ideas Personalizadas: Mi orientación está adaptada a tus objetivos y estilo de trading únicos.",
+          "accessibleAnywhere": "Accesible en Cualquier Lugar: Contáctame desde tu computadora, móvil o tableta, en cualquier momento y lugar."
+        }
+      },
+      "outro": "El trading puede sentirse abrumador a veces, pero nunca estarás solo mientras esté aquí. ¿Listo para desbloquear todo el potencial de tus operaciones? Hablemos: ¡Estoy emocionada de escuchar tus preguntas y ayudarte a triunfar!"
+    },
+    "auriRealTimeInsights": {
+      "title": "Ideas en Tiempo Real de Auri",
+      "greeting": "¡Hola! Soy Auri. Imagina tener un panel de control personal que evoluciona con tu viaje de trading. Eso es exactamente lo que traigo a la mesa: un centro dinámico y en tiempo real para toda tu inteligencia de mercado.",
+      "sections": {
+        "tradingCommandCenter": {
+          "title": "Tu Centro de Control de Trading 📊",
+          "content": "Desde el momento en que inicias sesión, te proporcionaré una visión personalizada de los mercados que más te importan. Ya sea criptomonedas, acciones o divisas, te mostraré las métricas clave que necesitas para tomar decisiones informadas."
+        },
+        "metricsThatMatter": {
+          "title": "Métricas que Importan 📈",
+          "items": {
+            "priceAction": "Acción del Precio: Consulta precios en vivo, tendencias y niveles clave de soporte/resistencia.",
+            "marketVolume": "Volumen de Mercado: Sigue dónde está ocurriendo la acción e identifica oportunidades en aumento.",
+            "performanceAnalysis": "Análisis de Rendimiento: Obtén ideas sobre las tendencias diarias, semanales y mensuales de los activos que elijas."
+          }
+        },
+        "sentimentAnalysis": {
+          "title": "Análisis de Sentimiento 🗣️",
+          "content": "Mantente un paso adelante con mi rastreador de sentimiento. Analizo conversaciones en redes sociales, foros de trading y titulares de noticias para darte un pulso en tiempo real sobre la psicología del mercado."
+        },
+        "opportunityAlerts": {
+          "title": "Alertas de Oportunidades 🚨",
+          "content": "Las oportunidades no esperan a nadie, y yo no dejaré que las pierdas. Destacaré configuraciones de breakout, reversiones o eventos significativos a medida que ocurran, todo adaptado a tus preferencias."
+        },
+        "customizableDashboard": {
+          "title": "Tu Tablero Personalizado 🛠️",
+          "content": "Este es tu espacio de trading, así que lo he hecho completamente personalizable. Elige los activos, marcos de tiempo y métricas en los que quieres enfocarte, y me aseguraré de que siempre estén al frente y al centro."
+        }
+      },
+      "outro": "Tu éxito comienza con estar informado. Hagamos que tu trading sea más preciso, confiado y efectivo con mis ideas en tiempo real."
+    },
+    "auriMindsetStrategies": {
+      "title": "Alineemos Estrategias con Tu Mentalidad",
+      "greeting": "¡Hola de nuevo! ¿Alguna vez has notado cómo tu mentalidad influye en tu trading? Ya sea que te sientas cauteloso o aventurero, estoy aquí para alinear tus estrategias con cómo te sientes hoy.",
+      "sections": {
+        "cautious": {
+          "title": "¿Cauteloso? Juguemos Seguro 🛡️",
+          "content": "Si estás en un estado de ánimo adverso al riesgo, te guiaré hacia estrategias que minimicen la exposición mientras te mantienen en el juego. Piensa en activos de baja volatilidad, niveles conservadores de stop-loss y configuraciones con alta probabilidad de éxito."
+        },
+        "boldAndConfident": {
+          "title": "¿Audaz y Confiado? Vamos a lo Grande 🔥",
+          "content": "¿Te sientes atrevido hoy? Te ayudaré a capitalizar oportunidades de alta recompensa. Ya sea un breakout, una reversión o un trade de momentum, nos enfocaremos en configuraciones que coincidan con tu apetito por la acción."
+        },
+        "dynamicAdjustments": {
+          "title": "Ajustes Dinámicos 🔄",
+          "content": "Tu estado de ánimo puede cambiar, y está bien, me adaptaré. Durante el día, puedes decirme cómo te sientes y ajustaré mis recomendaciones para mantenerte cómodo y seguro."
+        },
+        "buildingConfidence": {
+          "title": "Construyendo Confianza Juntos 🤝",
+          "content": "El trading no se trata solo de números; se trata de confianza, en ti mismo y en tu sistema. Déjame ayudarte a construir esa confianza adaptando cada sugerencia a tu mentalidad actual. El trading es tanto un arte como una ciencia, y tu mentalidad es la pincelada que define la imagen. Creemos juntos una obra maestra, una estrategia a la vez."
+        }
+      }
+    },
+    "auriStayAhead": {
+      "title": "Mantente por Delante de la Multitud",
+      "greeting": "¡Hola! Una de mis superpoderes es mantenerte por delante del resto, y mi Escáner de Sentimiento del Mercado es cómo lo hago. Analizando lo que está en tendencia antes de que se vuelva convencional, te doy una ventaja incomparable.",
+      "sections": {
+        "sentimentSources": {
+          "title": "Mis Fuentes de Sentimiento 🌐",
+          "items": {
+            "newsFeeds": "Noticias: Los titulares más recientes y cómo podrían impactar los mercados.",
+            "socialMediaBuzz": "Tendencias en Redes Sociales: Lo que los traders están compartiendo y discutiendo.",
+            "tradingForums": "Foros de Trading: Análisis profundos en discusiones de nicho para encontrar joyas ocultas."
+          }
+        },
+        "whatITrack": {
+          "title": "Lo que Rastreo 🕵️‍♀️",
+          "items": {
+            "bullishBearishTrends": "Tendencias Alcistas vs Bajistas: Obtén una visión instantánea del optimismo o la cautela del mercado.",
+            "hotTopics": "Temas Populares: Ve qué activos, industrias o sectores están dominando las conversaciones.",
+            "whaleActivity": "Actividad de Ballenas: Descubre qué hacen los grandes jugadores y cuándo están moviéndose."
+          }
+        },
+        "actionableInsights": {
+          "title": "Ideas Accionables 📬",
+          "content": "No solo te doy datos crudos, los convierto en consejos accionables. Si detecto un cambio en el sentimiento o una oportunidad potencial, te alertaré con recomendaciones claras."
+        },
+        "closing": {
+          "title": "Mantente por Delante, Sé Inteligente 🚀",
+          "content": "Los mercados son impulsados por personas, y las personas son impulsadas por emociones. Al entender el sentimiento, te mantendrás por delante de la multitud y te posicionarás para el éxito antes de que el resto del mercado se dé cuenta. Pensemos mejor, operemos mejor y avancemos más rápido que la competencia juntos. ¿Listo para mantenerte por delante de la curva? ¡Comencemos!"
+        }
+      }
+    },
+    "auriKnowledgeLibrary": {
+      "title": "Biblioteca de Conocimiento de Auri",
+      "greeting": "¡Hola! Soy Auri. Todo gran trader comienza con una sólida base de conocimiento, y estoy aquí para ser tu recurso de confianza. Con mi Biblioteca de Conocimiento, tendrás acceso a un tesoro de sabiduría de trading al alcance de tu mano.",
+      "sections": {
+        "comprehensiveResources": {
+          "title": "Recursos Completos 📚",
+          "items": {
+            "technicalAnalysis": "Análisis Técnico: Aprende a leer gráficos, identificar patrones y usar indicadores como medias móviles y RSI.",
+            "fundamentalAnalysis": "Análisis Fundamental: Profundiza en los resultados financieros de empresas, datos económicos y noticias que mueven los mercados.",
+            "tradingPsychology": "Psicología del Trading: Domina el lado mental del trading, desde gestionar emociones hasta cumplir tu plan."
+          }
+        },
+        "tailoredLearningPaths": {
+          "title": "Rutas de Aprendizaje Personalizadas 🎓",
+          "content": "Ya seas un principiante o un trader experimentado, te guiaré a través de rutas de aprendizaje diseñadas para tu nivel de habilidad. Desde 'Trading 101' hasta 'Técnicas Avanzadas de Fibonacci', me aseguraré de que siempre estés aprendiendo algo nuevo."
+        },
+        "searchAndDiscover": {
+          "title": "Buscar y Descubrir 🔍",
+          "content": "¿Buscas temas específicos? Solo escribe lo que necesitas y buscaré los mejores recursos para ti. No más contenido irrelevante: te daré exactamente lo que estás buscando."
+        },
+        "interactiveLearning": {
+          "title": "Aprendizaje Interactivo ✍️",
+          "content": "Cuestionarios, ejercicios prácticos y ejemplos del mundo real hacen que aprender sea atractivo y divertido. No solo entenderás el material, sino que también verás cómo aplicarlo en escenarios reales de trading."
+        },
+        "knowledgeHubAnytime": {
+          "title": "Tu Centro de Conocimiento, en Cualquier Momento ⏰",
+          "content": "La biblioteca está disponible las 24 horas, para que puedas sumergirte cuando te llegue la inspiración. El trading es un viaje, y estoy aquí para asegurarme de que siempre tengas las herramientas que necesitas."
+        }
+      },
+      "outro": "Convirtamos el conocimiento en poder y el poder en ganancias. ¿Listo para empezar a aprender?"
+    },
+    "auriPortfolioAnalytics": {
+      "title": "Análisis del Rendimiento de Portafolios",
+      "greeting": "Hola, soy Auri, y estoy aquí para ayudarte a comprender tu trading como nunca antes. Con el Análisis del Rendimiento de Portafolios, tendrás una visión clara de tu progreso, para que puedas tomar decisiones basadas en datos y perfeccionar tus estrategias.",
+      "sections": {
+        "trackEveryTrade": {
+          "title": "Registra Cada Operación 📝",
+          "content": "Llevaré un registro detallado de tus operaciones, incluyendo entradas, salidas, ganancias, pérdidas y niveles de riesgo. Con estos datos, descubriremos qué está funcionando y qué necesita mejorar."
+        },
+        "analyzeYourSuccess": {
+          "title": "Analiza tu Éxito 📊",
+          "items": {
+            "winRate": "Tasa de Éxito: Con qué frecuencia tus operaciones son rentables.",
+            "riskToRewardRatio": "Relación Riesgo-Recompensa: Qué tan eficazmente estás gestionando el riesgo para obtener ganancias potenciales.",
+            "drawdowns": "Reducciones: Información sobre la profundidad y duración de tus pérdidas."
+          }
+        },
+        "identifyTrends": {
+          "title": "Identifica Tendencias 🔄",
+          "content": "Te ayudaré a identificar patrones en tu comportamiento de trading. ¿Te va mejor en ciertos marcos de tiempo? ¿Sobresales en mercados o condiciones específicas? Juntos identificaremos tus fortalezas y áreas a observar."
+        },
+        "goalSettingAndProgress": {
+          "title": "Establecimiento de Metas y Progreso 🎯",
+          "content": "Establece metas de rendimiento y rastrearé tu progreso. Ya sea alcanzar una mayor tasa de éxito o mejorar la gestión de riesgos, te mantendré motivado y en el camino correcto."
+        },
+        "customizableReports": {
+          "title": "Informes Personalizables 🛠️",
+          "content": "Genera informes personalizados para revisar la salud de tu portafolio. Ya sea que quieras un resumen rápido o un análisis profundo, te tengo cubierto."
+        }
+      },
+      "outro": "Tu portafolio es más que solo números: es una historia de crecimiento, aprendizaje y éxito. Asegurémonos de que tu historia tenga un final feliz."
+    },
+    "auriMonthlyRecap": {
+      "title": "Resumen Mensual del Mercado de Auri",
+      "greeting": "¡Hola! Soy Auri. Al final de cada mes, te entregaré un resumen completo para ayudarte a reflexionar, aprender y planificar. Piensa en ello como nuestra sesión estratégica mensual para mantenerte preparado y listo para lo que viene.",
+      "sections": {
+        "whatHappenedThisMonth": {
+          "title": "¿Qué Ocurrió Este Mes? 📅",
+          "items": {
+            "marketMovers": "Movimientos del Mercado: Las acciones, criptomonedas o pares de divisas que definieron el mes.",
+            "economicHighlights": "Aspectos Económicos Destacados: Anuncios importantes, cambios de políticas y su impacto en los mercados.",
+            "sentimentShifts": "Cambios en el Sentimiento: Cómo evolucionó la psicología del mercado e influyó en las tendencias."
+          }
+        },
+        "yourPerformanceAnalyzed": {
+          "title": "Tu Rendimiento, Analizado 📈",
+          "items": {
+            "topTrades": "Mejores Operaciones: Celebra tus mejores momentos y entiende qué las hizo exitosas.",
+            "learningOpportunities": "Oportunidades de Aprendizaje: Identifica operaciones que no salieron según lo planeado y las lecciones que ofrecen.",
+            "overallMetrics": "Métricas Generales: Revisa tu tasa de éxito, P&L y otros indicadores clave de rendimiento."
+          }
+        },
+        "trendsToWatch": {
+          "title": "Tendencias a Observar 👀",
+          "content": "Destacaré oportunidades emergentes y riesgos potenciales para el próximo mes. Desde nuevos temas de mercado hasta listas de seguimiento, estarás un paso adelante."
+        },
+        "actionableStrategies": {
+          "title": "Estrategias Accionables 🛠️",
+          "content": "Para cerrar, sugeriré estrategias accionables basadas en tus objetivos y el panorama del mercado. Juntos, elaboraremos un plan para el próximo mes."
+        },
+        "deliveredWithStyle": {
+          "title": "Entregado con Estilo 💌",
+          "content": "Tu resumen será claro, conciso y fácil de digerir. Sin rodeos, solo las ideas que necesitas para avanzar. El final del mes es un momento para reflexionar sobre el progreso y mirar hacia nuevas posibilidades. Aprovechémoslo al máximo, juntos."
+        }
+      }
     }
   }
 }
