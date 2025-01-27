@@ -7,14 +7,6 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { MobileMenu } from './mobile-menu';
 import { useNavigate } from 'react-router-dom';
 import { LanguageSelector } from '@/components/language-selector';
-import {
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  SignUpButton,
-  UserButton,
-  useClerk,
-} from '@clerk/clerk-react';
 
 export function Header() {
   const { toggle } = useNavigationStore();
@@ -22,7 +14,6 @@ export function Header() {
   const { scrollY } = useScroll();
   const opacity = useTransform(scrollY, [0, 100], [0.95, 1]);
   const navigate = useNavigate();
-  const { signOut } = useClerk();
 
   const navItems = [
     { href: '/', label: ' Auri' },
@@ -48,11 +39,6 @@ export function Header() {
     }
   };
 
-  const handleSignOut = () => {
-    signOut();
-    navigate('/');
-  };
-
   return (
     <motion.header
       style={{ opacity }}
@@ -60,8 +46,11 @@ export function Header() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
-          <a href="/" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
             <AnimatedLogo />
+            <span className="text-xl font-bold text-transparent bg-gradient-to-r from-primary via-primary/80 to-primary/40 bg-clip-text">
+              {t('navbar.brand')}
+            </span>
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -80,40 +69,19 @@ export function Header() {
               key={href}
               href={href}
               onClick={(e) => handleNavigation(e, href)}
-              className="text-sm font-semibold leading-6 text-white hover:text-white/90"
+              className="text-lg font-semibold leading-6 text-white hover:text-white/90"
             >
               {label}
             </a>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-6">
-          <SignedOut>
-            <SignInButton />
-            <SignUpButton />
-          </SignedOut>
-          <SignedIn>
-            <div className="flex items-center gap-4">
-              <Button
-                variant="ghost"
-                className="text-sm font-semibold leading-6 text-white hover:text-white/90"
-                onClick={handleSignOut}
-              >
-                {t('auth.signOut')}
-              </Button>
-              <UserButton
-                afterSignOutUrl="/"
-                appearance={{
-                  elements: {
-                    avatarBox: 'w-10 h-10',
-                    userButtonPopoverCard: 'bg-black/90 border border-white/10',
-                    userButtonPopoverActions: 'text-white',
-                    userButtonPopoverActionButton: 'hover:bg-white/10',
-                    userButtonPopoverFooter: 'hidden',
-                  },
-                }}
-              />
-            </div>
-          </SignedIn>
+          <Button
+            onClick={() => navigate('/sign-in')}
+            className="text-sm font-semibold"
+          >
+            {t('navbar.ctaButton')}
+          </Button>
           <LanguageSelector />
         </div>
       </nav>

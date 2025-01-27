@@ -42,9 +42,7 @@ export function Hero() {
           <h1 className="mb-8 text-4xl font-bold tracking-tight sm:text-6xl">
             {t('pageTitle')}
           </h1>
-          <p className="mb-12 text-lg text-muted-foreground sm:text-xl">
-            {t('pageSubtitle')}
-          </p>
+          <p className="mb-12 text-lg sm:text-xl">{t('pageSubtitle')}</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button
               size="lg"

@@ -6,6 +6,11 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+interface FAQ {
+  question: string;
+  answer: string;
+}
+
 export function FAQ() {
   const { t } = useTranslation();
 
@@ -13,18 +18,18 @@ export function FAQ() {
     <section id="faq" className="py-20 bg-background">
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
+          <h2 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">
             {t('faqs.title')}
           </h2>
         </div>
         <div className="max-w-3xl mx-auto">
           <Accordion type="single" collapsible className="w-full">
-            {t('faqs.questions', { returnObjects: true }).map((faq: any, index: number) => (
+            {(t('faqs.questions', { returnObjects: true }) as FAQ[]).map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`}>
-                <AccordionTrigger className="text-left">
+                <AccordionTrigger className="text-left text-lg font-medium">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent>
+                <AccordionContent className="text-base">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>

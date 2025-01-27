@@ -59,17 +59,17 @@ export function Features() {
                   <div className="mb-4 w-fit rounded-lg bg-primary/10 p-2">
                     <Icon className="h-6 w-6 text-primary" />
                   </div>
-                  <CardTitle>{t(`${feature.translationKey}.title`)}</CardTitle>
+                  <CardTitle className="text-2xl">{t(`${feature.translationKey}.title`)}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-base">
+                  <CardDescription className="text-lg">
                     {t(`${feature.translationKey}.whatItDoesDescription`)}
                   </CardDescription>
                   <div className="mt-4 space-y-2">
-                    <p className="text-sm">
+                    <p className="text-base">
                       {t(`${feature.translationKey}.benefit1`)}
                     </p>
-                    <p className="text-sm">
+                    <p className="text-base">
                       {t(`${feature.translationKey}.benefit2`)}
                     </p>
                   </div>

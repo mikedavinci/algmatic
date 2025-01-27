@@ -6,7 +6,9 @@ import { Footer } from '@/components/layout/footer';
 import { Hero } from '@/components/sections/hero';
 import { FAQ } from '@/components/sections/faq';
 import { Features } from '@/components/sections/features';
-// import { RegisterPage } from '@/pages/register';
+import { SignInPage } from '@/pages/auth/sign-in';
+import { SignUpPage } from '@/pages/auth/sign-up';
+
 import { PartnerFormPage } from '@/pages/partner-form';
 import { SupportPage } from '@/pages/support';
 import { PrivacyPage } from '@/pages/privacy';
@@ -23,14 +25,9 @@ import {
 import { useEffect } from 'react';
 import { AuriPage } from './pages/auri';
 import { MindOfAuriPage } from '@/pages/mind-of-auri';
-import {
-  ClerkProvider,
-  SignIn,
-  SignUp,
-  SignedIn,
-  SignedOut,
-  RedirectToSignIn,
-} from '@clerk/clerk-react';
+import { ClerkProvider } from '@clerk/clerk-react';
+import { ProtectedRoute } from './components/auth/protected-route';
+import { Toaster } from '@/components/ui/toaster';
 
 if (!import.meta.env.VITE_CLERK_PUBLISHABLE_KEY) {
   throw new Error('Missing Publishable Key');
@@ -134,33 +131,14 @@ function App() {
               <Header />
               <Routes>
                 <Route path="/" element={<AuriPage />} />
-                <Route
-                  path="/sign-in"
-                  element={<SignIn routing="path" path="/sign-in" afterSignInUrl="/" />}
-                />
-                <Route
-                  path="/sign-up"
-                  element={<SignUp routing="path" path="/sign-up" afterSignUpUrl="/" />}
-                />
-                <Route
-                  path="/register"
-                  element={
-                    <SignedOut>
-                      <RedirectToSignIn />
-                    </SignedOut>
-                  }
-                />
+                <Route path="/sign-in" element={<SignInPage />} />
+                <Route path="/sign-up" element={<SignUpPage />} />
                 <Route
                   path="/partner-form"
                   element={
-                    <>
-                      <SignedIn>
-                        <PartnerFormPage />
-                      </SignedIn>
-                      <SignedOut>
-                        <RedirectToSignIn />
-                      </SignedOut>
-                    </>
+                    <ProtectedRoute>
+                      <PartnerFormPage />
+                    </ProtectedRoute>
                   }
                 />
                 <Route path="/support" element={<SupportPage />} />
@@ -181,6 +159,7 @@ function App() {
               <Footer />
             </div>
           </div>
+          <Toaster />
         </ThemeProvider>
       </HelmetProvider>
     </ClerkProvider>
