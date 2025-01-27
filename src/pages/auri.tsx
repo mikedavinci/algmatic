@@ -524,11 +524,17 @@ export function AuriPage() {
               <Button
                 size="lg"
                 className="w-full sm:w-auto bg-auri-teal hover:bg-auri-teal/90"
+                onClick={() => navigate('/sign-up')}
               >
                 {t('auriTwo.cta_section.cta_primary')}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              <Button size="lg" variant="outline" className="w-full sm:w-auto">
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="w-full sm:w-auto"
+                onClick={() => navigate('/mind-of-auri')}
+              >
                 {t('auriTwo.cta_section.cta_secondary')}
               </Button>
             </div>

@@ -1,9 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-import { CandlestickBackground } from '@/components/animations/candlestick-background';
 import { useNavigate } from 'react-router-dom';
-import { motion } from 'framer-motion';
 
 export function Hero() {
   const { t } = useTranslation();
@@ -15,12 +13,23 @@ export function Hero() {
       className="relative overflow-hidden bg-background/50 pt-24 pb-20 min-h-[80vh] flex items-center"
     >
       <div className="absolute inset-0 z-0">
-        <CandlestickBackground />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source
+            src="https://res.cloudinary.com/dtgmhmxlx/video/upload/v1737832468/algomatic/hero1_iunlp6.mp4"
+            type="video/mp4"
+          />
+        </video>
       </div>
       <div className="absolute inset-0 z-10 bg-gradient-to-b from-background via-background/20 to-background" />
       <div className="container relative z-20">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="flex items-center justify-center mb-12">
+          {/* <div className="flex items-center justify-center mb-12">
             <motion.img
               src="https://res.cloudinary.com/dtgmhmxlx/image/upload/v1737832292/algomatic/DALL_E_2025-01-25_01.19.26_-_Auri_is_a_cute_and_magnetic_humanoid_AI_character_with_an_approachable_and_modern_design._She_has_a_youthful_and_friendly_appearance_with_soft_glowin_avl6ch.webp"
               alt="Auri Logo"
@@ -29,7 +38,7 @@ export function Hero() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, ease: 'easeOut' }}
             />
-          </div>
+          </div> */}
           <h1 className="mb-8 text-4xl font-bold tracking-tight sm:text-6xl">
             {t('pageTitle')}
           </h1>

@@ -135,12 +135,12 @@ function App() {
               <Routes>
                 <Route path="/" element={<AuriPage />} />
                 <Route
-                  path="/sign-in/*"
-                  element={<SignIn routing="path" path="/sign-in" />}
+                  path="/sign-in"
+                  element={<SignIn routing="path" path="/sign-in" afterSignInUrl="/" />}
                 />
                 <Route
-                  path="/sign-up/*"
-                  element={<SignUp routing="path" path="/sign-up" />}
+                  path="/sign-up"
+                  element={<SignUp routing="path" path="/sign-up" afterSignUpUrl="/" />}
                 />
                 <Route
                   path="/register"

@@ -7,7 +7,14 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { MobileMenu } from './mobile-menu';
 import { useNavigate } from 'react-router-dom';
 import { LanguageSelector } from '@/components/language-selector';
-import { SignedIn, SignedOut, UserButton, useClerk } from '@clerk/clerk-react';
+import {
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  SignUpButton,
+  UserButton,
+  useClerk,
+} from '@clerk/clerk-react';
 
 export function Header() {
   const { toggle } = useNavigationStore();
@@ -20,7 +27,7 @@ export function Header() {
   const navItems = [
     { href: '/', label: ' Auri' },
     { href: '/mind-of-auri', label: t('navbar.items.features') },
-    { href: '/features#faq', label: t('navbar.items.faq') },
+    { href: '/features', label: t('navbar.items.faq') },
   ];
 
   const handleNavigation = (
@@ -81,20 +88,8 @@ export function Header() {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-6">
           <SignedOut>
-            <Button
-              variant="ghost"
-              className="text-sm font-semibold leading-6 text-white hover:text-white/90"
-              onClick={() => navigate('/sign-in')}
-            >
-              {t('auth.signIn')}
-            </Button>
-            <Button
-              variant="default"
-              className="text-sm font-semibold leading-6"
-              onClick={() => navigate('/sign-up')}
-            >
-              {t('auth.signUp')}
-            </Button>
+            <SignInButton />
+            <SignUpButton />
           </SignedOut>
           <SignedIn>
             <div className="flex items-center gap-4">

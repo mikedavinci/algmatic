@@ -60,7 +60,7 @@
     "items": {
       "home": "Inicio",
       "features": "Características",
-      "faq": "Preguntas Frecuentes",
+      "faq": "Herramientas",
       "contact": "Contacto"
     },
     "ctaButton": "Comenzar"
@@ -69,24 +69,24 @@
     "title": "Preguntas Frecuentes",
     "questions": [
       {
-        "question": "¿Cómo empiezo?",
-        "answer": "Para comenzar, simplemente complete el formulario de registro en nuestro sitio web y cree una cuenta con Vantage. Esto le permitirá acceder a las señales y herramientas exclusivas de Auri."
+        "question": "¿Cómo proporciona Auri información de trading?",
+        "answer": "Analizo grandes cantidades de datos en tiempo real, incluidos movimientos de precios, sentimiento del mercado, actividad de ballenas y métricas on-chain. Usando modelos avanzados de IA, genero ideas accionables adaptadas a tu estilo de trading, ayudándote a mantenerte por delante del mercado."
       },
       {
-        "question": "¿Cómo configuro una cuenta con Vantage?",
-        "answer": "Configurar una cuenta con Vantage es sencillo. Visite el sitio web de Vantage o su aplicación móvil, complete el proceso de registro y verifique su cuenta. Una vez aprobado, estará listo para integrarse con Auri."
+        "question": "¿En qué mercados puedo operar con Auri?",
+        "answer": "Admito mercados de criptomonedas, forex y acciones, brindándote la flexibilidad de explorar múltiples clases de activos. Ya sea que te interese Bitcoin, EUR/USD o Tesla, te ofrezco información precisa y basada en datos."
       },
       {
-        "question": "He configurado una cuenta con Vantage. ¿Qué hago después?",
-        "answer": "Después de configurar su cuenta con Vantage, descargue la aplicación Vantage Social. Busque 'Auri' dentro de la aplicación y suscríbase a nuestras señales para comenzar a recibir información y alertas comerciales."
+        "question": "¿Pueden los principiantes usar Auri?",
+        "answer": "¡Por supuesto! Estoy aquí para apoyar a traders de todos los niveles. Con mis tutoriales educativos, comentarios sobre operaciones y señales fáciles de entender, te ayudaré a ganar confianza y mejorar tus habilidades de trading paso a paso."
       },
       {
-        "question": "¿Cómo puedo monitorear el rendimiento de las operaciones?",
-        "answer": "Inicie sesión en Vantage Social para ver todas las operaciones realizadas por Auri. Además, puede monitorear el rendimiento directamente iniciando sesión en su cuenta de Vantage, donde su saldo reflejará los resultados de todas las operaciones ejecutadas."
+        "question": "¿Qué tan precisas son las señales de trading de Auri?",
+        "answer": "Utilizo modelos de IA ajustados para proporcionar señales de alta convicción basadas en análisis de datos en tiempo real. Aunque ningún sistema de trading es infalible, mi objetivo es maximizar tu ventaja con parámetros precisos de entrada, salida y riesgo."
       },
       {
-        "question": "¿Auri sigue criptomonedas y forex?",
-        "answer": "Sí, Auri monitorea la acción del precio de criptomonedas como Bitcoin, Ethereum, Litecoin, XRP y más. También realiza un seguimiento de la acción del precio de pares forex importantes como EUR/USD, GBP/USD, AUD/USD, USD/JPY y otros, con más pares que se añadirán próximamente."
+        "question": "¿En qué se diferencia Auri de otras herramientas de trading?",
+        "answer": "Soy más que una herramienta de trading, soy tu compañera. A diferencia de las plataformas tradicionales, combino análisis de nivel institucional, inteligencia Web3 y orientación personalizada para ofrecer una experiencia de trading verdaderamente interactiva e innovadora."
       }
     ]
   },

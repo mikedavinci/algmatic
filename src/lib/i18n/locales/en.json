@@ -4,63 +4,63 @@
     "signUp": "Sign Up"
   },
   "pageTitle": "Trade Smarter, Not Harder – Experience Automated Trading",
-  "pageSubtitle": "Advanced trading automation, risk management, and 24/7 reliability—all delivered seamlessly with Auri.",
-  "behindTheScenesTitle": "Behind the Scenes: How Auri Works",
-  "behindTheScenesDescription": "Auri provides a fully automated trading experience. Every component is designed to handle complex trading tasks effortlessly, delivering consistent results while you focus on other priorities.",
+  "pageSubtitle": "Hey there, I’m Auri—your intelligent trading companion, here to make trading seamless, powerful, and worry-free. I combine advanced automation, rock-solid risk management, and 24/7 reliability to help you dominate the markets. Let’s trade smarter, not harder, together!",
+  "behindTheScenesTitle": "Behind the Scenes: How I Work",
+  "behindTheScenesDescription": "Let me take you behind the curtain! I’m built to handle the complexities of trading with ease, delivering consistent results while you focus on the things that matter most. Every part of me is designed to create a fully automated trading experience that’s as effortless as it is effective.",
   "orchestrator": {
     "title": "The Orchestrator",
-    "whatItDoesTitle": "What Auri Provides",
-    "whatItDoesDescription": "The Orchestrator serves as the central hub, taking care of everything from the initial setup to real-time monitoring and secure shutdowns. It ensures the system operates flawlessly around the clock.",
+    "whatItDoesTitle": "What I Do for You",
+    "whatItDoesDescription": "I’m the mastermind behind your trading system! From the moment we get started to real-time monitoring and secure shutdowns, I ensure everything operates flawlessly around the clock.",
     "benefitsTitle": "Why It Matters",
-    "benefit1": "Effortless Integration: Auri ensures everything is set up and managed seamlessly from start to finish.",
-    "benefit2": "Real-Time Monitoring: A built-in 'heartbeat' constantly tracks market conditions to maintain system efficiency."
+    "benefit1": "Effortless Integration: I set everything up seamlessly and make sure it runs smoothly from start to finish.",
+    "benefit2": "Real-Time Monitoring: My built-in 'heartbeat' keeps track of market conditions, ensuring everything stays efficient and responsive."
   },
   "signalGuru": {
     "title": "SignalGuru",
-    "whatItDoesTitle": "How It Powers Your Trading",
-    "whatItDoesDescription": "SignalGuru is your intelligent signal processor. It captures trading signals, validates them, and converts them into actionable trades—all automatically.",
+    "whatItDoesTitle": "How I Power Your Trading",
+    "whatItDoesDescription": "I’m your go-to signal processor, capturing trading signals, validating them, and turning them into actionable trades—all automatically. It’s like having a signal whisperer in your corner!",
     "benefitsTitle": "Why It Matters",
-    "benefit1": "Smart Signal Processing: Auri ensures every trade signal is optimized for reliable outcomes.",
-    "benefit2": "Built-In Verification: Only high-quality signals that meet strict criteria are executed."
+    "benefit1": "Smart Signal Processing: I ensure every signal is optimized for the best possible outcome.",
+    "benefit2": "Built-In Verification: Only high-quality signals that meet my strict criteria make the cut, so you can trade confidently."
   },
   "tradeNavigator": {
     "title": "TradeNavigator",
-    "whatItDoesTitle": "What Auri Does for You",
-    "whatItDoesDescription": "TradeNavigator handles all trade executions, adjustments, and closures with precision. It takes the guesswork out of trading by automating these tasks.",
+    "whatItDoesTitle": "What I Do for You",
+    "whatItDoesDescription": "This is where the magic happens. I handle your trade executions, adjustments, and closures with precision, automating every step so you can focus on strategy.",
     "benefitsTitle": "Why It Matters",
-    "benefit1": "Automated Execution: Trades are opened and closed automatically based on defined strategies.",
-    "benefit2": "Enhanced Risk Control: Built-in safeguards like trailing stops and emergency stops protect your investments."
+    "benefit1": "Automated Execution: I open and close trades for you based on pre-defined strategies—no guesswork involved.",
+    "benefit2": "Enhanced Risk Control: With built-in safeguards like trailing stops and emergency stops, I make sure your investments are always protected."
   },
   "marketVision": {
     "title": "MarketVision",
-    "whatItDoesTitle": "How Auri Keeps You Informed",
-    "whatItDoesDescription": "MarketVision analyzes every trading symbol in real time, capturing bid/ask prices, spreads, and other key data to ensure accurate trading decisions.",
+    "whatItDoesTitle": "How I Keep You Informed",
+    "whatItDoesDescription": "I’m always watching the market. With real-time analysis of trading symbols, bid/ask prices, spreads, and more, I deliver the data you need to make informed decisions.",
     "benefitsTitle": "Why It Matters",
-    "benefit1": "Accurate Market Insights: Auri ensures that pip values, tick sizes, and stop levels are calculated with precision.",
-    "benefit2": "Real-Time Data Access: Always stay informed with up-to-the-minute market snapshots."
+    "benefit1": "Accurate Market Insights: I calculate pip values, tick sizes, and stop levels with precision, so you’re always one step ahead.",
+    "benefit2": "Real-Time Data Access: You’ll have up-to-the-minute market snapshots to guide your strategies."
   },
   "riskGuard": {
     "title": "RiskGuard",
-    "whatItDoesTitle": "How Auri Manages Risk",
-    "whatItDoesDescription": "RiskGuard calculates and enforces optimal position sizes to ensure your trading stays within safe limits.",
+    "whatItDoesTitle": "How I Manage Risk",
+    "whatItDoesDescription": "Risk is part of trading, but I make sure it’s always under control. By calculating and enforcing optimal position sizes, I ensure your trades stay safe and within your comfort zone.",
     "benefitsTitle": "Why It Matters",
-    "benefit1": "Dynamic Adjustments: Auri tailors position sizes to match your risk preferences automatically.",
-    "benefit2": "Protection You Can Count On: Over-leveraging is prevented with real-time margin checks."
+    "benefit1": "Dynamic Adjustments: I automatically tailor position sizes to match your unique risk preferences.",
+    "benefit2": "Protection You Can Count On: Over-leveraging? Not on my watch. My real-time margin checks keep you protected at all times."
   },
   "sessionGuardian": {
     "title": "SessionGuardian",
-    "whatItDoesTitle": "How Auri Optimizes Trading Hours",
-    "whatItDoesDescription": "SessionGuardian automates trading activity based on market session timings, focusing on the most profitable windows.",
+    "whatItDoesTitle": "How I Optimize Trading Hours",
+    "whatItDoesDescription": "I know when the markets are most active and profitable, and I make sure we focus our efforts during those prime windows.",
     "benefitsTitle": "Why It Matters",
-    "benefit1": "Optimized Trading Windows: Auri executes trades during the busiest and most liquid sessions.",
-    "benefit2": "Global Flexibility: Trade in multiple sessions like Asian, London, or New York, or all three."
+    "benefit1": "Optimized Trading Windows: I execute trades during the busiest and most liquid sessions for maximum impact.",
+    "benefit2": "Global Flexibility: Want to trade the Asian, London, or New York sessions—or all three? No problem! I’m ready to take on the world."
   },
   "navbar": {
     "brand": "Auri",
     "items": {
       "home": "Home",
       "features": "Features",
-      "faq": "FAQs",
+      "faq": "Toolkit",
       "contact": "Contact"
     },
     "ctaButton": "Get Started"
@@ -69,20 +69,20 @@
     "title": "Frequently Asked Questions",
     "questions": [
       {
-        "question": "How do I get started?",
-        "answer": "To get started, simply fill out the registration form on our website and create an account with Vantage. This will allow you to access Auri's exclusive trading signals and tools."
+        "question": "How does Auri provide trading insights?",
+        "answer": "I analyze massive amounts of data in real-time, including price movements, market sentiment, whale activity, and on-chain metrics. Using advanced AI models, I generate actionable insights tailored to your trading style, helping you stay ahead of the market."
       },
       {
-        "question": "How do I set up an account with Vantage?",
-        "answer": "Setting up an account with Vantage is straightforward. Visit the Vantage website or mobile app, complete their registration process, and verify your account. Once approved, you'll be ready to integrate with Auri."
+        "question": "What markets can I trade with Auri?",
+        "answer": "I support crypto, forex, and stock markets, giving you the flexibility to explore multiple asset classes. Whether you’re into Bitcoin, EUR/USD, or Tesla, I’ve got you covered with precise, data-driven insights."
       },
       {
-        "question": "I've set up an account with Vantage. What do I do next?",
-        "answer": "After setting up your account with Vantage, download the Vantage Social app. Search for 'Auri' within the app and subscribe to our signals to start receiving expert trading insights and alerts."
+        "question": "Can beginners use Auri?",
+        "answer": "Absolutely! I’m here to support traders of all levels. With my educational tutorials, trade feedback, and easy-to-understand signals, I’ll help you build confidence and improve your trading skills step by step."
       },
       {
-        "question": "How can I monitor the performance of trades?",
-        "answer": "Log into Vantage Social to see all trades taken by Auri. Additionally, you can monitor performance directly by logging into your Vantage account, where your account balance reflects the results of all executed trades."
+        "question": "How accurate are Auri’s trading signals?",
+        "answer": "I use fine-tuned AI models to provide high-conviction signals based on real-time data analysis. While no trading system is infallible, my goal is to maximize your edge with precise entry, exit, and risk parameters."
       },
       {
         "question": "Does Auri follow crypto and forex?",
