@@ -65,19 +65,16 @@ export function SignUpPage() {
 
     try {
       setIsLoading(true);
-      const result = await signUp.attemptEmailAddressVerification({
+      const completeSignUp = await signUp.attemptEmailAddressVerification({
         code,
       });
 
-      if (result.status === 'complete') {
-        await result.createdSessionId;
-
+      if (completeSignUp.status === 'complete') {
         toast({
-          title: t('auth.signup.success.emailVerified'),
-          description: t('auth.signup.success.accountCreated'),
+          title: t('auth.signup.success.accountCreated'),
+          description: t('auth.signup.success.redirecting'),
         });
-
-        navigate('/sign-in');
+        navigate('/dashboard');
       } else {
         toast({
           title: t('auth.signup.errors.verificationIncomplete'),

@@ -36,13 +36,18 @@ export function SignInPage() {
       });
 
       if (result.status === 'complete') {
+        // Wait for the session to be created
+        await new Promise(resolve => setTimeout(resolve, 500));
+        
         toast({
           title: 'Success',
           description: 'Successfully signed in!',
           variant: 'default',
           duration: 3000,
         });
-        navigate('/');
+        
+        // Force navigation to dashboard
+        window.location.href = '/dashboard';
       } else {
         toast({
           title: 'Verification Required',

@@ -1,7 +1,6 @@
 import { HelmetProvider } from 'react-helmet-async';
 import { Helmet } from 'react-helmet-async';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { Hero } from '@/components/sections/hero';
 import { FAQ } from '@/components/sections/faq';
@@ -28,6 +27,11 @@ import { MindOfAuriPage } from '@/pages/mind-of-auri';
 import { ClerkProvider } from '@clerk/clerk-react';
 import { ProtectedRoute } from './components/auth/protected-route';
 import { Toaster } from '@/components/ui/toaster';
+import { RedirectIfAuthenticated } from './components/auth/redirect-if-authenticated';
+import { DashboardPage } from './pages/dashboard';
+import { DashboardLayout } from './components/layout/dashboard-layout';
+import { DefaultLayout } from './components/layout/default-layout';
+import { AuthProvider } from './components/auth/auth-provider';
 
 if (!import.meta.env.VITE_CLERK_PUBLISHABLE_KEY) {
   throw new Error('Missing Publishable Key');
@@ -67,99 +71,126 @@ function App() {
   return (
     <ClerkProvider publishableKey={clerkPubKey}>
       <HelmetProvider>
-        <ThemeProvider defaultTheme="dark">
-          <div className="min-h-screen flex flex-col font-sans">
-            <Helmet>
-              <title>Auri - Automated Trading Platform</title>
-              <meta
-                name="description"
-                content="Experience the future of trading with Auri. Advanced automation, risk management, and 24/7 reliability for consistent results."
-              />
+        <ThemeProvider defaultTheme="dark" storageKey="algmatic-ui-theme">
+          <AuthProvider>
+            <div className="relative min-h-screen flex flex-col font-sans">
+              <Helmet>
+                <title>Auri - Automated Trading Platform</title>
+                <meta
+                  name="description"
+                  content="Experience the future of trading with Auri. Advanced automation, risk management, and 24/7 reliability for consistent results."
+                />
 
-              {/* Open Graph meta tags */}
-              <meta property="og:type" content="website" />
-              <meta property="og:url" content={currentUrl} />
-              <meta property="og:site_name" content="Auri" />
-              <meta
-                property="og:title"
-                content="Auri - Automated Trading Platform"
-              />
-              <meta
-                property="og:description"
-                content="Experience the future of trading with Auri. Advanced automation, risk management, and 24/7 reliability for consistent results."
-              />
-              <meta
-                property="og:image"
-                content="https://images.unsplash.com/photo-1642790106117-e829e14a795f?q=80&w=1200&h=630&fit=crop"
-              />
-              <meta property="og:image:width" content="1200" />
-              <meta property="og:image:height" content="630" />
-              <meta
-                property="og:image:alt"
-                content="Auri - AI-Powered Trading Platform"
-              />
+                {/* Open Graph meta tags */}
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={currentUrl} />
+                <meta property="og:site_name" content="Auri" />
+                <meta
+                  property="og:title"
+                  content="Auri - Automated Trading Platform"
+                />
+                <meta
+                  property="og:description"
+                  content="Experience the future of trading with Auri. Advanced automation, risk management, and 24/7 reliability for consistent results."
+                />
+                <meta
+                  property="og:image"
+                  content="https://images.unsplash.com/photo-1642790106117-e829e14a795f?q=80&w=1200&h=630&fit=crop"
+                />
+                <meta property="og:image:width" content="1200" />
+                <meta property="og:image:height" content="630" />
+                <meta
+                  property="og:image:alt"
+                  content="Auri - AI-Powered Trading Platform"
+                />
 
-              {/* Twitter Card meta tags */}
-              <meta name="twitter:card" content="summary_large_image" />
-              <meta name="twitter:site" content="@Auri" />
-              <meta name="twitter:url" content={currentUrl} />
-              <meta
-                name="twitter:title"
-                content="Auri - Automated Trading Platform"
-              />
-              <meta
-                name="twitter:description"
-                content="Experience the future of trading with Auri. Advanced automation, risk management, and 24/7 reliability for consistent results."
-              />
-              <meta
-                name="twitter:image"
-                content="https://images.unsplash.com/photo-1642790106117-e829e14a795f?q=80&w=1200&h=630&fit=crop"
-              />
-              <meta
-                name="twitter:image:alt"
-                content="Auri - AI-Powered Trading Platform"
-              />
+                {/* Twitter Card meta tags */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:site" content="@Auri" />
+                <meta name="twitter:url" content={currentUrl} />
+                <meta
+                  name="twitter:title"
+                  content="Auri - Automated Trading Platform"
+                />
+                <meta
+                  name="twitter:description"
+                  content="Experience the future of trading with Auri. Advanced automation, risk management, and 24/7 reliability for consistent results."
+                />
+                <meta
+                  name="twitter:image"
+                  content="https://images.unsplash.com/photo-1642790106117-e829e14a795f?q=80&w=1200&h=630&fit=crop"
+                />
+                <meta
+                  name="twitter:image:alt"
+                  content="Auri - AI-Powered Trading Platform"
+                />
 
-              {/* WhatsApp specific */}
-              <meta
-                property="og:image:secure_url"
-                content="https://images.unsplash.com/photo-1642790106117-e829e14a795f?q=80&w=1200&h=630&fit=crop"
-              />
-            </Helmet>
-            <ScrollToTop />
-            <div className="relative flex-1 bg-auri-gradient">
-              <Header />
+                {/* WhatsApp specific */}
+                <meta
+                  property="og:image:secure_url"
+                  content="https://images.unsplash.com/photo-1642790106117-e829e14a795f?q=80&w=1200&h=630&fit=crop"
+                />
+              </Helmet>
+              <ScrollToTop />
               <Routes>
-                <Route path="/" element={<AuriPage />} />
-                <Route path="/sign-in" element={<SignInPage />} />
-                <Route path="/sign-up" element={<SignUpPage />} />
+                {/* Public routes with DefaultLayout */}
+                <Route element={<DefaultLayout />}>
+                  <Route
+                    index
+                    element={
+                      <RedirectIfAuthenticated>
+                        <AuriPage />
+                      </RedirectIfAuthenticated>
+                    }
+                  />
+                  <Route
+                    path="/sign-up"
+                    element={
+                      <RedirectIfAuthenticated>
+                        <SignUpPage />
+                      </RedirectIfAuthenticated>
+                    }
+                  />
+                  <Route
+                    path="/sign-in"
+                    element={
+                      <RedirectIfAuthenticated>
+                        <SignInPage />
+                      </RedirectIfAuthenticated>
+                    }
+                  />
+                  <Route path="/disclaimer" element={<DisclaimerPage />} />
+                  <Route path="/features" element={<HomePage />} />
+                  <Route path="/mind-of-auri" element={<MindOfAuriPage />} />
+                  <Route path="/partner-form" element={<PartnerFormPage />} />
+                  <Route path="/privacy" element={<PrivacyPage />} />
+                  <Route path="/support" element={<SupportPage />} />
+                  <Route path="/terms" element={<TermsPage />} />
+                </Route>
+
+                {/* Protected routes with DashboardLayout */}
                 <Route
-                  path="/partner-form"
+                  path="/dashboard"
                   element={
                     <ProtectedRoute>
-                      <PartnerFormPage />
+                      <DashboardLayout />
                     </ProtectedRoute>
                   }
-                />
-                <Route path="/support" element={<SupportPage />} />
-                <Route path="/privacy-policy" element={<PrivacyPage />} />
-                <Route path="/terms-of-service" element={<TermsPage />} />
-                <Route path="/disclaimer" element={<DisclaimerPage />} />
-                <Route path="/features" element={<HomePage />} />
-                <Route path="/mind-of-auri" element={<MindOfAuriPage />} />
+                >
+                  <Route index element={<DashboardPage />} />
+                  {/* Add other dashboard routes here */}
+                </Route>
 
                 {/* Error routes */}
                 <Route path="/400" element={<BadRequestPage />} />
                 <Route path="/404" element={<NotFoundPage />} />
                 <Route path="/500" element={<ServerErrorPage />} />
-
-                {/* Catch all route for 404 */}
                 <Route path="*" element={<NotFoundPage />} />
               </Routes>
               <Footer />
             </div>
-          </div>
-          <Toaster />
+            <Toaster />
+          </AuthProvider>
         </ThemeProvider>
       </HelmetProvider>
     </ClerkProvider>
