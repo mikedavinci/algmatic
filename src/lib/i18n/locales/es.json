@@ -1,7 +1,61 @@
 {
   "auth": {
-    "signIn": "Iniciar",
-    "signUp": "Registrarse"
+    "signIn": {
+      "heading": "Bienvenido de nuevo",
+      "subheading": "Introduce tus credenciales para acceder a tu cuenta",
+      "form": {
+        "labels": {
+          "email": "Correo electrónico",
+          "password": "Contraseña"
+        },
+        "placeholders": {
+          "email": "nombre@ejemplo.com",
+          "password": "Introduce tu contraseña"
+        },
+        "buttons": {
+          "submit": "Iniciar sesión",
+          "signingIn": "Iniciando sesión...",
+          "signUpRedirect": "¿No tienes una cuenta? Regístrate",
+          "forgotPassword": "¿Olvidaste tu contraseña?"
+        }
+      },
+      "messages": {
+        "success": "¡Inicio de sesión exitoso!",
+        "verificationRequired": "Se requieren pasos adicionales de verificación.",
+        "authSystemNotReady": "El sistema de autenticación no está listo. Por favor, inténtalo de nuevo."
+      },
+      "errors": {
+        "signInFailed": "Error al iniciar sesión. Por favor, inténtalo de nuevo."
+      }
+    },
+    "signup": {
+      "heading": "Crea tu cuenta",
+      "subheading": "Regístrate para acceder a funciones exclusivas",
+      "form": {
+        "labels": {
+          "email": "Correo electrónico",
+          "password": "Contraseña",
+          "confirmPassword": "Confirmar contraseña"
+        },
+        "placeholders": {
+          "email": "Ingresa tu correo electrónico",
+          "password": "Ingresa tu contraseña",
+          "confirmPassword": "Vuelve a ingresar tu contraseña"
+        },
+        "buttons": {
+          "submit": "Regístrate",
+          "loginRedirect": "¿Ya tienes una cuenta? Inicia sesión"
+        }
+      },
+      "errors": {
+        "emailRequired": "El correo electrónico es obligatorio.",
+        "passwordRequired": "La contraseña es obligatoria.",
+        "passwordMismatch": "Las contraseñas no coinciden."
+      },
+      "success": {
+        "accountCreated": "¡Tu cuenta ha sido creada exitosamente!"
+      }
+    }
   },
   "pageTitle": "Opera de Forma Más Inteligente, No Más Difícil – Experimenta el Trading Automatizado",
   "pageSubtitle": "Automatización avanzada de trading, gestión de riesgos y fiabilidad 24/7, todo entregado sin problemas con Auri.",
@@ -710,6 +764,8 @@
     }
   },
   "auriPageTwo": {
+    "title": "La Mente de Auri",
+    "description": "Despierta 24 horas al día, 7 días a la semana",
     "auriDailyBriefing": {
       "greeting": "¡Buenos días! Soy Auri, tu compañera de trading de confianza, aquí para asegurarme de que estés listo para aprovechar todas las oportunidades del mercado hoy. ☀️",
       "intro": "Cada día, antes de que suene la campana de apertura, recopilo las actualizaciones más importantes del mercado solo para ti. Desde movimientos nocturnos hasta noticias de última hora, destilo el caos de los mercados en un informe conciso y personalizado. Esto es lo que puedes esperar en tu dosis diaria de información:",

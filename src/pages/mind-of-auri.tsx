@@ -113,7 +113,7 @@ export function MindOfAuriPage() {
               transition={{ duration: 0.5 }}
               className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl"
             >
-              The Mind of Auri
+              {t('auriPageTwo.title')}
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -121,8 +121,7 @@ export function MindOfAuriPage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="max-w-2xl mx-auto mt-6 text-lg leading-8 text-muted-foreground"
             >
-              Discover how Auri thinks, learns, and evolves to become your
-              perfect trading companion
+              {t('auriPageTwo.description')}
             </motion.p>
           </div>
 

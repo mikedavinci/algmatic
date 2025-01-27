@@ -1,33 +1,59 @@
 {
   "auth": {
-    "signUp": {
-      "signup": {
-        "heading": "Create Your Account",
-        "subheading": "Sign up to access exclusive features",
-        "form": {
-          "labels": {
-            "email": "Email Address",
-            "password": "Password",
-            "confirmPassword": "Confirm Password"
-          },
-          "placeholders": {
-            "email": "Enter your email address",
-            "password": "Enter your password",
-            "confirmPassword": "Re-enter your password"
-          },
-          "buttons": {
-            "submit": "Sign Up",
-            "loginRedirect": "Already have an account? Log In"
-          }
+    "signIn": {
+      "heading": "Welcome Back",
+      "subheading": "Enter your credentials to access your account",
+      "form": {
+        "labels": {
+          "email": "Email Address",
+          "password": "Password"
         },
-        "errors": {
-          "emailRequired": "Email address is required.",
-          "passwordRequired": "Password is required.",
-          "passwordMismatch": "Passwords do not match."
+        "placeholders": {
+          "email": "name@example.com",
+          "password": "Enter your password"
         },
-        "success": {
-          "accountCreated": "Your account has been successfully created!"
+        "buttons": {
+          "submit": "Sign In",
+          "signingIn": "Signing in...",
+          "signUpRedirect": "Don't have an account? Sign up",
+          "forgotPassword": "Forgot your password?"
         }
+      },
+      "messages": {
+        "success": "Successfully signed in!",
+        "verificationRequired": "Additional verification steps are needed.",
+        "authSystemNotReady": "Authentication system is not ready. Please try again."
+      },
+      "errors": {
+        "signInFailed": "Failed to sign in. Please try again."
+      }
+    },
+    "signup": {
+      "heading": "Create Your Account",
+      "subheading": "Sign up to access exclusive features",
+      "form": {
+        "labels": {
+          "email": "Email Address",
+          "password": "Password",
+          "confirmPassword": "Confirm Password"
+        },
+        "placeholders": {
+          "email": "Enter your email address",
+          "password": "Enter your password",
+          "confirmPassword": "Re-enter your password"
+        },
+        "buttons": {
+          "submit": "Sign Up",
+          "loginRedirect": "Already have an account? Log In"
+        }
+      },
+      "errors": {
+        "emailRequired": "Email address is required.",
+        "passwordRequired": "Password is required.",
+        "passwordMismatch": "Passwords do not match."
+      },
+      "success": {
+        "accountCreated": "Your account has been successfully created!"
       }
     }
   },
@@ -814,6 +840,8 @@
     }
   },
   "auriPageTwo": {
+    "title": "The Mind of Auri",
+    "description": "Discover how Auri thinks, learns, and evolves to become your perfect trading companion",
     "auriDailyBriefing": {
       "greeting": "Good morning! It’s Auri, your trusted trading companion, here to make sure you’re ready to seize every market opportunity today. ☀️",
       "intro": "Every day, before the opening bell rings, I gather the most important market updates just for you. From overnight movements to breaking news, I distill the chaos of the markets into a concise, personalized briefing. Here’s what you can expect in your daily dose of insights:",
