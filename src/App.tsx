@@ -187,7 +187,6 @@ function App() {
                 <Route path="/500" element={<ServerErrorPage />} />
                 <Route path="*" element={<NotFoundPage />} />
               </Routes>
-              <Footer />
             </div>
             <Toaster />
           </AuthProvider>
