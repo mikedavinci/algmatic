@@ -9,8 +9,6 @@ import { useToast } from '@/hooks/use-toast';
 export function SignUpPage() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
   const [pendingVerification, setPendingVerification] = useState(false);
   const [code, setCode] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -22,29 +20,32 @@ export function SignUpPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (!clerkLoaded) return;
+    if (!clerkLoaded) {
+      toast({
+        title: 'Error',
+        description: 'Authentication system is not ready. Please try again.',
+        variant: 'destructive',
+      });
+      return;
+    }
 
     try {
       setIsLoading(true);
 
-      const result = await signUp.create({
+      await signUp.create({
         emailAddress: email,
         password,
-        firstName,
-        lastName,
       });
 
-      if (result.status === 'complete') {
-        toast({
-          title: 'Account created!',
-          description: 'You have successfully signed up.',
-        });
-        navigate('/'); // Redirect to home or dashboard
-      } else if (result.status === 'missing_requirements') {
-        // Handle verification
-        setPendingVerification(true);
-      }
+      await signUp.prepareEmailAddressVerification({ strategy: 'email_code' });
+
+      setPendingVerification(true);
+      toast({
+        title: 'Verification email sent',
+        description: 'Please check your email for the verification code.',
+      });
     } catch (err: any) {
+      console.error('Sign up error:', err);
       toast({
         title: 'Error',
         description: err.errors?.[0]?.message || 'Failed to sign up',
@@ -66,22 +67,27 @@ export function SignUpPage() {
       });
 
       if (result.status === 'complete') {
+        // After verification is complete
+        await result.createdSessionId;
+
         toast({
           title: 'Email verified!',
           description: 'Your account has been created successfully.',
         });
-        navigate('/'); // Redirect to home or dashboard
+
+        navigate('/sign-in');
       } else {
         toast({
-          title: 'Verification failed',
-          description: 'Please try again',
+          title: 'Verification incomplete',
+          description: 'Please complete all required steps',
           variant: 'destructive',
         });
       }
     } catch (err: any) {
+      console.error('Verification error:', err);
       toast({
-        title: 'Error',
-        description: err.errors?.[0]?.message || 'Verification failed',
+        title: 'Verification failed',
+        description: err.errors?.[0]?.message || 'Failed to verify email',
         variant: 'destructive',
       });
     } finally {
@@ -101,28 +107,6 @@ export function SignUpPage() {
 
         {!pendingVerification ? (
           <form onSubmit={handleSubmit} className="space-y-4">
-            <div className="grid grid-cols-2 gap-4">
-              <div className="space-y-2">
-                <label htmlFor="firstName">First Name</label>
-                <Input
-                  id="firstName"
-                  value={firstName}
-                  onChange={(e) => setFirstName(e.target.value)}
-                  required
-                />
-              </div>
-
-              <div className="space-y-2">
-                <label htmlFor="lastName">Last Name</label>
-                <Input
-                  id="lastName"
-                  value={lastName}
-                  onChange={(e) => setLastName(e.target.value)}
-                  required
-                />
-              </div>
-            </div>
-
             <div className="space-y-2">
               <label htmlFor="email">Email</label>
               <Input

@@ -7,6 +7,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { MobileMenu } from './mobile-menu';
 import { useNavigate } from 'react-router-dom';
 import { LanguageSelector } from '@/components/language-selector';
+import { useUser, UserButton } from '@clerk/clerk-react';
 
 export function Header() {
   const { toggle } = useNavigationStore();
@@ -14,6 +15,7 @@ export function Header() {
   const { scrollY } = useScroll();
   const opacity = useTransform(scrollY, [0, 100], [0.95, 1]);
   const navigate = useNavigate();
+  const { isSignedIn } = useUser();
 
   const navItems = [
     { href: '/', label: ' Auri' },
@@ -76,12 +78,27 @@ export function Header() {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-6">
-          <Button
-            onClick={() => navigate('/sign-in')}
-            className="text-sm font-semibold"
-          >
-            {t('navbar.ctaButton')}
-          </Button>
+          {isSignedIn ? (
+            <UserButton
+              afterSignOutUrl="/"
+              appearance={{
+                elements: {
+                  avatarBox: 'w-10 h-10',
+                  userButtonPopoverCard: 'bg-zinc-900 border border-zinc-800',
+                  userButtonPopoverActionButton: 'hover:bg-zinc-800',
+                  userButtonPopoverActionButtonText: 'text-zinc-100',
+                  userButtonPopoverFooter: 'hidden',
+                },
+              }}
+            />
+          ) : (
+            <Button
+              onClick={() => navigate('/sign-in')}
+              className="text-sm font-semibold"
+            >
+              {t('navbar.ctaButton')}
+            </Button>
+          )}
           <LanguageSelector />
         </div>
       </nav>
