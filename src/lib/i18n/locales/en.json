@@ -1,7 +1,35 @@
 {
   "auth": {
-    "signIn": "Sign In",
-    "signUp": "Sign Up"
+    "signUp": {
+      "signup": {
+        "heading": "Create Your Account",
+        "subheading": "Sign up to access exclusive features",
+        "form": {
+          "labels": {
+            "email": "Email Address",
+            "password": "Password",
+            "confirmPassword": "Confirm Password"
+          },
+          "placeholders": {
+            "email": "Enter your email address",
+            "password": "Enter your password",
+            "confirmPassword": "Re-enter your password"
+          },
+          "buttons": {
+            "submit": "Sign Up",
+            "loginRedirect": "Already have an account? Log In"
+          }
+        },
+        "errors": {
+          "emailRequired": "Email address is required.",
+          "passwordRequired": "Password is required.",
+          "passwordMismatch": "Passwords do not match."
+        },
+        "success": {
+          "accountCreated": "Your account has been successfully created!"
+        }
+      }
+    }
   },
   "pageTitle": "Trade Smarter, Not Harder – Experience Automated Trading",
   "pageSubtitle": "Hey there, I’m Auri—your intelligent trading companion, here to make trading seamless, powerful, and worry-free. I combine advanced automation, rock-solid risk management, and 24/7 reliability to help you dominate the markets. Let’s trade smarter, not harder, together!",
