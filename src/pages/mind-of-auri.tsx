@@ -206,7 +206,7 @@ export function MindOfAuriPage() {
           >
             <Button
               size="lg"
-              onClick={() => navigate('/register')}
+              onClick={() => navigate('/sign-up')}
               className="group"
               aria-label="Start your journey with Auri - Navigate to registration"
             >

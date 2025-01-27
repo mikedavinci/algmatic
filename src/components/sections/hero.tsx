@@ -47,7 +47,7 @@ export function Hero() {
             <Button
               size="lg"
               className="w-full sm:w-auto"
-              onClick={() => navigate('/register')}
+              onClick={() => navigate('/sign-up')}
             >
               {t('navbar.ctaButton')}
               <ArrowRight className="ml-2 h-4 w-4" />

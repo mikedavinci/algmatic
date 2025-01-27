@@ -86,7 +86,7 @@ export function MobileMenu() {
           <Button
             className="w-full"
             onClick={() => {
-              navigate('/register');
+              navigate('/sign-up');
               toggle();
             }}
           >
